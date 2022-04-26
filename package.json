@@ -1,121 +1,126 @@
 {
-   "name": "semantic-rainbow",
-   "displayName": "Semantic Rainbow",
-   "description": "A maximalist color theme for semantic highlighting featuring bold colors with subtle distinctions.",
-   "repository": {
-      "url": "https://github.com/Thertzlor/semantic-rainbow"
-   },
-   "publisher": "thertzlor",
-   "author": {
-      "name": "Thertzlor"
-   },
-   "icon": "assets/SR_icon256.png",
-   "version": "1.0.5",
-   "homepage": "https://thertzlor.github.io/semantic-rainbow/",
-   "engines": {
-      "vscode": "^1.60.0"
-   },
-   "categories": [
-      "Themes"
-   ],
-   "keywords": [
-      "semantic highlighting",
-      "dark",
-      "syntax highlighting",
-      "TypeScript",
-      "color"
-   ],
-   "contributes": {
-      "themes": [
-         {
-            "id": "semantic-rainbow",
-            "label": "Semantic Rainbow",
-            "uiTheme": "vs-dark",
-            "path": "./themes/semantic-rainbow-color-theme.json"
-         }
-      ],
-      "semanticTokenScopes": [
-         {
-            "scopes": {
-               "parameter": [
-                  "variable.parameter.function",
-                  "variable.parameter",
-                  "variable.parameter.function-call",
-                  "meta.function.parameter",
-                  "meta.function.parameters"
-               ],
-               "function": [
-                  "entity.name.function",
-                  "meta.function-call",
-                  "entity.name.command"
-               ],
-               "variable": [
-                  "variable.other.readwrite",
-                  "variable.other",
-                  "variable",
-                  "support.variable",
-                  "markup.heading",
-                  "entity.name.section"
-               ],
-               "variable.readonly": [
-                  "entity.name.tag"
-               ],
-               "variable.declaration": [
-                  "variable.other.assignment.shell"
-               ],
-               "type": [
-                  "entity.name.type.alias",
-                  "support.type"
-               ],
-               "namespace": [
-                  "meta.symbol.namespace"
-               ],
-               "class.defaultLibrary": [
-                  "support.class"
-               ],
-               "function.defaultLibrary": [
-                  "support.function.builtin",
-                  "support.function.misc",
-                  "support.function"
-               ],
-               "property": [
-                  "variable.other.property",
-                  "support.variable.property",
-                  "variable.other.object.property",
-                  "meta.attribute",
-                  "constant.other.option",
-                  "support.type.property-name",
-                  "variable.object.property",
-                  "meta.flow-mapping.yaml",
-                  "support.type.property-name.css",
-                  "meta.property-name",
-                  "entity.other.attribute-name",
-                  "entity.name.tag.yaml"
-               ],
-               "class": [
-                  "entity.name.type.class",
-                  "entity.name.class",
-                  "entity.other.inherited-class",
-                  "entity.other.attribute-name.class"
-               ],
-               "method": [
-                  "meta.directive.vue",
-                  "entity.other.attribute-name.pseudo-class"
-               ],
-               "selfParameter": [
-                  "variable.language.this",
-                  "variable.language.self",
-                  "variable.language.special.self"
-               ],
-               "variable.defaultLibrary.readonly": [
-                  "const"
-               ]
-            }
-         }
-      ]
-   },
-   "devDependencies": {
-      "@types/node": "^16.9.1",
-      "tinycolor2": "^1.4.2"
-   }
+  "name": "dark-please",
+  "displayName": "Dark, please!",
+  "description": "A pleasant-looking low-contrast dark theme.",
+  "repository": {
+    "url": "https://github.com/eoneof/dark-please-vscode-theme"
+  },
+  "publisher": "eoneof",
+  "author": {
+    "name": "Nick Eoneof"
+  },
+  "icon": "assets/dark-please-logo.png",
+  "version": "0.0.1",
+  "homepage": "https://github.com/eoneof/dark-please-vscode-theme",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "semantic highlighting",
+    "syntax highlighting",
+    "dark",
+    "color",
+    "low contrast",
+    "TypeScript",
+    "JavaScript",
+    "CSS",
+    "HTML",
+    "frontend"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "dark-please",
+        "label": "Dark, please!",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-please-vscode-theme.json"
+      }
+    ],
+    "semanticTokenScopes": [
+      {
+        "scopes": {
+          "parameter": [
+            "variable.parameter.function",
+            "variable.parameter",
+            "variable.parameter.function-call",
+            "meta.function.parameter",
+            "meta.function.parameters"
+          ],
+          "function": [
+            "entity.name.function",
+            "meta.function-call",
+            "entity.name.command"
+          ],
+          "variable": [
+            "variable.other.readwrite",
+            "variable.other",
+            "variable",
+            "support.variable",
+            "markup.heading",
+            "entity.name.section"
+          ],
+          "variable.readonly": [
+            "entity.name.tag"
+          ],
+          "variable.declaration": [
+            "variable.other.assignment.shell"
+          ],
+          "type": [
+            "entity.name.type.alias",
+            "support.type"
+          ],
+          "namespace": [
+            "meta.symbol.namespace"
+          ],
+          "class.defaultLibrary": [
+            "support.class"
+          ],
+          "function.defaultLibrary": [
+            "support.function.builtin",
+            "support.function.misc",
+            "support.function"
+          ],
+          "property": [
+            "variable.other.property",
+            "support.variable.property",
+            "variable.other.object.property",
+            "meta.attribute",
+            "constant.other.option",
+            "support.type.property-name",
+            "variable.object.property",
+            "meta.flow-mapping.yaml",
+            "support.type.property-name.css",
+            "meta.property-name",
+            "entity.other.attribute-name",
+            "entity.name.tag.yaml"
+          ],
+          "class": [
+            "entity.name.type.class",
+            "entity.name.class",
+            "entity.other.inherited-class",
+            "entity.other.attribute-name.class"
+          ],
+          "method": [
+            "meta.directive.vue",
+            "entity.other.attribute-name.pseudo-class"
+          ],
+          "selfParameter": [
+            "variable.language.this",
+            "variable.language.self",
+            "variable.language.special.self"
+          ],
+          "variable.defaultLibrary.readonly": [
+            "const"
+          ]
+        }
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.1",
+    "tinycolor2": "^1.4.2"
+  }
 }
