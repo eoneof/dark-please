@@ -2,7 +2,7 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
-assets/dark-please-logo.svg
+assets/img/dark-please-logo.svg
 .github
 generator/**
 styles/**
