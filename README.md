@@ -10,7 +10,7 @@
 Plenty of themes offer minimalist highlighting focusing on specific aspects of code using a limited color palette. This theme takes the opposite approach.
 Utilizing both bold colors and subtle distinctions, anything than _can_ be identified _will_ be identified.
 
-### List of languages supported:
+### List of languages supported:
 
 - JavaScript
 - CSS/SCSS
