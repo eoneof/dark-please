@@ -9,7 +9,7 @@
   "author": {
     "name": "Nick Eoneof"
   },
-  "icon": "assets/dark-please-logo.png",
+  "icon": "assets/img/dark-please-logo.png",
   "version": "0.0.1",
   "homepage": "https://github.com/eoneof/dark-please-vscode-theme",
   "engines": {

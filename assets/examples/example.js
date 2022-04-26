@@ -1,4 +1,4 @@
-﻿// example file to demonstrate syntax highlighting
+﻿// nonsence example file to demonstrate syntax highlighting
 
 import { text } from './text.js';
 export default example;

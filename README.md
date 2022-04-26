@@ -1,7 +1,7 @@
 <!-- ![wip](https://img.shields.io/badge/-work%20in%20progress-red) -->
 <!-- # Dark, please! -->
 
-# ![icon](assets/dark-please-logo.png)
+# ![icon](assets/img/dark-please-logo.png)
 
 > A pleasant-looking low contrast dark theme for VSCode with semantic highlighting.
 
@@ -20,7 +20,7 @@ Utilizing both bold colors and subtle distinctions, anything than _can_ be ident
 
 As of April 2022
 
-![Main window look](assets/main-window_current-state.png)
+![Main window look](assets/img/main-window_current-state.png)
 
 ### JavaScript
 

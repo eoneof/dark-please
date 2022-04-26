@@ -1,0 +1,17 @@
+FREQ,VALUE,myPRIORITY,COLOR
+104,className,+++++,#
+46,myDocText,0,#
+27,idValue,++,#
+14,typeValue,++,#
+14,valueValue,0,#
+12,nameValue,0+,#
+6,hrefValue,++,#
+6,forValue,++,#
+4,srcValue,0,#
+4,placeholderValue,0,#
+3,targetValue,0,#
+3,minValue,0,#
+3,maxValue,0,#
+2,relValue,0,#
+1,contentValue,0,#
+1,stepValue,0,#

@@ -6,3 +6,5 @@ assets/dark-please-logo.svg
 .github
 generator/**
 styles/**
+assets/examples/**
+assets/research/**
