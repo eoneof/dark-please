@@ -3,166 +3,284 @@
   "themes": [
     {
       "label": "Dark, please!",
-      "mainTheme": true,
+      "mainTheme": false,
       "uiTheme": "vs-dark",
       "path": "./themes/dark-please-vscode-theme.json",
       "id": "dark-please",
       "baseTokenColors": {
-        "class": "#cbbeab",
-        "enum": "#c4cd71",
-        "enumMember": "#648062",
-        "function": "#D6654C",
-        "interface": "#decd82",
-        "macro": "#7B79C8",
-        "method": "#cbbeab",
-        "namespace": "#4DA586",
-        "parameter": "#CBBEAB",
-        "property": "#7B9FC8",
-        "selfParameter": "#7d7f82",
-        "type": "#8D7A71",
-        "typeParameter": "#c76025",
-        "variable": "#DAA975"
+        "html.tag": "#C58174",
+        "html.tag-punctuation": "#8D7971",
+        "html.attribute.name": "#9C9D9D",
+        "html.attribute.value": "#B28664",
+        "html.attribute.value.id": "#DAA975",
+        "html.attribute.value.class": "#489C5E",
+        "html.text": "#CBBDAB",
+        "lang.acessor.property": "#7B9FC8",
+        "class.defaultLibrary": "#8D7971",
+        "css.class.name": "#4DA586",
+        "css.property": "#9C9D9D",
+        "css.values": "#9C9D9D",
+        "condition": "#A2666A",
+        "console.log": "#489C5E",
+        "common.constants": "#7B79C7",
+        "defaultlibrary": "#839B64",
+        "entity.name.type.class": "#CBBDAB",
+        "entity.name": "#CDC3BE",
+        "lang.function-call": "#C58174",
+        "lang.function.declaration": "#C45740",
+        "keyword.control.flow": "#B83D81",
+        "keyword.control": "#5F73D1",
+        "keyword.operator.new": "#DA5500",
+        "meta.method.declaration": "#BEAF6E",
+        "meta.directive.vue": "#BEAF6E",
+        "method": "#BEAF6E",
+        "common.comments": "#71757B",
+        "common.number": "#72BCBF",
+        "object": "#999393",
+        "operator": "#F5E4CE",
+        "lang.parameter": "#DAA975",
+        "property.defaultLibrary.readonly": "#839B64",
+        "property": "#B28664",
+        "punctuation.accessor": "#C6BAAD",
+        "punctuation": "#999393",
+        "selfParameter": "#666262",
+        "storage.modifier": "#5F73D1",
+        "common.url": "#7B9FC8",
+        "lang.storage.type": "#8D7971",
+        "lang.string": "#CBBDAB",
+        "support.class": "#8D7971",
+        "variable.declaration": "#DAA975",
+        "variable.defaultLibrary": "#489C5E",
+        "lang.variable.other": "#B28664",
+        "lang.variable.defaultLibrary": "#489C5E",
+        "method.defaultLibrary": "#839B64",
+        "meta.export.default": "#839B64",
+        "lang.class.name": "#629344"
       },
-      "modifications": {
+      "modifications": {},
+      "textformatMapping": {
         "readonly": {
-          "default": {
-            "darken": 10,
-            "saturate": 5,
-            "spin": -6
-          },
-          "parameter": {
-            "darken": 15,
-            "saturate": 2,
-            "spin": -1
-          },
-          "enum": {
-            "darken": 23,
-            "saturate": 5,
-            "spin": -6
-          },
-          "enumMember": {
-            "darken": 23,
-            "saturate": 5,
-            "spin": -6
-          },
-          "macro": {
-            "darken": 5,
-            "saturate": 5,
-            "spin": -6
-          }
+          "italic": true
         },
-        "private": {
-          "default": {
-            "alpha": 0.8
-          }
+        "name": {
+          "bold": true,
+          "italic": true
         },
-        "static": {
-          "default": {
-            "spin": 10,
-            "darken": 5
-          }
-        },
-        "declaration": {
-          "default": {
-            "saturate": 6,
-            "spin": 3
-          }
-        },
-        "async": {
-          "default": {
-            "lighten": 5,
-            "saturate": 5,
-            "spin": -5
-          }
+        "type": {
+          "italic": true
         },
         "defaultLibrary": {
-          "default": {
-            "desaturate": 15,
-            "brighten": 10,
-            "spin": 10
-          },
-          "variable": {
-            "desaturate": 10,
-            "brighten": 5,
-            "spin": 0
-          },
-          "type": {
-            "desaturate": 50,
-            "brighten": 15,
-            "spin": 5
-          },
-          "interface": {
-            "desaturate": 25,
-            "lighten": 15,
-            "spin": 5
-          }
+          "bold": false
         },
-        "documentation": {
-          "default": {
-            "desaturate": 35,
-            "brighten": 10
-          },
-          "enumMember": {
-            "desaturate": 15,
-            "brighten": 8
-          }
-        }
-      },
-      "textformatMapping": {
-        "class": {
+        "operator": {
           "bold": true
-        },
-        "declaration": {
-          "italic": true
         }
       },
       "fallbacks": {
-        "parameter": [
+        "common.url": [
+          "meta.function.url.css",
+          "meta.attribute.src.html",
+          "meta.attribute.href.html"
+        ],
+        "html.tag": [
+          "entity.name.tag.html"
+        ],
+        "html.text": [
+          "derivative"
+        ],
+        "html.tag-punctuation": [
+          "punctuation.definition.tag.begin.html",
+          "punctuation.definition.tag.end.html"
+        ],
+        "html.attribute.name": [
+          "entity.other.attribute-name.html"
+        ],
+        "html.attribute.value": [
+          "meta.attribute"
+        ],
+        "html.attribute.value.id": [
+          "meta.attribute.id.html"
+        ],
+        "html.attribute.value.class": [
+          "meta.attribute.class.html"
+        ],
+        "condition": [
+          "keyword.control.conditional"
+        ],
+        "common.comments": [
+          "comment.line",
+          "punctuation.definition.comment",
+          "comment.block"
+        ],
+        "operator": [
+          "keyword.operator",
+          "keyword.operator.expression.in"
+        ],
+        "keyword.operator.new": [
+          "keyword.operator.new",
+          "keyword.operator.logical",
+          "keyword.operator.relational",
+          "keyword.operator.arithmetic"
+        ],
+        "keyword.control": [
+          "keyword.control.default",
+          "keyword.control.export",
+          "keyword.control.import",
+          "keyword.control.from",
+          "storage.modifier"
+        ],
+        "punctuation.expression": [
+          "punctuation.definition.template-expression",
+          "punctuation.definition.template-expression.begin",
+          "punctuation.definition.template-expression.end",
+          "punctuation.definition.string.template.begin",
+          "punctuation.definition.string.template.end",
+          "meta.template.expression"
+        ],
+        "keyword.control.flow": [
+          "keyword.other.unit",
+          "keyword.control.flow",
+          "keyword.control.loop"
+        ],
+        "lang.storage.type": [
+          "storage.type",
+          "storage.type.function"
+        ],
+        "lang.parameter": [
           "variable.parameter.function",
           "variable.parameter",
           "variable.parameter.function-call",
           "meta.function.parameter",
-          "meta.function.parameters"
+          "meta.function.parameters",
+          "parameter.declaration"
         ],
-        "function": [
-          "entity.name.function",
+        "common.number": [
+          "constant.numeric",
+          "meta.attribute.minlength.html",
+          "meta.attribute.maxlength.html"
+        ],
+        "lang.function-call": [
+          "support.function.timing-function.css",
+          "support.function.url.css",
+          "support.function.calc.css",
+          "support.function.gradient.css",
+          "support.function.misc.css",
           "meta.function-call",
-          "entity.name.command"
+          "entity.name.function",
+          "support.variable.property"
         ],
-        "variable": [
+        "lang.function.declaration": [
+          "meta.definition.function",
+          "storage.type.function.arrow",
+          "variable.language.arguments",
+          "variable.language.super"
+        ],
+        "variable.declaration": [
+          "variable.language.arguments",
           "variable.other.readwrite",
+          "meta.definition.variable",
           "variable.other",
           "variable",
-          "support.variable",
           "markup.heading",
-          "entity.name.section"
+          "entity.name.section",
+          "variable.other.assignment.shell"
         ],
-        "variable.readonly": ["entity.name.tag"],
-        "variable.declaration": ["variable.other.assignment.shell"],
-        "type": ["entity.name.type.alias", "support.type"],
-        "namespace": ["meta.symbol.namespace"],
-        "class.defaultLibrary": ["support.class"],
-        "function.defaultLibrary": [
+        "lang.variable.other": [
+          "variable.other.constant.object",
+          "variable.other.object"
+        ],
+        "type": [
+          "entity.name.type.alias",
+          "support.type"
+        ],
+        "namespace": [
+          "meta.symbol.namespace"
+        ],
+        "defaultlibrary": [
+          "support.class",
+          "function.defaultLibrary",
           "support.function.builtin",
           "support.function.misc",
           "support.function"
         ],
-        "property": [
-          "variable.other.property",
-          "support.variable.property",
+        "punctuation.accessor": [
+          "punctuation.accessor",
+          "keyword.operator.assignment"
+        ],
+        "punctuation": [
+          "punctuation.definition.block",
+          "punctuation.definition.parameters.begin",
+          "punctuation.definition.parameters.end",
+          "punctuation.definition.string.begin",
+          "punctuation.definition.string.end",
+          "meta.brace.round",
+          "punctuation.separator.key-value.html"
+        ],
+        "lang.string": [
+          "string.template.js",
+          "string.quoted.double.js",
+          "string.quoted.single.js"
+        ],
+        "object": [
+          "meta.object-literal",
+          "meta.object-literal.key",
+          "variable.object.property"
+        ],
+        "lang.acessor.property": [
           "variable.other.object.property",
-          "meta.attribute",
+          "variable.other.property",
+          "punctuation.definition.binding-pattern.object"
+        ],
+        "property": [
           "constant.other.option",
           "support.type.property-name",
-          "variable.object.property",
           "meta.flow-mapping.yaml",
-          "support.type.property-name.css",
           "meta.property-name",
-          "entity.other.attribute-name",
           "entity.name.tag.yaml"
         ],
-        "class": [
+        "variable.other.object": [
+          "variable.other.object"
+        ],
+        "common.constants": [
+          "support.constant.property-value.",
+          "constant.language.boolean.true",
+          "meta.attribute.novalidate.html entity.other.attribute-name.html",
+          "meta.attribute.required.html entity.other.attribute-name.html",
+          "meta.attribute.allowfullscreen.html entity.other.attribute-name.html",
+          "meta.attribute.async.html entity.other.attribute-name.html",
+          "meta.attribute.autofocus.html entity.other.attribute-name.html",
+          "meta.attribute.autoplay.html entity.other.attribute-name.html",
+          "meta.attribute.checked.html entity.other.attribute-name.html",
+          "meta.attribute.controls.html entity.other.attribute-name.html",
+          "meta.attribute.default.html entity.other.attribute-name.html",
+          "meta.attribute.defer.html entity.other.attribute-name.html",
+          "meta.attribute.disabled.html entity.other.attribute-name.html",
+          "meta.attribute.formnovalidate.html entity.other.attribute-name.html",
+          "meta.attribute.ismap.html entity.other.attribute-name.html",
+          "meta.attribute.itemscope.html entity.other.attribute-name.html",
+          "meta.attribute.loop.html entity.other.attribute-name.html",
+          "meta.attribute.multiple.html entity.other.attribute-name.html",
+          "meta.attribute.muted.html entity.other.attribute-name.html",
+          "meta.attribute.nomodule.html entity.other.attribute-name.html",
+          "meta.attribute.open.html entity.other.attribute-name.html",
+          "meta.attribute.playsinline.html entity.other.attribute-name.html",
+          "meta.attribute.readonly.html entity.other.attribute-name.html",
+          "meta.attribute.reversed.html entity.other.attribute-name.html",
+          "meta.attribute.selected.html entity.other.attribute-name.html",
+          "meta.attribute.truespeed.html entity.other.attribute-name.html"
+        ],
+        "css.property": [
+          "support.type.property-name.css"
+        ],
+        "css.values": [
+          "meta.property-value.css"
+        ],
+        "css.class.name": [
+          "entity.other.attribute-name.class.css"
+        ],
+        "lang.class.name": [
           "entity.name.type.class",
+          "class.declaration",
           "entity.name.class",
           "entity.other.inherited-class",
           "entity.other.attribute-name.class"
@@ -176,13 +294,23 @@
           "variable.language.self",
           "variable.language.special.self"
         ],
-        "variable.defaultLibrary.readonly": ["const"]
+        "lang.variable.defaultLibrary.readonly": [
+          "const"
+        ]
       },
       "alias": {
-        "defaultLibrary": ["builtin"],
-        "documentation": ["typeHint"],
-        "declaration": ["definition"],
-        "function.defaultLibrary": ["magicFunction"]
+        "defaultLibrary": [
+          "builtin"
+        ],
+        "documentation": [
+          "typeHint"
+        ],
+        "declaration": [
+          "definition"
+        ],
+        "function.defaultLibrary": [
+          "magicFunction"
+        ]
       },
       "modifierCombinations": [
         "readonly.declaration.async",

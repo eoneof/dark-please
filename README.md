@@ -16,15 +16,17 @@ Utilizing both bold colors and subtle distinctions, anything than _can_ be ident
 - CSS/SCSS
 - HTML
 
-### **Main window look**
+### **Main window**
 
-As of April 2022
+Actual look as of April 2022
 
 ![Main window look](assets/img/main-window_current-state.png)
 
 ### JavaScript
 
-[preview]
+A rough example of what it should look like
+
+![JS syntax colors mockup](assets/img/js-syntax-colors.png)
 
 ### CSS
 
@@ -48,6 +50,7 @@ Keep in mind results might vary based on the language extensions you have instal
 
 ## Credits
 
+- [**ACE Util**](https://github.com/dfernandez79/ase-util) — Utility library to handle Adobe Swatch Exchange (ASE) files.
 - [**Eppz! Theme**](https://github.com/Geri-Borbas/VSCode.Extension.eppz_Code) — Styling ideas and color palette reference.
 - [**Semantic Rainbow Theme**](https://github.com/Thertzlor/semantic-rainbow/) — Used as a starting point.
 - [**Horizon Dark Theme**](https://horizontheme.netlify.app/) — Semantic Rainbow started as an extension of this theme and it remains an influence especially in the non-syntax parts.

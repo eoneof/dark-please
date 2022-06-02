@@ -59,6 +59,6 @@ class Person {
   }
   // getters
   get profession() {
-    console.log(this[s_firstName], this._lastName, 'is a', this._profession);
+    console.log(this._firstNname, this._lastName, 'is a', this._profession);
   }
 }

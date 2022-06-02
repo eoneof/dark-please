@@ -13,12 +13,41 @@
     {
       "label": "Package Theme",
       "type": "shell",
-      "command": "vsce package -o ./test",
+      "command": "vsce package -o ./dist",
       "problemMatcher": [],
       "group": {
         "kind": "build",
         "isDefault": true
-      }
+      },
+      "dependsOn": ["Convert variables", "Generate colors"]
+    },
+    {
+      "type": "npm",
+      "script": "watch",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "label": "Run in background",
+      "detail": "nodemon --watch src converter/convert.js"
+    },
+    {
+      "type": "npm",
+      "script": "convert",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "Convert variables",
+      "detail": "node converter/convert.js"
+    },
+    {
+      "type": "npm",
+      "script": "generate",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "Generate colors",
+      "detail": "node generator/generate.js",
+      "dependsOn": "Convert variables"
     }
   ]
 }

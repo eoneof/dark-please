@@ -1,0 +1,60 @@
+{
+  "$schema": "./config.schema.json",
+  "themes": [
+    {
+      "label": "Dark, please!",
+      "mainTheme": false,
+      "uiTheme": "vs-dark",
+      "path": "./themes/dark-please-vscode-theme.json",
+      "id": "dark-please",
+      "baseTokenColors": {},
+      "modifications": {},
+      "textformatMapping": {
+        "readonly": {
+          "italic": true
+        },
+        "name": {
+          "bold": true,
+          "italic": true
+        },
+        "type": {
+          "italic": true
+        },
+        "defaultLibrary": {
+          "bold": false
+        },
+        "operator": {
+          "bold": true
+        }
+      },
+      "fallbacks": {},
+      "alias": {
+        "defaultLibrary": ["builtin"],
+        "documentation": ["typeHint"],
+        "declaration": ["definition"],
+        "function.defaultLibrary": ["magicFunction"]
+      },
+      "modifierCombinations": [
+        "readonly.declaration.async",
+        "readonly.async",
+        "readonly.declaration",
+        "private.readonly.declaration",
+        "private.readonly",
+        "private.readonly.async.declaration",
+        "private.declaration",
+        "private.async.declaration",
+        "private.async",
+        "defaultLibrary.readonly",
+        "static.declaration",
+        "static.async",
+        "declaration.async",
+        "defaultLibrary.static",
+        "defaultLibrary.declaration",
+        "defaultLibrary.async",
+        "defaultLibrary.documentation"
+      ]
+    }
+  ],
+  "readmePath": "./README.md",
+  "readmeTemplatePath": "./generator/_Template.md"
+}
