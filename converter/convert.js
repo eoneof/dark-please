@@ -4,11 +4,9 @@ const fs = require('fs').promises;
 const { readFileSync } = require('fs');
 
 const template = JSON.parse(readFileSync('./converter/template.json', 'utf-8'));
-const colors = JSON.parse(readFileSync('./ase2json/colors.json', 'utf-8'));
+const { colors } = JSON.parse(readFileSync('./ase2json/colors.json', 'utf-8'));
 const tokens = JSON.parse(readFileSync('./converter/tokens.json', 'utf-8'));
-const fallbacks = JSON.parse(
-  readFileSync('./converter/fallbacks.json', 'utf-8'),
-);
+const fallbacks = JSON.parse(readFileSync('./converter/fallbacks.json', 'utf-8'));
 const paired = {};
 
 // Substitute a value with a value of a key which name matches a given value
@@ -36,10 +34,7 @@ Object.assign(template.themes[0].fallbacks, fallbacks);
 fs.mkdir('./converter', { recursive: true })
   .then(() =>
     Promise.all([
-      fs.writeFile(
-        './generator/config.json',
-        JSON.stringify(template, null, 2),
-      ),
+      fs.writeFile('./generator/config.json', JSON.stringify(template, null, 2)),
     ]),
   )
   .then(() => console.log('Converted: OK'))
