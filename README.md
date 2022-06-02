@@ -18,7 +18,7 @@ Utilizing both bold colors and subtle distinctions, anything than _can_ be ident
 
 ### **Main window**
 
-Actual look as of April 2022
+Actual look as of June 2022
 
 ![Main window look](assets/img/main-window_current-state.png)
 
