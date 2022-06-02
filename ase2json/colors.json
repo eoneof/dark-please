@@ -1,5 +1,5 @@
 {
-  "$schema": "./config.schema.json",
+  "$schema": "./colors.schema.json",
   "colors": {
     "aqua": "#6BA29D",
     "blue_accent": "#6C8BA5",
