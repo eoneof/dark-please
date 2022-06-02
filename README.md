@@ -96,3 +96,8 @@ Keep in mind results might vary based on the language extensions you have instal
 - [**Semantic Rainbow Theme**](https://github.com/Thertzlor/semantic-rainbow/) — Used as a starting point.
 - [**Horizon Dark Theme**](https://horizontheme.netlify.app/) — Semantic Rainbow started as an extension of this theme and it remains an influence especially in the non-syntax parts.
 - [**TinyColor**](https://github.com/bgrins/TinyColor) — Used for color transformations.
+
+
+## Known bugs
+
+- conversion fails if there's less items in `colors.json` than there's tokens
