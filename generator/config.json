@@ -8,54 +8,55 @@
       "path": "./themes/dark-please-vscode-theme.json",
       "id": "dark-please",
       "baseTokenColors": {
-        "html.tag": "#C58174",
-        "html.tag-punctuation": "#8D7971",
+        "html.tag": "#AE7658",
+        "html.tag-punctuation": "#7A6359",
         "html.attribute.name": "#9C9D9D",
-        "html.attribute.value": "#B28664",
-        "html.attribute.value.id": "#DAA975",
-        "html.attribute.value.class": "#489C5E",
-        "html.text": "#CBBDAB",
-        "lang.acessor.property": "#7B9FC8",
-        "class.defaultLibrary": "#8D7971",
+        "html.attribute.value": "#906949",
+        "html.attribute.value.id": "#BB8E5C",
+        "html.attribute.value.class": "#5D8955",
+        "html.text": "#c7b6a0",
+        "lang.acessor.property": "#6C8BA5",
+        "class.defaultLibrary": "#7A6359",
         "css.class.name": "#4DA586",
         "css.property": "#9C9D9D",
         "css.values": "#9C9D9D",
-        "condition": "#A2666A",
-        "console.log": "#489C5E",
+        "condition": "#B4787C",
+        "console.log": "#5D8955",
         "common.constants": "#7B79C7",
-        "defaultlibrary": "#839B64",
-        "entity.name.type.class": "#CBBDAB",
+        "defaultlibrary": "#87915D",
+        "entity.name.type.class": "#c7b6a0",
         "entity.name": "#CDC3BE",
-        "lang.function-call": "#C58174",
-        "lang.function.declaration": "#C45740",
-        "keyword.control.flow": "#B83D81",
+        "lang.function-call": "#AE7658",
+        "lang.function.declaration": "#B75F53",
+        "keyword.control.flow": "#AA4A4E",
         "keyword.control": "#5F73D1",
-        "keyword.operator.new": "#DA5500",
-        "meta.method.declaration": "#BEAF6E",
-        "meta.directive.vue": "#BEAF6E",
-        "method": "#BEAF6E",
-        "common.comments": "#71757B",
-        "common.number": "#72BCBF",
-        "object": "#999393",
-        "operator": "#F5E4CE",
-        "lang.parameter": "#DAA975",
-        "property.defaultLibrary.readonly": "#839B64",
-        "property": "#B28664",
+        "keyword.operator.new": "#CB6900",
+        "meta.method.declaration": "#AA976E",
+        "meta.directive.vue": "#AA976E",
+        "method": "#AA976E",
+        "common.comments": "#615c56",
+        "common.number": "#6BA29D",
+        "object": "#878283",
+        "operator": "#cebda5",
+        "lang.parameter": "#BB8E5C",
+        "property.defaultLibrary.readonly": "#87915D",
+        "property": "#906949",
         "punctuation.accessor": "#C6BAAD",
-        "punctuation": "#999393",
+        "punctuation": "#878283",
         "selfParameter": "#666262",
         "storage.modifier": "#5F73D1",
-        "common.url": "#7B9FC8",
-        "lang.storage.type": "#8D7971",
-        "lang.string": "#CBBDAB",
-        "support.class": "#8D7971",
-        "variable.declaration": "#DAA975",
-        "variable.defaultLibrary": "#489C5E",
-        "lang.variable.other": "#B28664",
-        "lang.variable.defaultLibrary": "#489C5E",
-        "method.defaultLibrary": "#839B64",
-        "meta.export.default": "#839B64",
-        "lang.class.name": "#629344"
+        "common.url": "#6C8BA5",
+        "lang.storage.type": "#7A6359",
+        "lang.string": "#c7b6a0",
+        "support.class": "#7A6359",
+        "variable.declaration": "#BB8E5C",
+        "variable.defaultLibrary": "#5D8955",
+        "lang.variable.other": "#906949",
+        "lang.variable.defaultLibrary": "#5D8955",
+        "method.defaultLibrary": "#87915D",
+        "meta.export.default": "#87915D",
+        "lang.class.name": "#629344",
+        "punctuation.expression": "#7B79C7"
       },
       "modifications": {},
       "textformatMapping": {
@@ -80,7 +81,9 @@
         "common.url": [
           "meta.function.url.css",
           "meta.attribute.src.html",
-          "meta.attribute.href.html"
+          "meta.attribute.href.html",
+          "markup.underline.link.image.markdown",
+          "constant.character.escape"
         ],
         "html.tag": [
           "entity.name.tag.html"
@@ -110,17 +113,26 @@
         "common.comments": [
           "comment.line",
           "punctuation.definition.comment",
-          "comment.block"
+          "comment.block",
+          "comment.block.documentation",
+          "variable.other.jsdoc",
+          "entity.name.type.instance.jsdoc",
+          "storage.type.class.jsdoc",
+          "punctuation.definition.block.tag.jsdoc"
         ],
         "operator": [
-          "keyword.operator",
-          "keyword.operator.expression.in"
+          "keyword.operator"
         ],
         "keyword.operator.new": [
           "keyword.operator.new",
           "keyword.operator.logical",
           "keyword.operator.relational",
-          "keyword.operator.arithmetic"
+          "keyword.operator.arithmetic",
+          "keyword.operator.comparison",
+          "keyword.operator.increment",
+          "keyword.operator.decrement",
+          "keyword.operator.ternary",
+          "keyword.operator.expression.in"
         ],
         "keyword.control": [
           "keyword.control.default",
@@ -135,12 +147,16 @@
           "punctuation.definition.template-expression.end",
           "punctuation.definition.string.template.begin",
           "punctuation.definition.string.template.end",
-          "meta.template.expression"
+          "meta.template.expression",
+          "keyword.operator.expression.typeof"
         ],
         "keyword.control.flow": [
           "keyword.other.unit",
           "keyword.control.flow",
-          "keyword.control.loop"
+          "keyword.control.loop",
+          "constant.language.undefined",
+          "constant.language.nan",
+          "constant.language.null"
         ],
         "lang.storage.type": [
           "storage.type",
@@ -167,13 +183,17 @@
           "support.function.misc.css",
           "meta.function-call",
           "entity.name.function",
-          "support.variable.property"
+          "support.variable.property",
+          "markup.inline.raw.string.markdown",
+          "markup.fenced_code.block.markdown"
         ],
         "lang.function.declaration": [
+          "function.declaration",
           "meta.definition.function",
           "storage.type.function.arrow",
           "variable.language.arguments",
-          "variable.language.super"
+          "variable.language.super",
+          "entity.name.section.markdown"
         ],
         "variable.declaration": [
           "variable.language.arguments",
@@ -201,7 +221,8 @@
           "function.defaultLibrary",
           "support.function.builtin",
           "support.function.misc",
-          "support.function"
+          "support.function",
+          "string.other.link.description.markdown"
         ],
         "punctuation.accessor": [
           "punctuation.accessor",
@@ -270,7 +291,8 @@
           "meta.attribute.truespeed.html entity.other.attribute-name.html"
         ],
         "css.property": [
-          "support.type.property-name.css"
+          "support.type.property-name.css",
+          "meta.array.literal"
         ],
         "css.values": [
           "meta.property-value.css"

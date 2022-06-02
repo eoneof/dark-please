@@ -2,7 +2,9 @@
   "common.url": [
     "meta.function.url.css",
     "meta.attribute.src.html",
-    "meta.attribute.href.html"
+    "meta.attribute.href.html",
+    "markup.underline.link.image.markdown",
+    "constant.character.escape"
   ],
   "html.tag": ["entity.name.tag.html"],
   "html.text": ["derivative"],
@@ -18,14 +20,24 @@
   "common.comments": [
     "comment.line",
     "punctuation.definition.comment",
-    "comment.block"
+    "comment.block",
+    "comment.block.documentation",
+    "variable.other.jsdoc",
+    "entity.name.type.instance.jsdoc",
+    "storage.type.class.jsdoc",
+    "punctuation.definition.block.tag.jsdoc"
   ],
-  "operator": ["keyword.operator", "keyword.operator.expression.in"],
+  "operator": ["keyword.operator"],
   "keyword.operator.new": [
     "keyword.operator.new",
     "keyword.operator.logical",
     "keyword.operator.relational",
-    "keyword.operator.arithmetic"
+    "keyword.operator.arithmetic",
+    "keyword.operator.comparison",
+    "keyword.operator.increment",
+    "keyword.operator.decrement",
+    "keyword.operator.ternary",
+    "keyword.operator.expression.in"
   ],
   "keyword.control": [
     "keyword.control.default",
@@ -40,12 +52,16 @@
     "punctuation.definition.template-expression.end",
     "punctuation.definition.string.template.begin",
     "punctuation.definition.string.template.end",
-    "meta.template.expression"
+    "meta.template.expression",
+    "keyword.operator.expression.typeof"
   ],
   "keyword.control.flow": [
     "keyword.other.unit",
     "keyword.control.flow",
-    "keyword.control.loop"
+    "keyword.control.loop",
+    "constant.language.undefined",
+    "constant.language.nan",
+    "constant.language.null"
   ],
   "lang.storage.type": ["storage.type", "storage.type.function"],
   "lang.parameter": [
@@ -69,13 +85,17 @@
     "support.function.misc.css",
     "meta.function-call",
     "entity.name.function",
-    "support.variable.property"
+    "support.variable.property",
+    "markup.inline.raw.string.markdown",
+    "markup.fenced_code.block.markdown"
   ],
   "lang.function.declaration": [
+    "function.declaration",
     "meta.definition.function",
     "storage.type.function.arrow",
     "variable.language.arguments",
-    "variable.language.super"
+    "variable.language.super",
+    "entity.name.section.markdown"
   ],
   "variable.declaration": [
     "variable.language.arguments",
@@ -87,10 +107,7 @@
     "entity.name.section",
     "variable.other.assignment.shell"
   ],
-  "lang.variable.other": [
-    "variable.other.constant.object",
-    "variable.other.object"
-  ],
+  "lang.variable.other": ["variable.other.constant.object", "variable.other.object"],
   "type": ["entity.name.type.alias", "support.type"],
   "namespace": ["meta.symbol.namespace"],
   "defaultlibrary": [
@@ -98,12 +115,10 @@
     "function.defaultLibrary",
     "support.function.builtin",
     "support.function.misc",
-    "support.function"
+    "support.function",
+    "string.other.link.description.markdown"
   ],
-  "punctuation.accessor": [
-    "punctuation.accessor",
-    "keyword.operator.assignment"
-  ],
+  "punctuation.accessor": ["punctuation.accessor", "keyword.operator.assignment"],
   "punctuation": [
     "punctuation.definition.block",
     "punctuation.definition.parameters.begin",
@@ -164,7 +179,7 @@
     "meta.attribute.selected.html entity.other.attribute-name.html",
     "meta.attribute.truespeed.html entity.other.attribute-name.html"
   ],
-  "css.property": ["support.type.property-name.css"],
+  "css.property": ["support.type.property-name.css", "meta.array.literal"],
   "css.values": ["meta.property-value.css"],
   "css.class.name": ["entity.other.attribute-name.class.css"],
   "lang.class.name": [
