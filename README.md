@@ -32,12 +32,53 @@ A rough example of what it should look like
 
 [preview]
 
-## How it works
+## What is this
 
 Semantic highlighting is programmatically generated, based on a configuration of base colors for the different tokens and a list of specific color transformations for token modifiers which can also be stacked to represent different combinations.  
 About 8.63% of styles/transformations are manually defined, stepping in where the automatic generation produced less than optimal results.
 
 The definition of colors and transformations follows a [simple spec](https://github.com/Thertzlor/semantic-rainbow/tree/main/generator#user-content-working-with-the-semantic-theme-generator) for easy tweaking and forking to create any number of dynamic semantic themes.
+
+## Creating your theme
+
+As of now one should have Adobe Indesign installed to be able to visually pick colors.
+Otherwise you can manually edit HEX values in `./ase2json/colors.json`.
+
+In the first case open `./ase2json/res/js-syntax-colors.idml` and tweak colors to your likings. Then from `Swatches` palette export color group as `./ase2json/res/colors.ase` and run `node ./ase2json/ase2json.js`. It will generate the `colors.json` file with key-value pairs where the keys are swatch names and the values are hexidecimal color values.
+
+Then you just run `Package theme` VSCode task and that's it! Just install your fresh `*.vsix` file from `./dist`.
+
+To customize semantic scopes edit `./converter/tokens.json` and `./converter/fallbacks.json` sequentially.
+
+## How it works
+
+```
+                 [*.idml]
+                     |
+                [colors.ase]
+                     |
+                <ase2json.js>
+                     |
+                {colors.json}
+{tokens.json}        |        {fallbacks.json}
+             \       |       /
+              \      |      /
+            ___________________
+            |  <convert.js>   |
+            |        |        |
+            | {template.json} |
+            |_________________|
+                     |
+               {config.json}
+                     |
+                <generate.js>
+                     |
+                {theme.json}
+                     |
+                 [PACKAGE]
+                     |
+                [theme.vsix]
+```
 
 ## Compatibility
 
