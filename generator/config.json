@@ -8,46 +8,46 @@
       "path": "./themes/dark-please-vscode-theme.json",
       "id": "dark-please",
       "baseTokenColors": {
-        "html.tag": "#AE7658",
+        "html.tag": "#B75F53",
         "html.tag-punctuation": "#7A6359",
-        "html.attribute.name": "#9C9D9D",
+        "html.attribute.name": "#878283",
         "html.attribute.value": "#906949",
         "html.attribute.value.id": "#BB8E5C",
-        "html.attribute.value.class": "#5D8955",
-        "html.text": "#c7b6a0",
-        "lang.acessor.property": "#6C8BA5",
+        "html.attribute.value.class": "#4DA586",
+        "html.text": "#CEBDA5",
+        "lang.acessor.property": "#7F94AA",
         "class.defaultLibrary": "#7A6359",
         "css.class.name": "#4DA586",
-        "css.property": "#9C9D9D",
-        "css.values": "#9C9D9D",
+        "css.property": "#878283",
+        "css.values": "#878283",
         "condition": "#B4787C",
         "console.log": "#5D8955",
-        "common.constants": "#7B79C7",
+        "common.constants": "#5F73D1",
         "defaultlibrary": "#87915D",
-        "entity.name.type.class": "#c7b6a0",
-        "entity.name": "#CDC3BE",
-        "lang.function-call": "#AE7658",
-        "lang.function.declaration": "#B75F53",
+        "entity.name.type.class": "#D7C3AA",
+        "entity.name": "#BBACA1",
+        "lang.function-call": "#B75F53",
+        "lang.function.declaration": "#CB6900",
         "keyword.control.flow": "#AA4A4E",
         "keyword.control": "#5F73D1",
         "keyword.operator.new": "#CB6900",
         "meta.method.declaration": "#AA976E",
         "meta.directive.vue": "#AA976E",
         "method": "#AA976E",
-        "common.comments": "#615c56",
+        "common.comments": "#615C56",
         "common.number": "#6BA29D",
-        "object": "#878283",
-        "operator": "#cebda5",
+        "object": "#9C9D9D",
+        "operator": "#CEBDA5",
         "lang.parameter": "#BB8E5C",
         "property.defaultLibrary.readonly": "#87915D",
         "property": "#906949",
-        "punctuation.accessor": "#C6BAAD",
+        "punctuation.accessor": "#BBACA1",
         "punctuation": "#878283",
         "selfParameter": "#666262",
         "storage.modifier": "#5F73D1",
         "common.url": "#6C8BA5",
         "lang.storage.type": "#7A6359",
-        "lang.string": "#c7b6a0",
+        "lang.string": "#BBACA1",
         "support.class": "#7A6359",
         "variable.declaration": "#BB8E5C",
         "variable.defaultLibrary": "#5D8955",
@@ -74,7 +74,7 @@
           "bold": false
         },
         "operator": {
-          "bold": true
+          "bold": false
         }
       },
       "fallbacks": {
@@ -85,31 +85,17 @@
           "markup.underline.link.image.markdown",
           "constant.character.escape"
         ],
-        "html.tag": [
-          "entity.name.tag.html"
-        ],
-        "html.text": [
-          "derivative"
-        ],
+        "html.tag": ["entity.name.tag.html"],
+        "html.text": ["derivative"],
         "html.tag-punctuation": [
           "punctuation.definition.tag.begin.html",
           "punctuation.definition.tag.end.html"
         ],
-        "html.attribute.name": [
-          "entity.other.attribute-name.html"
-        ],
-        "html.attribute.value": [
-          "meta.attribute"
-        ],
-        "html.attribute.value.id": [
-          "meta.attribute.id.html"
-        ],
-        "html.attribute.value.class": [
-          "meta.attribute.class.html"
-        ],
-        "condition": [
-          "keyword.control.conditional"
-        ],
+        "html.attribute.name": ["entity.other.attribute-name.html"],
+        "html.attribute.value": ["meta.attribute"],
+        "html.attribute.value.id": ["meta.attribute.id.html"],
+        "html.attribute.value.class": ["meta.attribute.class.html"],
+        "condition": ["keyword.control.conditional"],
         "common.comments": [
           "comment.line",
           "punctuation.definition.comment",
@@ -120,9 +106,7 @@
           "storage.type.class.jsdoc",
           "punctuation.definition.block.tag.jsdoc"
         ],
-        "operator": [
-          "keyword.operator"
-        ],
+        "operator": ["keyword.operator"],
         "keyword.operator.new": [
           "keyword.operator.new",
           "keyword.operator.logical",
@@ -158,10 +142,7 @@
           "constant.language.nan",
           "constant.language.null"
         ],
-        "lang.storage.type": [
-          "storage.type",
-          "storage.type.function"
-        ],
+        "lang.storage.type": ["storage.type", "storage.type.function"],
         "lang.parameter": [
           "variable.parameter.function",
           "variable.parameter",
@@ -209,13 +190,8 @@
           "variable.other.constant.object",
           "variable.other.object"
         ],
-        "type": [
-          "entity.name.type.alias",
-          "support.type"
-        ],
-        "namespace": [
-          "meta.symbol.namespace"
-        ],
+        "type": ["entity.name.type.alias", "support.type"],
+        "namespace": ["meta.symbol.namespace"],
         "defaultlibrary": [
           "support.class",
           "function.defaultLibrary",
@@ -259,9 +235,7 @@
           "meta.property-name",
           "entity.name.tag.yaml"
         ],
-        "variable.other.object": [
-          "variable.other.object"
-        ],
+        "variable.other.object": ["variable.other.object"],
         "common.constants": [
           "support.constant.property-value.",
           "constant.language.boolean.true",
@@ -294,12 +268,8 @@
           "support.type.property-name.css",
           "meta.array.literal"
         ],
-        "css.values": [
-          "meta.property-value.css"
-        ],
-        "css.class.name": [
-          "entity.other.attribute-name.class.css"
-        ],
+        "css.values": ["meta.property-value.css"],
+        "css.class.name": ["entity.other.attribute-name.class.css"],
         "lang.class.name": [
           "entity.name.type.class",
           "class.declaration",
@@ -316,23 +286,13 @@
           "variable.language.self",
           "variable.language.special.self"
         ],
-        "lang.variable.defaultLibrary.readonly": [
-          "const"
-        ]
+        "lang.variable.defaultLibrary.readonly": ["const"]
       },
       "alias": {
-        "defaultLibrary": [
-          "builtin"
-        ],
-        "documentation": [
-          "typeHint"
-        ],
-        "declaration": [
-          "definition"
-        ],
-        "function.defaultLibrary": [
-          "magicFunction"
-        ]
+        "defaultLibrary": ["builtin"],
+        "documentation": ["typeHint"],
+        "declaration": ["definition"],
+        "function.defaultLibrary": ["magicFunction"]
       },
       "modifierCombinations": [
         "readonly.declaration.async",

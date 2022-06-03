@@ -17,4 +17,8 @@ function keepSwatchName(data) {
 
 const result = aseUtil.formatAsColorsObject(data, keepSwatchName);
 
-fs.writeFileSync(outputFile, JSON.stringify(result));
+fs.writeFileSync(
+  outputFile,
+  `{ "$schema": "./colors.schema.json",
+  "colors": ${JSON.stringify(result)} }`,
+);

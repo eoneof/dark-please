@@ -12,10 +12,10 @@
       "type": "string"
     },
     "colors": {
-      "description": "Colors",
+      "description": "Token-color pairs",
       "type": "object",
       "patternProperties": {
-        "^[A-z.]+$": {
+        "^[A-z_0-9]+$": {
           "description": "hex values",
           "type": "string",
           "format": "color"
