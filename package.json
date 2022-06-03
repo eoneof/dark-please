@@ -31,10 +31,10 @@
       "frontend"
    ],
    "scripts": {
+      "prebuild": "npm run convert && npm run generate",
       "convert": "node converter/convert.js",
       "generate": "node ./generator/generate.js",
-      "package": "npm run build && vsce package -o ./dist",
-      "watch": "nodemon --watch src converter/convert.js"
+      "build": "vsce package -o ./dist"
    },
    "contributes": {
       "themes": [
@@ -158,7 +158,6 @@
                   "markup.fenced_code.block.markdown"
                ],
                "lang.function.declaration": [
-                  "function.declaration",
                   "meta.definition.function",
                   "storage.type.function.arrow",
                   "variable.language.arguments",
@@ -191,7 +190,6 @@
                   "function.defaultLibrary",
                   "support.function.builtin",
                   "support.function.misc",
-                  "support.function",
                   "string.other.link.description.markdown"
                ],
                "punctuation.accessor": [
@@ -299,6 +297,7 @@
       "tinycolor2": "^1.4.2"
    },
    "dependencies": {
-      "jsdom": "^19.0.0"
+      "jsdom": "^19.0.0",
+      "nodemon": "^2.0.16"
    }
 }

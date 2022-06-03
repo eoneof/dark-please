@@ -14,40 +14,35 @@
       "label": "Package Theme",
       "type": "shell",
       "command": "vsce package -o ./dist",
-      "problemMatcher": [],
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
       "dependsOn": ["Convert variables", "Generate colors"]
     },
     {
-      "type": "npm",
-      "script": "watch",
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
+      "label": "Watch file changes",
+      "type": "shell",
+      "isBackground": true,
       "problemMatcher": [],
-      "label": "Run in background",
-      "detail": "nodemon --watch src converter/convert.js"
+      "command": " node ./node_modules/nodemon/bin/nodemon --watch ase2json -x \"npm run prebuild\""
     },
     {
-      "type": "npm",
-      "script": "convert",
-      "group": "build",
-      "problemMatcher": [],
       "label": "Convert variables",
-      "detail": "node converter/convert.js"
+      "script": "convert",
+      "type": "npm",
+      "group": "build"
+    },
+    {
+      "label": "Generate colors",
+      "script": "generate",
+      "type": "npm",
+      "group": "build",
+      "dependsOn": "Convert variables"
     },
     {
       "type": "npm",
-      "script": "generate",
+      "script": "prebuild",
       "group": "build",
       "problemMatcher": [],
-      "label": "Generate colors",
-      "detail": "node generator/generate.js",
-      "dependsOn": "Convert variables"
+      "label": "npm: prebuild",
+      "detail": "npm run convert && npm run generate"
     }
   ]
 }
