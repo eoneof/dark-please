@@ -100,4 +100,4 @@ Keep in mind results might vary based on the language extensions you have instal
 
 ## Known bugs
 
-- conversion fails if there's less items in `colors.json` than there's tokens
+- conversion fails if keys in `colors.json` and values in `token.json` does not match at least once
