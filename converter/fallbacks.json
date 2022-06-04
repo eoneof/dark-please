@@ -57,7 +57,8 @@
     "keyword.control.export",
     "keyword.control.import",
     "keyword.control.from",
-    "storage.modifier"
+    "storage.modifier",
+    "keyword.control.module"
   ],
   "punctuation.expression": [
     "keyword.control.at-rule.import",
@@ -113,7 +114,8 @@
     "storage.type.function.arrow",
     "variable.language.arguments",
     "variable.language.super",
-    "entity.name.section.markdown"
+    "entity.name.section.markdown",
+    "keyword.type"
   ],
   "variable.declaration": [
     "support.type.property-name.media.css",
@@ -146,7 +148,7 @@
     "punctuation.accessor",
     "keyword.operator.assignment",
     "punctuation.terminator.rule.css",
-    "punctuation.terminator.statement.js"
+    "punctuation.terminator.statement"
   ],
   "punctuation": [
     "punctuation.section.property-list.begin.bracket.curly.css",
@@ -169,11 +171,11 @@
     "markup.quote.markdown"
   ],
   "lang.string": [
-    "string.template.js",
+    "string.template",
     "string.quoted.double",
     "string.quoted.single",
-    "punctuation.definition.string.begin.js",
-    "punctuation.definition.string.end.js",
+    "punctuation.definition.string.begin",
+    "punctuation.definition.string.end",
     "punctuation.definition.string.begin.json",
     "punctuation.definition.string.end.json",
     "punctuation.support.type.property-name.begin",
