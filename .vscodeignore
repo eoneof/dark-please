@@ -2,13 +2,10 @@
 .vscode/
 .gitignore
 vsc-extension-quickstart.md
-ase2json/
 assets/img/dark-please-logo.svg
 assets/examples
 assets/research
-generator/
-converter/
 styles/
-test/
+dist/
 node_modules/
-pnpm-lock.yaml
+src/

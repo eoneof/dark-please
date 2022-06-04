@@ -321,6 +321,15 @@
    },
    "tokenColors": [
       {
+         "name": "variable.declaration",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#bb8e5c"
+         }
+      },
+      {
          "name": "html.tag",
          "scope": [
             "entity.name.tag"
