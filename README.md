@@ -22,16 +22,6 @@ Actual look as of June 2022
 
 ![Main window look](assets/img/main-window_current-state.png)
 
-### JavaScript
-
-A rough example of what it should look like
-
-![JS syntax colors mockup](assets/img/js-syntax-colors.png)
-
-### CSS
-
-[preview]
-
 ## What is this
 
 Semantic highlighting is programmatically generated, based on a configuration of base colors for the different tokens and a list of specific color transformations for token modifiers which can also be stacked to represent different combinations.  
