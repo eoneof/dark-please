@@ -162,7 +162,8 @@
           "keyword.control.export",
           "keyword.control.import",
           "keyword.control.from",
-          "storage.modifier"
+          "storage.modifier",
+          "keyword.control.module"
         ],
         "punctuation.expression": [
           "keyword.control.at-rule.import",

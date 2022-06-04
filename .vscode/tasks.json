@@ -12,19 +12,17 @@
   "tasks": [
     {
       "label": "Package Theme",
-      "type": "shell",
-      "command": "vsce package -o ./dist",
-      "dependsOn": [
-        "Convert variables",
-        "Generate colors",
-        "Create dist directory"
-      ],
+      "script": "build",
+      "type": "npm",
+      "group": "build",
+      "dependsOn": ["Create dist directory"],
       "problemMatcher": []
     },
     {
       "label": "Create dist directory",
       "type": "shell",
-      "command": "mkdir dist",
+      "command": "If (!(test-path ./dist)){md ./dist}",
+      "isBackground": true,
       "problemMatcher": []
     },
     {
