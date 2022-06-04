@@ -12,42 +12,46 @@
   "tasks": [
     {
       "label": "Package Theme",
+      "script": "package",
+      "type": "npm",
+      "group": "none",
+      "dependsOn": ["Create dist directory"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Create dist directory",
       "type": "shell",
-      "command": "vsce package -o ./dist",
-      "problemMatcher": [],
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
-      "dependsOn": ["Convert variables", "Generate colors"]
+      "command": "If (!(test-path ./dist)){md ./dist}",
+      "isBackground": true,
+      "problemMatcher": []
     },
     {
-      "type": "npm",
-      "script": "watch",
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
+      "label": "Watch file changes",
+      "type": "shell",
+      "isBackground": true,
       "problemMatcher": [],
-      "label": "Run in background",
-      "detail": "nodemon --watch src converter/convert.js"
+      "command": " node ./node_modules/nodemon/bin/nodemon --watch ./src/ase2json/colors.json -x \"npm run build\""
     },
     {
-      "type": "npm",
-      "script": "convert",
-      "group": "build",
-      "problemMatcher": [],
       "label": "Convert variables",
-      "detail": "node converter/convert.js"
+      "script": "convert",
+      "type": "npm",
+      "group": "none"
+    },
+    {
+      "label": "Generate colors",
+      "script": "generate",
+      "type": "npm",
+      "group": "none",
+      "dependsOn": "Convert variables"
     },
     {
       "type": "npm",
-      "script": "generate",
-      "group": "build",
+      "script": "build",
+      "group": "none",
       "problemMatcher": [],
-      "label": "Generate colors",
-      "detail": "node generator/generate.js",
-      "dependsOn": "Convert variables"
+      "label": "npm: build",
+      "detail": "npm run convert && npm run generate"
     }
   ]
 }

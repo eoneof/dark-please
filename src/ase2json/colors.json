@@ -1,0 +1,32 @@
+{
+  "$schema": "./colors.schema.json",
+  "colors": {
+    "aqua_0": "#6BA29D",
+    "blue_1": "#6C8BA5",
+    "blue_2": "#7F94AA",
+    "gray_0": "#615C56",
+    "gray_1": "#666262",
+    "gray_2": "#878283",
+    "gray_3": "#9C9D9D",
+    "green_0": "#5D8955",
+    "green_1": "#4aa075",
+    "green_2": "#5e8d41",
+    "green_3": "#87915D",
+    "indigo_0": "#5f67d1",
+    "indigo_1": "#7B79C7",
+    "khaki_0": "#aa9f6e",
+    "light_0": "#CEBDA5",
+    "light_1": "#aa9c92",
+    "light_2": "#D7C3AA",
+    "light_3": "#CDC3BE",
+    "ochre_0": "#BB8E5C",
+    "ochre_1": "#906949",
+    "ochre_2": "#7A6359",
+    "orange_0": "#cb5b00",
+    "orange_1": "#b76753",
+    "orange_2": "#AE7658",
+    "rubine_0": "#AA4A4E",
+    "rubine_3": "#B4787C",
+    "red_0": "#a01717"
+  }
+}

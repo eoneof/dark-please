@@ -119,7 +119,7 @@
             "description": "The base colors for all token types.",
             "type": "object",
             "patternProperties": {
-              "^[A-z]+$": {
+              "^[A-z.]+$": {
                 "description": "semantic token type",
                 "type": "string",
                 "format": "color"

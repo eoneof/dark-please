@@ -6,12 +6,12 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Run theme",
+      "name": "Live preview",
       "type": "extensionHost",
       "request": "launch",
       "runtimeExecutable": "${execPath}",
       "args": ["--extensionDevelopmentPath=${workspaceFolder}"],
-      "preLaunchTask": "Generate colors"
+      "preLaunchTask": "Watch file changes"
     }
   ]
 }
