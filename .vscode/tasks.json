@@ -12,9 +12,9 @@
   "tasks": [
     {
       "label": "Package Theme",
-      "script": "build",
+      "script": "package",
       "type": "npm",
-      "group": "build",
+      "group": "none",
       "dependsOn": ["Create dist directory"],
       "problemMatcher": []
     },
@@ -30,27 +30,27 @@
       "type": "shell",
       "isBackground": true,
       "problemMatcher": [],
-      "command": " node ./node_modules/nodemon/bin/nodemon --watch src -x \"npm run prebuild\""
+      "command": " node ./node_modules/nodemon/bin/nodemon --watch src -x \"npm run build\""
     },
     {
       "label": "Convert variables",
       "script": "convert",
       "type": "npm",
-      "group": "build"
+      "group": "none"
     },
     {
       "label": "Generate colors",
       "script": "generate",
       "type": "npm",
-      "group": "build",
+      "group": "none",
       "dependsOn": "Convert variables"
     },
     {
       "type": "npm",
-      "script": "prebuild",
-      "group": "build",
+      "script": "build",
+      "group": "none",
       "problemMatcher": [],
-      "label": "npm: prebuild",
+      "label": "npm: build",
       "detail": "npm run convert && npm run generate"
     }
   ]
