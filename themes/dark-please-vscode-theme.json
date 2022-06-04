@@ -742,8 +742,8 @@
          "name": "lang.string",
          "scope": [
             "string.template",
-            "string.quoted.double",
-            "string.quoted.single",
+            "string.quoted.double.js",
+            "string.quoted.single.js",
             "punctuation.definition.string.begin",
             "punctuation.definition.string.end",
             "punctuation.definition.string.begin.json",
