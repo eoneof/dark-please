@@ -688,8 +688,6 @@
             "punctuation.definition.block",
             "punctuation.definition.parameters.begin",
             "punctuation.definition.parameters.end",
-            "punctuation.definition.string.begin",
-            "punctuation.definition.string.end",
             "meta.brace.round",
             "punctuation.separator.key-value.html",
             "punctuation.section.function.begin.bracket.round.css",
@@ -746,8 +744,6 @@
             "string.quoted.single.js",
             "punctuation.definition.string.begin",
             "punctuation.definition.string.end",
-            "punctuation.definition.string.begin.json",
-            "punctuation.definition.string.end.json",
             "punctuation.support.type.property-name.begin",
             "punctuation.support.type.property-name.end",
             "meta.paragraph.markdown"
@@ -810,8 +806,8 @@
             "punctuation.definition.string.template.end",
             "meta.template.expression",
             "keyword.operator.expression.typeof",
-            "punctuation.definition.string.begin",
-            "punctuation.definition.string.end"
+            "string.regexp punctuation.definition.string.begin",
+            "string.regexp punctuation.definition.string.end"
          ],
          "settings": {
             "foreground": "#7b79c7"

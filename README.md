@@ -42,13 +42,13 @@ The definition of colors and transformations follows a [simple spec](https://git
 ## Creating your theme
 
 As of now one should have Adobe Indesign installed to be able to visually pick colors.
-Otherwise you can manually edit HEX values in `./ase2json/colors.json`.
+Otherwise you can manually edit HEX values in `./src/ase2json/colors.json`.
 
-In the first case open `./ase2json/res/js-syntax-colors.idml` and tweak colors to your likings. Then from `Swatches` palette export color group as `./ase2json/res/colors.ase` and run `node ./ase2json/ase2json.js`. It will generate the `colors.json` file with key-value pairs where the keys are swatch names and the values are hexidecimal color values.
+In the first case open `./src/ase2json/res/js-syntax-colors.idml` and tweak colors to your likings. Then from `Swatches` palette export color group as `./src/ase2json/res/colors.ase` and run `node ./src/ase2json/ase2json.js`. It will generate the `colors.json` file with key-value pairs where the keys are swatch names and the values are hexidecimal color values.
 
-Then you just run `Package theme` VSCode task and that's it! Just install your fresh `*.vsix` file from `./dist`.
+Then you just run `Package theme` VSCode task and that's it! Just install your fresh `*.vsix` file from `./src/dist`.
 
-To customize semantic scopes edit `./converter/tokens.json` and `./converter/fallbacks.json` sequentially.
+To customize semantic scopes edit `./src/converter/tokens.json` and `./src/converter/fallbacks.json` sequentially.
 
 ## How it works
 
@@ -75,7 +75,7 @@ To customize semantic scopes edit `./converter/tokens.json` and `./converter/fal
                      |
                 {theme.json}
                      |
-                 [PACKAGE]
+                 <PACKAGE>
                      |
                 [theme.vsix]
 ```
@@ -101,3 +101,8 @@ Keep in mind results might vary based on the language extensions you have instal
 ## Known bugs
 
 - conversion fails if keys in `colors.json` and values in `tokens.json` does not match at least once
+
+## Todo
+
+- tokenize window colors
+- maybe rename fallbacks to insert colors directly and get rid of `tokens.json`
