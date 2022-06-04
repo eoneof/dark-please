@@ -17,6 +17,12 @@
           "bold": true,
           "italic": true
         },
+        "italic": {
+          "italic": true
+        },
+        "bold": {
+          "bold": true
+        },
         "type": {
           "italic": true
         },
