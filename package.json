@@ -10,7 +10,7 @@
       "name": "Nick Eoneof"
    },
    "icon": "assets/img/dark-please-logo.png",
-   "version": "0.0.5",
+   "version": "1.0.0",
    "homepage": "https://github.com/eoneof/dark-please-vscode-theme",
    "engines": {
       "vscode": "^1.60.0"
@@ -32,8 +32,8 @@
    ],
    "scripts": {
       "prebuild": "npm run convert && npm run generate",
-      "convert": "node converter/convert.js",
-      "generate": "node ./generator/generate.js",
+      "convert": "node ./src/converter/convert.js",
+      "generate": "node ./src/generator/generate.js",
       "build": "vsce package -o ./dist"
    },
    "contributes": {

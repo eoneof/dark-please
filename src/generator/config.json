@@ -425,5 +425,5 @@
     }
   ],
   "readmePath": "./README.md",
-  "readmeTemplatePath": "./generator/_Template.md"
+  "readmeTemplatePath": "./src/generator/_Template.md"
 }

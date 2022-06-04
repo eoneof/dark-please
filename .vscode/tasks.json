@@ -30,7 +30,7 @@
       "type": "shell",
       "isBackground": true,
       "problemMatcher": [],
-      "command": " node ./node_modules/nodemon/bin/nodemon --watch ase2json -x \"npm run prebuild\""
+      "command": " node ./node_modules/nodemon/bin/nodemon --watch src -x \"npm run prebuild\""
     },
     {
       "label": "Convert variables",
