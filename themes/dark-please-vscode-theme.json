@@ -90,10 +90,10 @@
     "focusBorder": "#50667c65",
     "foreground": "#CDC3BE",
     "gitDecoration.addedResourceForeground": "#4DA586",
-    "gitDecoration.deletedResourceForeground": "#D6654C",
-    "gitDecoration.ignoredResourceForeground": "#cbbeab4D",
-    "gitDecoration.modifiedResourceForeground": "#cca237ec",
-    "gitDecoration.untrackedResourceForeground": "#D6654CE6",
+    "gitDecoration.deletedResourceForeground": "#906949",
+    "gitDecoration.ignoredResourceForeground": "#87828399",
+    "gitDecoration.modifiedResourceForeground": "#ffd567dd",
+    "gitDecoration.untrackedResourceForeground": "#53a2ebdd",
     "input.background": "#333131",
     "input.foreground": "#CDC3BE",
     "inputOption.activeBackground": "#50667c80",
@@ -108,7 +108,7 @@
     "list.activeSelectionBackground": "#50667c",
     "list.activeSelectionForeground": "#CDC3BE",
     "list.dropBackground": "#6C6F9380",
-    "list.errorForeground": "#D6654CE6",
+    "list.errorForeground": "#D6654C",
     "list.focusBackground": "#44424280",
     "list.focusForeground": "#cbbeab",
     "list.focusOutline": "#ffffff00",
@@ -119,7 +119,7 @@
     "list.inactiveFocusForeground": "#dddddd88",
     "list.inactiveSelectionBackground": "#50667c45",
     "list.inactiveSelectionForeground": "#CDC3BE",
-    "list.warningForeground": "#c01717d0",
+    "list.warningForeground": "#f19e5add",
     "menu.background": "#4b4d4d",
     "menu.foreground": "#bdbdbd",
     "menu.selectionBackground": "#50667c",
@@ -185,7 +185,7 @@
     "tab.activeBackground": "#50667c45",
     "tab.activeBorder": "#7492B1",
     "tab.activeForeground": "#CDC3BE",
-    "tab.activeModifiedBorder": "#cb5b0085",
+    "tab.activeModifiedBorder": "#D6654C85",
     "tab.border": "#383636",
     "tab.inactiveBackground": "#444242",
     "tab.inactiveForeground": "#878283",
@@ -352,6 +352,13 @@
     "markup.srikethrough": "#666262"
   },
   "tokenColors": [
+    {
+      "name": "variable.declaration",
+      "scope": ["variable.language.arguments"],
+      "settings": {
+        "foreground": "#bb8e5c"
+      }
+    },
     {
       "name": "variable.declaration",
       "scope": ["variable.language.arguments"],
