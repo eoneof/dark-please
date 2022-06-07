@@ -31,7 +31,7 @@ Object.assign(template.themes[0].baseTokenColors, paired);
 Object.assign(template.themes[0].fallbacks, fallbacks);
 
 // Write config
-fs.mkdir('./converter', { recursive: true })
+fs.mkdir('./dist', { recursive: true })
   .then(() =>
     Promise.all([
       fs.writeFile('./src/generator/config.json', JSON.stringify(template, null, 2)),
