@@ -4,8 +4,8 @@
 */
 const fs = require('fs');
 const aseUtil = require('ase-util');
-const inputFile = './ase2json/res/js-syntax-colors.ase';
-const outputFile = './ase2json/colors.json';
+const inputFile = './ase2json/res/colors.ase';
+const outputFile = './ase2json/syntax-colors.json';
 
 const data = aseUtil.read(fs.readFileSync(inputFile));
 
