@@ -5,13 +5,13 @@
   "description": "Hex values",
   "type": "object",
   "additionalProperties": false,
-  "required": ["colors"],
+  "required": ["syntaxColors"],
   "properties": {
     "$schema": {
       "description": "a link to a schema file",
       "type": "string"
     },
-    "colors": {
+    "syntaxColors": {
       "description": "Token-color pairs",
       "type": "object",
       "patternProperties": {

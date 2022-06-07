@@ -6,7 +6,7 @@ import { relative, parse } from 'path';
 const initialDirectory = process.cwd();
 //Defining paths and reading files
 const packageData = JSON.parse(readFileSync('package.json', 'utf-8'));
-const { themes, readmePath, readmeTemplatePath } = JSON.parse(
+const { uiColors, themes, readmePath, readmeTemplatePath } = JSON.parse(
   readFileSync('./src/generator/config.json', 'utf-8'),
 );
 const readme =
@@ -25,7 +25,7 @@ themes.forEach((t) => {
   const { semanticRules, fallBackRules, meta } = generateColors(tinycolor, t);
   //Reading the theme definition JSON
   const cnf = JSON.parse(readFileSync(path, 'utf-8'));
-  const { tokenColors } = cnf;
+  const { colors, tokenColors } = cnf;
   //Here we deal with existing textmate rules that might interfere with the fallbacks that were generated
   fallBackRules.forEach(({ scope }) =>
     tokenColors
@@ -43,7 +43,11 @@ themes.forEach((t) => {
       .forEach(({ r, i }) => {
         //Deleting existing textmate rules that contradict our fallback rules
         if (scope.includes(r.scope)) return tokenColors.splice(i, 1);
-        if (scope.every((i) => r.scope.includes(i) && r.scope.length === scope.length))
+        if (
+          scope.every(
+            (i) => r.scope.includes(i) && r.scope.length === scope.length,
+          )
+        )
           return tokenColors.splice(i, 1);
         //If any textmate rules contains individual scopes that are covered by our fallbacks they will be removed from the rule
         scope.forEach((s) => {
@@ -61,9 +65,13 @@ themes.forEach((t) => {
   //Updating the color theme with the new values
   cnf.semanticTokenColors = semanticRules;
   cnf.tokenColors = tokenColors.concat(fallBackRules);
+  cnf.colors = uiColors;
   const stringRules = JSON.stringify(cnf, null, 3);
   //Updating the readme with color stats if it's the main Theme
-  const pathDiff = relative(parse(readmeTemplatePath).dir, parse(readmePath).dir);
+  const pathDiff = relative(
+    parse(readmeTemplatePath).dir,
+    parse(readmePath).dir,
+  );
   const finalReadme =
     (mainTheme || themes.length === 1) &&
     readme &&
@@ -77,7 +85,9 @@ themes.forEach((t) => {
     console.log('saved config.');
   });
   finalReadme &&
-    writeFile(readmePath, finalReadme, 'utf8', () => console.log('saved readme.'));
+    writeFile(readmePath, finalReadme, 'utf8', () =>
+      console.log('saved readme.'),
+    );
 });
 //Saving the package  json with all the theme info
 writeFile('package.json', JSON.stringify(packageData, null, 3), 'utf8', () =>

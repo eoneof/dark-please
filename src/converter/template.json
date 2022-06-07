@@ -1,5 +1,6 @@
 {
   "$schema": "./config.schema.json",
+  "uiColors": {},
   "themes": [
     {
       "label": "Dark, please!",
