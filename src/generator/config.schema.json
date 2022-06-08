@@ -19,6 +19,17 @@
       "description": "Path to your Readme Template file",
       "type": "string"
     },
+    "uiColors": {
+      "description": "Color definitons for window and panels",
+      "type": "object",
+      "patternProperties": {
+        "^[A-z.]+$": {
+          "description": "color tokens",
+          "type": "string",
+          "format": "color"
+        }
+      }
+    },
     "themes": {
       "description": "a list of color theme definitions",
       "type": "array",
