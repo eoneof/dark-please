@@ -4,6 +4,8 @@ const uiColors = JSON.parse(
   readFileSync('./src/ase2json/ui-colors.json', 'utf-8'),
 );
 
+//  CONVERT UI FALLBACKS INTO ACTUAL KEY:VALUE PAIRS
+
 const tokens = {};
 
 /**
@@ -24,10 +26,15 @@ uiColors.forEach((color) => {
   const colorName = Object.keys(color).toString();
   color[`${colorName}`].uiElements.forEach((element) => {
     // assign a color to an element
-    tokens[element] = colorName; //.color;
+    tokens[element] = colorName;
   });
 });
 
+console.log(tokens);
+
+// SUBSTITIUTE COLOR TOKENS WITH COLOR VALUES FROM FILE
+
+// mock data (get it from file later on)
 const colors = {
   white_00: '#fff',
   black_00: '#bcd',
@@ -50,5 +57,4 @@ for (let item in tokens) {
   paired[item] = colors[result]; // ?
 }
 
-// console.log(tokens);
 console.log(paired);
