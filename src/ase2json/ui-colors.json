@@ -1,27 +1,170 @@
 [
   {
-    "white_00": {
-      "color": "",
-      "aliases": null,
-      "uiElements": ["fo.o", "ba.r", "ba.z"]
+    "transparent": {
+      "color": "#00000000",
+      "aliases": ["#4a4a4a00"],
+      "uiElements": ["list.focusOutline", "statusBar.border"]
+    }
+  },
+  {
+    "xx_00": {
+      "color": "#1f1f1fff",
+      "aliases": ["#1f1f1f"],
+      "uiElements": ["widget.shadow", "scrollbar.shadow", "editor.snippetFinalTabstopHighlightBackground"]
+    }
+  },
+  {
+    "xx_00": {
+      "color": "#1f1f1f99",
+      "aliases": ["#1f1f1f99"],
+      "uiElements": ["editor.snippetTabstopHighlightBackground"]
+    }
+  },
+  {
+    "xx_00": {
+      "color": "#262626ff",
+      "aliases": ["#262626"],
+      "uiElements": ["peekViewEditorGutter.background", "terminal.background"]
+    }
+  },
+  {
+    "xx_00": {
+      "color": "#2E2C2Cff",
+      "aliases": ["#2E2C2C"],
+      "uiElements": ["editorGutter.background"]
+    }
+  },
+  {
+    "xx_00": {
+      "color": "#333131ff",
+      "aliases": ["#333131"],
+      "uiElements": ["input.background", "editor.background", "contrastBorder"]
     }
   },
   {
     "black_00": {
-      "color": "#1f1f1f",
-      "aliases": ["#1f1f1f"],
-      "uiElements": [
-        "widget.shadow",
-        "scrollbar.shadow",
-        "editor.snippetFinalTabstopHighlightBackground"
-      ]
+      "color": "#383636ff",
+      "aliases": ["#383636"],
+      "uiElements": ["titleBar.activeBackground", "tab.border", "peekViewEditor.background", "panel.background", "editorWidget.background", "breadcrumb.background", "activityBar.background"]
     }
   },
   {
-    "black_01": {
-      "color": "#262626",
-      "aliases": ["#262626"],
-      "uiElements": ["peekViewEditorGutter.background", "terminal.background"]
+    "xx_00": {
+      "color": "#444242ff",
+      "aliases": ["#444242"],
+      "uiElements": ["activityBar.activeBackground", "breadcrumbPicker.background", "debugToolBar.background", "dropdown.background", "dropdown.listBackground", "editorCursor.background", "editorGroup.border", "editorGroupHeader.noTabsBackground", "editorGroupHeader.tabsBackground", "editorIndentGuide.activeBackground", "editorOverviewRuler.background", "editorWidget.border", "minimap.background", "panel.border", "panelSectionHeader.background", "peekViewResult.background", "sideBar.background", "statusBar.noFolderBackground", "statusBarItem.hoverBackground", "statusBarItem.prominentBackground", "tab.inactiveBackground", "terminalCursor.Background", "titleBar.inactiveBackground", "walkThrough.embeddedEditorBackground"]
+    }
+  },
+  {
+    "xx_00": {
+      "color": "#44424280",
+      "aliases": ["#44424280"],
+      "uiElements": ["editor.rangeHighlightBackground", "editorIndentGuide.background", "list.focusBackground", "list.inactiveFocusBackground", "editorOverviewRuler.border"]
+    }
+  },
+  {
+    "xx_00": {
+      "color": "#4a4a4aff",
+      "aliases": ["#4a4a4a"],
+      "uiElements": ["statusBar.background"]
+    }
+  },
+  {
+    "xx_00": {
+      "color": "#4b4d4dff",
+      "aliases": ["#4b4d4d", "#4f4f4f"],
+      "uiElements": ["sideBarSectionHeader.background", "editorHoverWidget.background", "menu.background", "settings.dropdownBackground"]
+    }
+  },
+  {
+    "xx_00": {
+      "color": "#535353ff",
+      "aliases": ["#535353"],
+      "uiElements": ["peekViewTitle.background", "sideBar.border"]
+    }
+  },
+  {
+    "xx_00": {
+      "color": "#615C56ff",
+      "aliases": ["#615C56"],
+      "uiElements": ["badge.background", "disabledForeground"]
+    }
+  },
+  {
+    "xx_00": {
+      "color": "#50667cff",
+      "aliases": ["#50667c"],
+      "uiElements": ["activityBarBadge.background", "button.background", "editor.selectionHighlightBorder", "editorHoverWidget.highlightForeground", "editorSuggestWidget.highlightForeground", "extensionButton.prominentBackground", "extensionButton.prominentHoverBackground", "inputOption.activeBorder", "list.activeSelectionBackground", "menu.selectionBackground", "peekViewResult.matchHighlightBackground", "progressBar.background", "searchEditor.textInputBorder"]
+    }
+  },
+  {
+    "xx_00": {
+      "color": "#CDC3BEff",
+      "aliases": ["#CDC3BE"],
+      "uiElements": ["activityBar.foreground", "badge.foreground", "dropdown.foreground", "editorWidget.foreground", "foreground", "input.foreground", "inputValidation.errorForeground", "inputValidation.warningForeground", "list.activeSelectionForeground", "list.inactiveSelectionForeground", "menu.selectionForeground", "panelTitle.activeForeground", "settings.checkboxForeground", "settings.dropdownForeground", "sideBar.foreground", "sideBarTitle.foreground", "statusBar.debuggingForeground", "tab.activeForeground", "terminal.foreground", "titleBar.activeForeground"]
+    }
+  },
+  {
+    "xx_00": {
+      "color": "#ddddddff",
+      "aliases": ["#ddd", "#dddddd", "#dbdbdb"],
+      "uiElements": ["button.foreground", "activityBarBadge.foreground", "inputOption.activeForeground", "list.hoverForeground"]
+    }
+  },
+  {
+    "xx_00": {
+      "color": "#xxx",
+      "aliases": ["#xxx"],
+      "uiElements": []
+    }
+  },
+  {
+    "xx_00": {
+      "color": "#6C6F93ff",
+      "aliases": ["#6C6F93"],
+      "uiElements": ["editorOverviewRuler.findMatchForeground", "statusBarItem.prominentHoverBackground"]
+    }
+  },
+  {
+    "xx_00": {
+      "color": "#666262ff",
+      "aliases": ["#666262"],
+      "uiElements": ["activityBar.inactiveForeground", "menubar.selectionBackground"]
+    }
+  },
+  {
+    "xx_00": {
+      "color": "#7492B1ff",
+      "aliases": ["#7492B1"],
+      "uiElements": ["activityBar.activeBorder", "list.highlightForeground", "panelTitle.activeBorder", "settings.modifiedItemIndicator", "tab.activeBorder", "textLink.activeForeground", "textLink.foreground"]
+    }
+  },
+  {
+    "xx_00": {
+      "color": "#D7C3AAff",
+      "aliases": ["#D7C3AA"],
+      "uiElements": ["peekViewResult.fileForeground", "peekViewResult.selectionForeground", "peekViewTitleLabel.foreground", "settings.numberInputForeground"]
+    }
+  },
+  {
+    "xx_00": {
+      "color": "#D6654Cff",
+      "aliases": ["#D6654C"],
+      "uiElements": ["editorError.foreground", "errorForeground", "list.errorForeground"]
+    }
+  },
+  {
+    "xx_00": {
+      "color": "#50667cE6",
+      "aliases": ["#50667cE6"],
+      "uiElements": ["pickerGroup.foreground", "scrollbarSlider.activeBackground", "scrollbarSlider.hoverBackground"]
+    }
+  },
+  {
+    "xx_00": {
+      "color": "#xxx",
+      "aliases": ["#xxx"],
+      "uiElements": []
     }
   }
 ]
