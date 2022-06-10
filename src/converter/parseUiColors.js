@@ -1,8 +1,6 @@
-﻿const { readFileSync } = require('fs');
+﻿import { readFileSync } from 'fs';
 
-const uiColors = JSON.parse(
-  readFileSync('./src/ase2json/ui-colors.json', 'utf-8'),
-);
+const uiColors = JSON.parse(readFileSync('./src/ase2json/ui-colors.json', 'utf-8'));
 
 //  CONVERT UI FALLBACKS INTO ACTUAL KEY:VALUE PAIRS
 
