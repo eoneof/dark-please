@@ -534,6 +534,139 @@
          }
       },
       {
+         "name": "common.comments",
+         "scope": [
+            "punctuation.definition.heading.markdown"
+         ],
+         "settings": {
+            "foreground": "#615c56"
+         }
+      },
+      {
+         "name": "punctuation.separator",
+         "scope": [
+            "keyword.operator.assignment"
+         ],
+         "settings": {
+            "foreground": "#aa9c92"
+         }
+      },
+      {
+         "name": "variable.declaration",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#bb8e5c"
+         }
+      },
+      {
+         "name": "common.comments",
+         "scope": [
+            "keyword.operator.assignment"
+         ],
+         "settings": {
+            "foreground": "#615c56"
+         }
+      },
+      {
+         "name": "punctuation",
+         "scope": [
+            "punctuation.separator.key-value.html"
+         ],
+         "settings": {
+            "foreground": "#878283"
+         }
+      },
+      {
+         "name": "variable.declaration",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#bb8e5c"
+         }
+      },
+      {
+         "name": "punctuation.separator",
+         "scope": [
+            "punctuation.separator.array.json"
+         ],
+         "settings": {
+            "foreground": "#aa9c92"
+         }
+      },
+      {
+         "name": "variable.declaration",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#bb8e5c"
+         }
+      },
+      {
+         "name": "source",
+         "scope": [
+            "punctuation.definition.string.begin"
+         ],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "punctuation.separator",
+         "scope": [
+            "punctuation.separator.array.json"
+         ],
+         "settings": {
+            "foreground": "#aa9c92"
+         }
+      },
+      {
+         "name": "variable.declaration",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#bb8e5c"
+         }
+      },
+      {
+         "name": "source",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "punctuation.separator",
+         "scope": [
+            "punctuation.definition.string.begin"
+         ],
+         "settings": {
+            "foreground": "#aa9c92"
+         }
+      },
+      {
+         "name": "variable.declaration",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#bb8e5c"
+         }
+      },
+      {
+         "name": "variable.declaration",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#bb8e5c"
+         }
+      },
+      {
          "name": "source",
          "scope": [
             "punctuation.definition.string.begin",
@@ -825,6 +958,8 @@
       {
          "name": "common.comments",
          "scope": [
+            "keyword.operator.assignment",
+            "punctuation.separator.key-value.html",
             "punctuation.definition.heading.markdown",
             "comment.line",
             "punctuation.definition.comment",
@@ -907,9 +1042,9 @@
             "punctuation.separator.key-value.css",
             "punctuation.separator.dictionary.key-value.json",
             "punctuation.accessor",
-            "keyword.operator.assignment",
             "punctuation.terminator.rule.css",
-            "punctuation.terminator.statement"
+            "punctuation.terminator.statement",
+            "punctuation.separator.comma"
          ],
          "settings": {
             "foreground": "#aa9c92"
@@ -928,7 +1063,6 @@
             "punctuation.definition.parameters.begin",
             "punctuation.definition.parameters.end",
             "meta.brace.round",
-            "punctuation.separator.key-value.html",
             "punctuation.section.function.begin.bracket.round.css",
             "punctuation.section.function.end.bracket.round.css",
             "punctuation.definition.constant.markdown",

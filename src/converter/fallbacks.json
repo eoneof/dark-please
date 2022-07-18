@@ -32,6 +32,8 @@
   ],
   "condition": ["keyword.control.conditional"],
   "common.comments": [
+    "keyword.operator.assignment",
+    "punctuation.separator.key-value.html",
     "punctuation.definition.heading.markdown",
     "comment.line",
     "punctuation.definition.comment",
@@ -158,9 +160,9 @@
     "punctuation.separator.key-value.css",
     "punctuation.separator.dictionary.key-value.json",
     "punctuation.accessor",
-    "keyword.operator.assignment",
     "punctuation.terminator.rule.css",
-    "punctuation.terminator.statement"
+    "punctuation.terminator.statement",
+    "punctuation.separator.comma"
   ],
   "punctuation": [
     "punctuation.section.property-list.begin.bracket.curly.css",
@@ -173,7 +175,6 @@
     "punctuation.definition.parameters.begin",
     "punctuation.definition.parameters.end",
     "meta.brace.round",
-    "punctuation.separator.key-value.html",
     "punctuation.section.function.begin.bracket.round.css",
     "punctuation.section.function.end.bracket.round.css",
     "punctuation.definition.constant.markdown",
