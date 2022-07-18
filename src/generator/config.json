@@ -8,6 +8,7 @@
       "path": "./themes/dark-please-vscode-theme.json",
       "id": "dark-please",
       "baseTokenColors": {
+        "source": "#CBBEAB",
         "html.tag": "#b76753",
         "html.tag-punctuation": "#7A6359",
         "html.attribute.name": "#878283",
@@ -68,7 +69,7 @@
           "italic": true
         },
         "name": {
-          "bold": true,
+          "bold": false,
           "italic": true
         },
         "italic": {
@@ -108,14 +109,16 @@
           "punctuation.definition.strikethrough.markdown"
         ],
         "html.tag-punctuation": [
-          "punctuation.definition.tag.begin.html",
-          "punctuation.definition.tag.end.html"
+          "punctuation.definition.tag.begin",
+          "punctuation.definition.tag.end"
         ],
         "html.attribute.name": [
-          "entity.other.attribute-name.html"
+          "entity.other.attribute-name.html",
+          "entity.other.attribute-name.js"
         ],
         "html.attribute.value": [
-          "meta.attribute"
+          "meta.attribute",
+          "meta.tag.attributes.js"
         ],
         "html.attribute.value.id": [
           "meta.attribute.id.html"
@@ -171,6 +174,8 @@
           "punctuation.definition.template-expression",
           "punctuation.definition.template-expression.begin",
           "punctuation.definition.template-expression.end",
+          "punctuation.section.embedded.begin.js",
+          "punctuation.section.embedded.end.js",
           "punctuation.definition.string.template.begin",
           "punctuation.definition.string.template.end",
           "meta.template.expression",
@@ -217,6 +222,7 @@
           "markup.fenced_code.block.markdown"
         ],
         "lang.function.declaration": [
+          "meta.array-binding-pattern-variable meta.definition.variable.js variable.other.constant.js",
           "function.declaration",
           "meta.definition.function",
           "storage.type.function.arrow",
@@ -284,12 +290,14 @@
           "punctuation.definition.metadata.markdown",
           "markup.quote.markdown"
         ],
+        "source": [
+          "punctuation.definition.string.begin",
+          "punctuation.definition.string.end"
+        ],
         "lang.string": [
           "string.template",
           "string.quoted.double.js",
           "string.quoted.single.js",
-          "punctuation.definition.string.begin",
-          "punctuation.definition.string.end",
           "punctuation.support.type.property-name.begin",
           "punctuation.support.type.property-name.end",
           "meta.paragraph.markdown"
@@ -301,6 +309,7 @@
           "constant.other.reference.link.markdown"
         ],
         "lang.acessor.property": [
+          "punctuation.definition.binding-pattern.array",
           "variable.other.object.property",
           "variable.other.property",
           "keyword.control.anchor.regexp",
@@ -320,6 +329,7 @@
         "common.constants": [
           "support.constant.property-value.",
           "constant.language.boolean.true",
+          "constant.language.boolean.false",
           "constant.language.json",
           "meta.attribute.novalidate.html entity.other.attribute-name.html",
           "meta.attribute.required.html entity.other.attribute-name.html",
@@ -354,7 +364,8 @@
           "meta.property-value.css"
         ],
         "css.class.name": [
-          "entity.other.attribute-name.class.css"
+          "entity.other.attribute-name.class.css",
+          "support.class.component.js"
         ],
         "lang.class.name": [
           "entity.name.type.class",
