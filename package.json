@@ -40,7 +40,15 @@
       "grammars": [
          {
             "scopeName": "keyword.className.react.js",
-            "path": "./syntaxes/injection.json",
+            "path": "./syntaxes/classname.injection.json",
+            "injectTo": [
+               "source.js",
+               "source.jsx"
+            ]
+         },
+         {
+            "scopeName": "props.react.js",
+            "path": "./syntaxes/props.injection.json",
             "injectTo": [
                "source.js",
                "source.jsx"
@@ -354,7 +362,8 @@
                "selfParameter": [
                   "variable.language.this",
                   "variable.language.self",
-                  "variable.language.special.self"
+                  "variable.language.special.self",
+                  "props.react.js"
                ],
                "lang.variable.defaultLibrary.readonly": [
                   "const"

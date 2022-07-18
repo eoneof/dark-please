@@ -260,7 +260,8 @@
   "selfParameter": [
     "variable.language.this",
     "variable.language.self",
-    "variable.language.special.self"
+    "variable.language.special.self",
+    "props.react.js"
   ],
   "lang.variable.defaultLibrary.readonly": ["const"],
   "markup.bold": ["markup.bold.markdown"],

@@ -667,6 +667,24 @@
          }
       },
       {
+         "name": "selfParameter",
+         "scope": [
+            "variable.language.this"
+         ],
+         "settings": {
+            "foreground": "#666262"
+         }
+      },
+      {
+         "name": "variable.declaration",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#bb8e5c"
+         }
+      },
+      {
          "name": "source",
          "scope": [
             "punctuation.definition.string.begin",
@@ -1078,7 +1096,8 @@
          "scope": [
             "variable.language.this",
             "variable.language.self",
-            "variable.language.special.self"
+            "variable.language.special.self",
+            "props.react.js"
          ],
          "settings": {
             "foreground": "#666262"
