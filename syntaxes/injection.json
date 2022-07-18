@@ -1,0 +1,15 @@
+{
+  "scopeName": "keyword.className.js",
+  "injectionSelector": "L:meta.tag.attributes.js",
+  "patterns": [
+    {
+      "include": "#todo-keyword"
+    }
+  ],
+  "repository": {
+    "todo-keyword": {
+      "match": "className",
+      "name": "keyword.className.js"
+    }
+  }
+}

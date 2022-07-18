@@ -372,7 +372,8 @@
           "class.declaration",
           "entity.name.class",
           "entity.other.inherited-class",
-          "entity.other.attribute-name.class"
+          "entity.other.attribute-name.class",
+          "keyword.className.js"
         ],
         "method": [
           "meta.directive.vue",

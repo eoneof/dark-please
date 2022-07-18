@@ -37,6 +37,16 @@
       "package": "vsce package -o ./dist"
    },
    "contributes": {
+      "grammars": [
+         {
+            "scopeName": "keyword.className.js",
+            "path": "./syntaxes/injection.json",
+            "injectTo": [
+               "source.js",
+               "source.jsx"
+            ]
+         }
+      ],
       "themes": [
          {
             "id": "dark-please",
@@ -331,7 +341,8 @@
                   "class.declaration",
                   "entity.name.class",
                   "entity.other.inherited-class",
-                  "entity.other.attribute-name.class"
+                  "entity.other.attribute-name.class",
+                  "keyword.className.js"
                ],
                "method": [
                   "meta.directive.vue",

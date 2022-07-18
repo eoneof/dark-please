@@ -475,6 +475,25 @@
          }
       },
       {
+         "name": "variable.declaration",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#bb8e5c"
+         }
+      },
+      {
+         "name": "lang.class.name",
+         "scope": [
+            "entity.name.type.class"
+         ],
+         "settings": {
+            "foreground": "#5e8d41",
+            "fontStyle": "italic"
+         }
+      },
+      {
          "name": "source",
          "scope": [
             "punctuation.definition.string.begin",
@@ -955,7 +974,8 @@
             "class.declaration",
             "entity.name.class",
             "entity.other.inherited-class",
-            "entity.other.attribute-name.class"
+            "entity.other.attribute-name.class",
+            "keyword.className.js"
          ],
          "settings": {
             "foreground": "#5e8d41",
