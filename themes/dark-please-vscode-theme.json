@@ -475,6 +475,15 @@
          }
       },
       {
+         "name": "variable.declaration",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#bb8e5c"
+         }
+      },
+      {
          "name": "source",
          "scope": [
             "punctuation.definition.string.begin",
