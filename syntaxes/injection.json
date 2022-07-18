@@ -1,15 +1,15 @@
 {
-  "scopeName": "keyword.className.js",
+  "scopeName": "keyword.className.react.js",
   "injectionSelector": "L:meta.tag.attributes.js",
   "patterns": [
     {
-      "include": "#todo-keyword"
+      "include": "#className-value"
     }
   ],
   "repository": {
-    "todo-keyword": {
-      "match": "className",
-      "name": "keyword.className.js"
+    "className-value": {
+      "match": "(?<=className=')(([^']*))",
+      "name": "keyword.className.react.js"
     }
   }
 }

@@ -10,7 +10,7 @@
       "name": "Nick Eoneof"
    },
    "icon": "assets/img/dark-please-logo.png",
-   "version": "1.0.6",
+   "version": "1.0.7",
    "homepage": "https://github.com/eoneof/dark-please-vscode-theme",
    "engines": {
       "vscode": "^1.60.0"
@@ -39,7 +39,7 @@
    "contributes": {
       "grammars": [
          {
-            "scopeName": "keyword.className.js",
+            "scopeName": "keyword.className.react.js",
             "path": "./syntaxes/injection.json",
             "injectTo": [
                "source.js",
@@ -93,7 +93,8 @@
                   "meta.attribute.id.html"
                ],
                "html.attribute.value.class": [
-                  "meta.attribute.class.html"
+                  "meta.attribute.class.html",
+                  "keyword.className.react.js"
                ],
                "condition": [
                   "keyword.control.conditional"
@@ -333,7 +334,9 @@
                   "meta.property-value.css"
                ],
                "css.class.name": [
-                  "entity.other.attribute-name.class.css",
+                  "entity.other.attribute-name.class.css"
+               ],
+               "react.component.bold": [
                   "support.class.component.js"
                ],
                "lang.class.name": [
@@ -341,8 +344,7 @@
                   "class.declaration",
                   "entity.name.class",
                   "entity.other.inherited-class",
-                  "entity.other.attribute-name.class",
-                  "keyword.className.js"
+                  "entity.other.attribute-name.class"
                ],
                "method": [
                   "meta.directive.vue",

@@ -26,7 +26,10 @@
   ],
   "html.attribute.value": ["meta.attribute", "meta.tag.attributes.js"],
   "html.attribute.value.id": ["meta.attribute.id.html"],
-  "html.attribute.value.class": ["meta.attribute.class.html"],
+  "html.attribute.value.class": [
+    "meta.attribute.class.html",
+    "keyword.className.react.js"
+  ],
   "condition": ["keyword.control.conditional"],
   "common.comments": [
     "punctuation.definition.heading.markdown",
@@ -135,7 +138,10 @@
     "entity.name.section",
     "variable.other.assignment.shell"
   ],
-  "lang.variable.other": ["variable.other.constant.object", "variable.other.object"],
+  "lang.variable.other": [
+    "variable.other.constant.object",
+    "variable.other.object"
+  ],
   "type": ["entity.name.type.alias", "support.type"],
   "namespace": ["meta.symbol.namespace"],
   "defaultlibrary": [
@@ -174,7 +180,10 @@
     "punctuation.definition.metadata.markdown",
     "markup.quote.markdown"
   ],
-  "source": ["punctuation.definition.string.begin", "punctuation.definition.string.end"],
+  "source": [
+    "punctuation.definition.string.begin",
+    "punctuation.definition.string.end"
+  ],
   "lang.string": [
     "string.template",
     "string.quoted.double.js",
@@ -237,17 +246,14 @@
   ],
   "css.property": ["support.type.property-name.css", "meta.array.literal"],
   "css.values": ["meta.property-value.css"],
-  "css.class.name": [
-    "entity.other.attribute-name.class.css",
-    "support.class.component.js"
-  ],
+  "css.class.name": ["entity.other.attribute-name.class.css"],
+  "react.component.bold": ["support.class.component.js"],
   "lang.class.name": [
     "entity.name.type.class",
     "class.declaration",
     "entity.name.class",
     "entity.other.inherited-class",
-    "entity.other.attribute-name.class",
-    "keyword.className.js"
+    "entity.other.attribute-name.class"
   ],
   "method": ["meta.directive.vue", "entity.other.attribute-name.pseudo-class"],
   "selfParameter": [

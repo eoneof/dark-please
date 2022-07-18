@@ -218,6 +218,10 @@
    "semanticHighlighting": true,
    "semanticTokenColors": {
       "source": "#cbbeab",
+      "react.component.bold": {
+         "foreground": "#aa4a4e",
+         "bold": true
+      },
       "html.tag": "#b76753",
       "html.tag-punctuation": "#7a6359",
       "html.attribute.name": {
@@ -402,16 +406,6 @@
          }
       },
       {
-         "name": "css.class.name",
-         "scope": [
-            "entity.other.attribute-name.class.css"
-         ],
-         "settings": {
-            "foreground": "#5d8955",
-            "fontStyle": "bold italic"
-         }
-      },
-      {
          "name": "common.constants",
          "scope": [
             "support.constant.property-value."
@@ -494,6 +488,52 @@
          }
       },
       {
+         "name": "html.attribute.value.class",
+         "scope": [
+            "meta.attribute.class.html"
+         ],
+         "settings": {
+            "foreground": "#4aa075"
+         }
+      },
+      {
+         "name": "variable.declaration",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#bb8e5c"
+         }
+      },
+      {
+         "name": "lang.class.name",
+         "scope": [
+            "entity.name.type.class"
+         ],
+         "settings": {
+            "foreground": "#5e8d41",
+            "fontStyle": "italic"
+         }
+      },
+      {
+         "name": "variable.declaration",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#bb8e5c"
+         }
+      },
+      {
+         "name": "variable.declaration",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#bb8e5c"
+         }
+      },
+      {
          "name": "source",
          "scope": [
             "punctuation.definition.string.begin",
@@ -501,6 +541,16 @@
          ],
          "settings": {
             "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "react.component.bold",
+         "scope": [
+            "support.class.component.js"
+         ],
+         "settings": {
+            "foreground": "#aa4a4e",
+            "fontStyle": "bold"
          }
       },
       {
@@ -555,7 +605,8 @@
       {
          "name": "html.attribute.value.class",
          "scope": [
-            "meta.attribute.class.html"
+            "meta.attribute.class.html",
+            "keyword.className.react.js"
          ],
          "settings": {
             "foreground": "#4aa075"
@@ -592,8 +643,7 @@
       {
          "name": "css.class.name",
          "scope": [
-            "entity.other.attribute-name.class.css",
-            "support.class.component.js"
+            "entity.other.attribute-name.class.css"
          ],
          "settings": {
             "foreground": "#5d8955",
@@ -974,8 +1024,7 @@
             "class.declaration",
             "entity.name.class",
             "entity.other.inherited-class",
-            "entity.other.attribute-name.class",
-            "keyword.className.js"
+            "entity.other.attribute-name.class"
          ],
          "settings": {
             "foreground": "#5e8d41",
