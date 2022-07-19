@@ -8,5 +8,6 @@ assets/research
 assets/styles
 styles/
 dist/
+build/
 node_modules/
 src/

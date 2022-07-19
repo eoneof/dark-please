@@ -31,7 +31,7 @@
       "frontend"
    ],
    "scripts": {
-      "build": "npm run convert && npm run generate",
+      "dist": "npm run convert && npm run generate",
       "convert": "node ./src/converter/convert.js",
       "generate": "node ./src/generator/generate.js",
       "package": "vsce package -o ./dist"
@@ -384,8 +384,8 @@
    "devDependencies": {
       "@types/node": "^16.9.1",
       "ase-util": "^1.0.3",
-      "tinycolor2": "^1.4.2",
       "jsdom": "^19.0.0",
-      "nodemon": "^2.0.16"
+      "nodemon": "^2.0.16",
+      "tinycolor2": "^1.4.2"
    }
 }
