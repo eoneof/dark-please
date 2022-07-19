@@ -3,7 +3,6 @@
     "italic": true
   },
   "name": {
-    "bold": false,
     "italic": true
   },
   "italic": {
@@ -14,9 +13,6 @@
   },
   "type": {
     "italic": true
-  },
-  "defaultLibrary": {
-    "bold": false
   },
   "operator": {
     "bold": true
