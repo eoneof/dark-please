@@ -1,5 +1,5 @@
 {
-  "$schema": "./config.schema.json",
+  "$schema": "../src/generator/config.schema.json",
   "themes": [
     {
       "label": "Dark, please!",
@@ -9,30 +9,7 @@
       "id": "dark-please",
       "baseTokenColors": {},
       "modifications": {},
-      "textformatMapping": {
-        "readonly": {
-          "italic": true
-        },
-        "name": {
-          "bold": false,
-          "italic": true
-        },
-        "italic": {
-          "italic": true
-        },
-        "bold": {
-          "bold": true
-        },
-        "type": {
-          "italic": true
-        },
-        "defaultLibrary": {
-          "bold": false
-        },
-        "operator": {
-          "bold": true
-        }
-      },
+      "textformatMapping": {},
       "fallbacks": {},
       "alias": {
         "defaultLibrary": ["builtin"],

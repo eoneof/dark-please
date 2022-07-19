@@ -7,7 +7,7 @@ const initialDirectory = process.cwd();
 //Defining paths and reading files
 const packageData = JSON.parse(readFileSync('package.json', 'utf-8'));
 const { themes, readmePath, readmeTemplatePath } = JSON.parse(
-  readFileSync('./src/generator/config.json', 'utf-8'),
+  readFileSync('./build/config.json', 'utf-8'),
 );
 const readme =
   readmePath && readmeTemplatePath && readFileSync(readmeTemplatePath, 'utf-8');
