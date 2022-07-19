@@ -1,0 +1,15 @@
+{
+  "scopeName": "keyword.className.react.js",
+  "injectionSelector": "L:meta.tag.attributes.js",
+  "patterns": [
+    {
+      "include": "#className-value"
+    }
+  ],
+  "repository": {
+    "className-value": {
+      "match": "(?<=className=')(([^']*))",
+      "name": "keyword.className.react.js"
+    }
+  }
+}

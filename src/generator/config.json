@@ -9,6 +9,7 @@
       "id": "dark-please",
       "baseTokenColors": {
         "source": "#CBBEAB",
+        "react.component.bold": "#AA4A4E",
         "html.tag": "#b76753",
         "html.tag-punctuation": "#7A6359",
         "html.attribute.name": "#878283",
@@ -124,12 +125,15 @@
           "meta.attribute.id.html"
         ],
         "html.attribute.value.class": [
-          "meta.attribute.class.html"
+          "meta.attribute.class.html",
+          "keyword.className.react.js"
         ],
         "condition": [
           "keyword.control.conditional"
         ],
         "common.comments": [
+          "keyword.operator.assignment",
+          "punctuation.separator.key-value.html",
           "punctuation.definition.heading.markdown",
           "comment.line",
           "punctuation.definition.comment",
@@ -268,9 +272,9 @@
           "punctuation.separator.key-value.css",
           "punctuation.separator.dictionary.key-value.json",
           "punctuation.accessor",
-          "keyword.operator.assignment",
           "punctuation.terminator.rule.css",
-          "punctuation.terminator.statement"
+          "punctuation.terminator.statement",
+          "punctuation.separator.comma"
         ],
         "punctuation": [
           "punctuation.section.property-list.begin.bracket.curly.css",
@@ -283,7 +287,6 @@
           "punctuation.definition.parameters.begin",
           "punctuation.definition.parameters.end",
           "meta.brace.round",
-          "punctuation.separator.key-value.html",
           "punctuation.section.function.begin.bracket.round.css",
           "punctuation.section.function.end.bracket.round.css",
           "punctuation.definition.constant.markdown",
@@ -364,7 +367,9 @@
           "meta.property-value.css"
         ],
         "css.class.name": [
-          "entity.other.attribute-name.class.css",
+          "entity.other.attribute-name.class.css"
+        ],
+        "react.component.bold": [
           "support.class.component.js"
         ],
         "lang.class.name": [
@@ -381,7 +386,8 @@
         "selfParameter": [
           "variable.language.this",
           "variable.language.self",
-          "variable.language.special.self"
+          "variable.language.special.self",
+          "props.react.js"
         ],
         "lang.variable.defaultLibrary.readonly": [
           "const"

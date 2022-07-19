@@ -1,0 +1,15 @@
+{
+  "scopeName": "props.react.js",
+  "injectionSelector": ["L:meta.block.js", "L:meta.parameters.js"],
+  "patterns": [
+    {
+      "include": "#react-props"
+    }
+  ],
+  "repository": {
+    "react-props": {
+      "match": "props",
+      "name": "props.react.js"
+    }
+  }
+}

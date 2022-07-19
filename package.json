@@ -10,7 +10,7 @@
       "name": "Nick Eoneof"
    },
    "icon": "assets/img/dark-please-logo.png",
-   "version": "1.0.6",
+   "version": "1.0.7",
    "homepage": "https://github.com/eoneof/dark-please-vscode-theme",
    "engines": {
       "vscode": "^1.60.0"
@@ -37,6 +37,24 @@
       "package": "vsce package -o ./dist"
    },
    "contributes": {
+      "grammars": [
+         {
+            "scopeName": "keyword.className.react.js",
+            "path": "./syntaxes/classname.injection.json",
+            "injectTo": [
+               "source.js",
+               "source.jsx"
+            ]
+         },
+         {
+            "scopeName": "props.react.js",
+            "path": "./syntaxes/props.injection.json",
+            "injectTo": [
+               "source.js",
+               "source.jsx"
+            ]
+         }
+      ],
       "themes": [
          {
             "id": "dark-please",
@@ -83,12 +101,15 @@
                   "meta.attribute.id.html"
                ],
                "html.attribute.value.class": [
-                  "meta.attribute.class.html"
+                  "meta.attribute.class.html",
+                  "keyword.className.react.js"
                ],
                "condition": [
                   "keyword.control.conditional"
                ],
                "common.comments": [
+                  "keyword.operator.assignment",
+                  "punctuation.separator.key-value.html",
                   "punctuation.definition.heading.markdown",
                   "comment.line",
                   "punctuation.definition.comment",
@@ -227,9 +248,9 @@
                   "punctuation.separator.key-value.css",
                   "punctuation.separator.dictionary.key-value.json",
                   "punctuation.accessor",
-                  "keyword.operator.assignment",
                   "punctuation.terminator.rule.css",
-                  "punctuation.terminator.statement"
+                  "punctuation.terminator.statement",
+                  "punctuation.separator.comma"
                ],
                "punctuation": [
                   "punctuation.section.property-list.begin.bracket.curly.css",
@@ -242,7 +263,6 @@
                   "punctuation.definition.parameters.begin",
                   "punctuation.definition.parameters.end",
                   "meta.brace.round",
-                  "punctuation.separator.key-value.html",
                   "punctuation.section.function.begin.bracket.round.css",
                   "punctuation.section.function.end.bracket.round.css",
                   "punctuation.definition.constant.markdown",
@@ -323,7 +343,9 @@
                   "meta.property-value.css"
                ],
                "css.class.name": [
-                  "entity.other.attribute-name.class.css",
+                  "entity.other.attribute-name.class.css"
+               ],
+               "react.component.bold": [
                   "support.class.component.js"
                ],
                "lang.class.name": [
@@ -340,7 +362,8 @@
                "selfParameter": [
                   "variable.language.this",
                   "variable.language.self",
-                  "variable.language.special.self"
+                  "variable.language.special.self",
+                  "props.react.js"
                ],
                "lang.variable.defaultLibrary.readonly": [
                   "const"
