@@ -47,6 +47,14 @@
             ]
          },
          {
+            "scopeName": "inject.promise",
+            "path": "./syntaxes/promise.injection.json",
+            "injectTo": [
+               "source.js",
+               "source.jsx"
+            ]
+         },
+         {
             "scopeName": "props.react.js",
             "path": "./syntaxes/props.injection.json",
             "injectTo": [
@@ -79,18 +87,21 @@
                   "markup.underline.link.markdown",
                   "constant.character.escape"
                ],
-               "blue_20": [
-                  "punctuation.definition.binding-pattern.array",
-                  "variable.other.object.property",
-                  "variable.other.property",
-                  "keyword.control.anchor.regexp",
-                  "punctuation.definition.binding-pattern.object",
-                  "punctuation.definition.character-class.regexp"
-               ],
                "gray_00": [
                   "keyword.operator.assignment",
                   "punctuation.separator.key-value.html",
                   "punctuation.definition.heading.markdown"
+               ],
+               "meta.object-literal.key": [
+                  "meta.object-literal.key punctuation.definition.binding-pattern"
+               ],
+               "blue_20": [
+                  "variable.other.property",
+                  "punctuation.definition.binding-pattern",
+                  "meta.array-binding-pattern-variable",
+                  "variable.other.object.property",
+                  "keyword.control.anchor.regexp",
+                  "punctuation.definition.character-class.regexp"
                ],
                "gray_00.italic": [
                   "comment.line",
@@ -103,15 +114,21 @@
                   "punctuation.definition.block.tag.jsdoc"
                ],
                "gray_10": [
+                  "meta.object-literal.key",
+                  "meta.object.member",
+                  "meta.objectliteral",
                   "variable.language.this",
                   "variable.language.self",
                   "variable.language.special.self",
                   "props.react.js"
                ],
                "gray_10.srikethrough": [
-                  "gray_10strikethrough.markdown"
+                  "strikethrough.markdown"
                ],
                "gray_20": [
+                  "variable.other.object.property",
+                  "meta.object-literal.key",
+                  "meta.objectliteral",
                   "support.type.property-name.css",
                   "meta.array.literal",
                   "meta.property-value.css",
@@ -138,6 +155,9 @@
                "gray_30": [
                   "meta.object-literal",
                   "meta.object-literal.key",
+                  "meta.object-literal.key.js",
+                  "meta.object.member.js",
+                  "meta.objectliteral.js",
                   "variable.object.property",
                   "constant.other.reference.link.markdown"
                ],
@@ -155,10 +175,16 @@
                   "entity.other.inherited-class",
                   "entity.other.attribute-name.class"
                ],
+               "green_25": [],
+               "green_30.bold": [
+                  "support.class.component"
+               ],
                "green_30": [
+                  "inject.promise",
                   "keyword.control.switch",
                   "keyword.control.trycatch",
-                  "ochre_20",
+                  "support.class",
+                  "support.class.component",
                   "function.defaultLibrary",
                   "method.defaultLibrary meta.function-call",
                   "support.function.builtin",
@@ -265,15 +291,12 @@
                   "markup.heading",
                   "entity.name.section",
                   "variable.other.object",
+                  "variable.other.constant.object",
                   "variable.other.assignment.shell"
                ],
                "ochre_00.bold": [
                   "meta.attribute.id.html",
-                  "variable.other.constant.object",
                   "markup.bold.markdown"
-               ],
-               "ochre_00.italic": [
-                  "gray_10italic.markdown"
                ],
                "ochre_10": [
                   "constant.other.option",
@@ -347,7 +370,6 @@
                   "constant.language.undefined",
                   "constant.language.nan",
                   "constant.language.null",
-                  "support.class.component.js",
                   "support.class.promise"
                ],
                "rubine_30": [

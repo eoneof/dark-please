@@ -1,0 +1,15 @@
+{
+  "scopeName": "inject.promise",
+  "injectionSelector": ["L:meta.block.js"],
+  "patterns": [
+    {
+      "include": "#promise"
+    }
+  ],
+  "repository": {
+    "promise": {
+      "match": "(Promise|then|catch|finally)",
+      "name": "inject.promise"
+    }
+  }
+}

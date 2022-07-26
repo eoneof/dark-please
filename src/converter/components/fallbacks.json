@@ -12,18 +12,18 @@
     "markup.underline.link.markdown",
     "constant.character.escape"
   ],
-  "blue_20": [
-    "punctuation.definition.binding-pattern.array",
-    "variable.other.object.property",
-    "variable.other.property",
-    "keyword.control.anchor.regexp",
-    "punctuation.definition.binding-pattern.object",
-    "punctuation.definition.character-class.regexp"
-  ],
   "gray_00": [
     "keyword.operator.assignment",
     "punctuation.separator.key-value.html",
     "punctuation.definition.heading.markdown"
+  ],
+  "blue_20": [
+    "variable.other.property",
+    "punctuation.definition.binding-pattern",
+    "meta.array-binding-pattern-variable",
+    "variable.other.object.property",
+    "keyword.control.anchor.regexp",
+    "punctuation.definition.character-class.regexp"
   ],
   "gray_00.italic": [
     "comment.line",
@@ -36,13 +36,19 @@
     "punctuation.definition.block.tag.jsdoc"
   ],
   "gray_10": [
+    "meta.object-literal.key",
+    "meta.object.member",
+    "meta.objectliteral",
     "variable.language.this",
     "variable.language.self",
     "variable.language.special.self",
     "props.react.js"
   ],
-  "gray_10.srikethrough": ["gray_10strikethrough.markdown"],
+  "gray_10.srikethrough": ["strikethrough.markdown"],
   "gray_20": [
+    "variable.other.object.property",
+    "meta.object-literal.key",
+    "meta.objectliteral",
     "support.type.property-name.css",
     "meta.array.literal",
     "meta.property-value.css",
@@ -66,6 +72,9 @@
   "gray_30": [
     "meta.object-literal",
     "meta.object-literal.key",
+    "meta.object-literal.key.js",
+    "meta.object.member.js",
+    "meta.objectliteral.js",
     "variable.object.property",
     "constant.other.reference.link.markdown"
   ],
@@ -78,10 +87,14 @@
     "entity.other.inherited-class",
     "entity.other.attribute-name.class"
   ],
+  "green_25": [],
+  "green_30.bold": ["support.class.component"],
   "green_30": [
+    "inject.promise",
     "keyword.control.switch",
     "keyword.control.trycatch",
-    "ochre_20",
+    "support.class",
+    "support.class.component",
     "function.defaultLibrary",
     "method.defaultLibrary meta.function-call",
     "support.function.builtin",
@@ -179,14 +192,10 @@
     "markup.heading",
     "entity.name.section",
     "variable.other.object",
+    "variable.other.constant.object",
     "variable.other.assignment.shell"
   ],
-  "ochre_00.bold": [
-    "meta.attribute.id.html",
-    "variable.other.constant.object",
-    "markup.bold.markdown"
-  ],
-  "ochre_00.italic": ["gray_10italic.markdown"],
+  "ochre_00.bold": ["meta.attribute.id.html", "markup.bold.markdown"],
   "ochre_10": [
     "constant.other.option",
     "support.type.property-name",
@@ -196,14 +205,8 @@
     "meta.attribute",
     "meta.tag.attributes.js"
   ],
-  "ochre_20": [
-    "punctuation.definition.tag.begin",
-    "punctuation.definition.tag.end"
-  ],
-  "ochre_20.italic": [
-    "storage.type",
-    "storage.type.function"
-  ],
+  "ochre_20": ["punctuation.definition.tag.begin", "punctuation.definition.tag.end"],
+  "ochre_20.italic": ["storage.type", "storage.type.function"],
   "orange_00": [
     "meta.array-binding-pattern-variable meta.definition.variable.js variable.other.constant.js",
     "function.declaration",
@@ -257,9 +260,8 @@
     "constant.language.undefined",
     "constant.language.nan",
     "constant.language.null",
-    "support.class.component.js",
     "support.class.promise"
   ],
   "rubine_30": ["keyword.control.conditional"],
-  "type": ["entity.name.type.alias", "support.type"] 
+  "type": ["entity.name.type.alias", "support.type"]
 }
