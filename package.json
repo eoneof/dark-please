@@ -1,393 +1,404 @@
 {
-   "name": "dark-please",
-   "displayName": "Dark, please!",
-   "description": "A pleasant-looking low-contrast dark theme.",
-   "repository": {
-      "url": "https://github.com/eoneof/dark-please-vscode-theme"
-   },
-   "publisher": "eoneof",
-   "author": {
-      "name": "Nick Eoneof"
-   },
-   "icon": "assets/img/dark-please-logo.png",
-   "version": "1.0.9",
-   "homepage": "https://github.com/eoneof/dark-please-vscode-theme",
-   "engines": {
-      "vscode": "^1.60.0"
-   },
-   "categories": [
-      "Themes"
-   ],
-   "keywords": [
-      "semantic highlighting",
-      "syntax highlighting",
-      "dark",
-      "color",
-      "low contrast",
-      "TypeScript",
-      "JavaScript",
-      "CSS",
-      "HTML",
-      "frontend"
-   ],
-   "scripts": {
-      "dist": "npm run convert && npm run generate",
-      "convert": "node ./src/converter/convert.js",
-      "generate": "node ./src/generator/generate.js",
-      "package": "vsce package -o ./dist"
-   },
-   "contributes": {
-      "grammars": [
-         {
-            "scopeName": "keyword.className.react.js",
-            "path": "./syntaxes/classname.injection.json",
-            "injectTo": [
-               "source.js",
-               "source.jsx"
-            ]
-         },
-         {
-            "scopeName": "inject.promise",
-            "path": "./syntaxes/promise.injection.json",
-            "injectTo": [
-               "source.js",
-               "source.jsx"
-            ]
-         },
-         {
-            "scopeName": "props.react.js",
-            "path": "./syntaxes/props.injection.json",
-            "injectTo": [
-               "source.js",
-               "source.jsx"
-            ]
-         }
-      ],
-      "themes": [
-         {
-            "id": "dark-please",
-            "label": "Dark, please!",
-            "uiTheme": "vs-dark",
-            "path": "./themes/dark-please-vscode-theme.json"
-         }
-      ],
-      "semanticTokenScopes": [
-         {
-            "scopes": {
-               "aqua_00": [
-                  "constant.numeric",
-                  "meta.attribute.minlength.html",
-                  "meta.attribute.maxlength.html"
-               ],
-               "blue_10": [
-                  "meta.function.url.css",
-                  "meta.attribute.src.html",
-                  "meta.attribute.href.html",
-                  "markup.underline.link.image.markdown",
-                  "markup.underline.link.markdown",
-                  "constant.character.escape"
-               ],
-               "gray_00": [
-                  "keyword.operator.assignment",
-                  "punctuation.separator.key-value.html",
-                  "punctuation.definition.heading.markdown"
-               ],
-               "meta.object-literal.key": [
-                  "meta.object-literal.key punctuation.definition.binding-pattern"
-               ],
-               "blue_20": [
-                  "variable.other.property",
-                  "punctuation.definition.binding-pattern",
-                  "meta.array-binding-pattern-variable",
-                  "variable.other.object.property",
-                  "keyword.control.anchor.regexp",
-                  "punctuation.definition.character-class.regexp"
-               ],
-               "gray_00.italic": [
-                  "comment.line",
-                  "punctuation.definition.comment",
-                  "comment.block",
-                  "comment.block.documentation",
-                  "variable.other.jsdoc",
-                  "entity.name.type.instance.jsdoc",
-                  "storage.type.class.jsdoc",
-                  "punctuation.definition.block.tag.jsdoc"
-               ],
-               "gray_10": [
-                  "meta.object-literal.key",
-                  "meta.object.member",
-                  "meta.objectliteral",
-                  "variable.language.this",
-                  "variable.language.self",
-                  "variable.language.special.self",
-                  "props.react.js"
-               ],
-               "gray_10.srikethrough": [
-                  "strikethrough.markdown"
-               ],
-               "gray_20": [
-                  "variable.other.object.property",
-                  "meta.object-literal.key",
-                  "meta.objectliteral",
-                  "support.type.property-name.css",
-                  "meta.array.literal",
-                  "meta.property-value.css",
-                  "punctuation.section.property-list.begin.bracket.curly.css",
-                  "punctuation.section.property-list.end.bracket.curly.css",
-                  "punctuation.definition.array.begin.json",
-                  "punctuation.definition.array.end.json",
-                  "punctuation.definition.dictionary.begin.json",
-                  "punctuation.definition.dictionary.end.json",
-                  "punctuation.definition.block",
-                  "punctuation.definition.parameters.begin",
-                  "punctuation.definition.parameters.end",
-                  "meta.brace.round",
-                  "punctuation.section.function.begin.bracket.round.css",
-                  "punctuation.section.function.end.bracket.round.css",
-                  "punctuation.definition.constant.markdown",
-                  "punctuation.definition.metadata.markdown",
-                  "markup.quote.markdown"
-               ],
-               "gray_20.name": [
-                  "entity.other.attribute-name.html",
-                  "entity.other.attribute-name.js"
-               ],
-               "gray_30": [
-                  "meta.object-literal",
-                  "meta.object-literal.key",
-                  "meta.object-literal.key.js",
-                  "meta.object.member.js",
-                  "meta.objectliteral.js",
-                  "variable.object.property",
-                  "constant.other.reference.link.markdown"
-               ],
-               "green_00": [
-                  "entity.other.attribute-name.class.css"
-               ],
-               "green_10": [
-                  "meta.attribute.class.html",
-                  "keyword.className.react.js"
-               ],
-               "green_20": [
-                  "entity.name.type.class",
-                  "class.declaration",
-                  "entity.name.class",
-                  "entity.other.inherited-class",
-                  "entity.other.attribute-name.class"
-               ],
-               "green_25": [],
-               "green_30.bold": [
-                  "support.class.component"
-               ],
-               "green_30": [
-                  "inject.promise",
-                  "keyword.control.switch",
-                  "keyword.control.trycatch",
-                  "support.class",
-                  "support.class.component",
-                  "function.defaultLibrary",
-                  "method.defaultLibrary meta.function-call",
-                  "support.function.builtin",
-                  "support.function.misc",
-                  "string.other.link.title.markdown"
-               ],
-               "indigo_00": [
-                  "keyword.control.default",
-                  "keyword.control.export",
-                  "keyword.control.import",
-                  "keyword.control.from",
-                  "keyword.control.module",
-                  "support.constant.property-value.",
-                  "constant.language.boolean.true",
-                  "constant.language.json",
-                  "meta.attribute.novalidate.html entity.other.attribute-name.html",
-                  "meta.attribute.required.html entity.other.attribute-name.html",
-                  "meta.attribute.allowfullscreen.html entity.other.attribute-name.html",
-                  "meta.attribute.async.html entity.other.attribute-name.html",
-                  "meta.attribute.autofocus.html entity.other.attribute-name.html",
-                  "meta.attribute.autoplay.html entity.other.attribute-name.html",
-                  "meta.attribute.checked.html entity.other.attribute-name.html",
-                  "meta.attribute.controls.html entity.other.attribute-name.html",
-                  "meta.attribute.default.html entity.other.attribute-name.html",
-                  "meta.attribute.defer.html entity.other.attribute-name.html",
-                  "meta.attribute.disabled.html entity.other.attribute-name.html",
-                  "meta.attribute.formnovalidate.html entity.other.attribute-name.html",
-                  "meta.attribute.ismap.html entity.other.attribute-name.html",
-                  "meta.attribute.itemscope.html entity.other.attribute-name.html",
-                  "meta.attribute.loop.html entity.other.attribute-name.html",
-                  "meta.attribute.multiple.html entity.other.attribute-name.html",
-                  "meta.attribute.muted.html entity.other.attribute-name.html",
-                  "meta.attribute.nomodule.html entity.other.attribute-name.html",
-                  "meta.attribute.open.html entity.other.attribute-name.html",
-                  "meta.attribute.playsinline.html entity.other.attribute-name.html",
-                  "meta.attribute.readonly.html entity.other.attribute-name.html",
-                  "meta.attribute.reversed.html entity.other.attribute-name.html",
-                  "meta.attribute.selected.html entity.other.attribute-name.html",
-                  "meta.attribute.truespeed.html entity.other.attribute-name.html"
-               ],
-               "indigo_10": [
-                  "keyword.control.at-rule.import",
-                  "keyword.control.at-rule.media",
-                  "punctuation.definition.template-expression",
-                  "punctuation.definition.template-expression.begin",
-                  "punctuation.definition.template-expression.end",
-                  "punctuation.section.embedded.begin.js",
-                  "punctuation.section.embedded.end.js",
-                  "punctuation.definition.string.template.begin",
-                  "punctuation.definition.string.template.end",
-                  "meta.template.expression",
-                  "keyword.operator.expression.typeof",
-                  "string.regexp punctuation.definition.string.begin",
-                  "string.regexp punctuation.definition.string.end"
-               ],
-               "khaki_00": [
-                  "meta.directive.vue",
-                  "entity.other.attribute-name.pseudo-class"
-               ],
-               "lang.variable.defaultLibrary.readonly": [
-                  "const"
-               ],
-               "light_00": [
-                  "derivative",
-                  "string.other.link.description.markdown",
-                  "punctuation.definition.list.begin.markdown",
-                  "punctuation.definition.bold.markdown",
-                  "punctuation.definition.italic.markdown",
-                  "punctuation.definition.strikethrough.markdown"
-               ],
-               "light_00.operator": [
-                  "keyword.operator"
-               ],
-               "light_10": [
-                  "string.template",
-                  "string.quoted.double.js",
-                  "string.quoted.single.js",
-                  "punctuation.support.type.property-name.begin",
-                  "punctuation.support.type.property-name.end",
-                  "meta.paragraph.markdown",
-                  "punctuation.separator.array.json",
-                  "punctuation.separator.key-value.css",
-                  "punctuation.separator.dictionary.key-value.json",
-                  "punctuation.accessor",
-                  "punctuation.terminator.rule.css",
-                  "punctuation.terminator.statement",
-                  "punctuation.separator.comma"
-               ],
-               "light_40": [
-                  "punctuation.definition.string.begin",
-                  "punctuation.definition.string.end"
-               ],
-               "namespace": [
-                  "meta.symbol.namespace"
-               ],
-               "ochre_00": [
-                  "support.type.property-name.media.css",
-                  "entity.other.attribute-name.id",
-                  "variable.language.arguments",
-                  "variable.other.readwrite",
-                  "meta.definition.variable",
-                  "variable.other",
-                  "variable",
-                  "markup.heading",
-                  "entity.name.section",
-                  "variable.other.object",
-                  "variable.other.constant.object",
-                  "variable.other.assignment.shell"
-               ],
-               "ochre_00.bold": [
-                  "meta.attribute.id.html",
-                  "markup.bold.markdown"
-               ],
-               "ochre_10": [
-                  "constant.other.option",
-                  "support.type.property-name",
-                  "meta.flow-mapping.yaml",
-                  "meta.property-name",
-                  "entity.name.tag.yaml",
-                  "meta.attribute",
-                  "meta.tag.attributes.js"
-               ],
-               "ochre_20": [
-                  "punctuation.definition.tag.begin",
-                  "punctuation.definition.tag.end"
-               ],
-               "ochre_20.italic": [
-                  "storage.type",
-                  "storage.type.function"
-               ],
-               "orange_00": [
-                  "meta.array-binding-pattern-variable meta.definition.variable.js variable.other.constant.js",
-                  "function.declaration",
-                  "meta.definition.function",
-                  "storage.type.function.arrow",
-                  "variable.language.arguments",
-                  "variable.language.super",
-                  "entity.name.section.markdown",
-                  "keyword.type",
-                  "keyword.operator.new",
-                  "keyword.operator.logical",
-                  "keyword.operator.relational",
-                  "keyword.operator.arithmetic",
-                  "keyword.operator.comparison",
-                  "keyword.operator.increment",
-                  "keyword.operator.decrement",
-                  "keyword.operator.ternary",
-                  "keyword.operator.expression.in",
-                  "keyword.operator.expression.of",
-                  "keyword.operator.or.regexp",
-                  "meta.image.inline.markdown"
-               ],
-               "orange_05": [
-                  "variable.parameter.function",
-                  "variable.parameter",
-                  "variable.parameter.function-call",
-                  "meta.function.parameter",
-                  "meta.function.parameters",
-                  "parameter.declaration",
-                  "entity.other.attribute-name.pseudo-element.css"
-               ],
-               "orange_10": [
-                  "support.function.timing-function.css",
-                  "support.function.url.css",
-                  "support.function.calc.css",
-                  "support.function.gradient.css",
-                  "support.function.misc.css",
-                  "meta.function-call",
-                  "support.variable.property",
-                  "markup.inline.raw.string.markdown",
-                  "markup.fenced_code.block.markdown",
-                  "entity.name.tag"
-               ],
-               "red_00": [
-                  "keyword.other.debugger"
-               ],
-               "rubine_00": [
-                  "constant.language.boolean.false",
-                  "keyword.other",
-                  "keyword.other.unit",
-                  "keyword.control.flow",
-                  "keyword.control.loop",
-                  "constant.language.undefined",
-                  "constant.language.nan",
-                  "constant.language.null",
-                  "support.class.promise"
-               ],
-               "rubine_30": [
-                  "keyword.control.conditional"
-               ],
-               "type": [
-                  "entity.name.type.alias",
-                  "support.type"
-               ]
-            }
-         }
-      ]
-   },
-   "devDependencies": {
-      "@types/node": "^16.9.1",
-      "ase-util": "^1.0.3",
-      "jsdom": "^19.0.0",
-      "nodemon": "^2.0.16",
-      "tinycolor2": "^1.4.2"
-   }
+  "name": "dark-please",
+  "displayName": "Dark, please!",
+  "description": "A pleasant-looking low-contrast dark theme.",
+  "repository": {
+    "url": "https://github.com/eoneof/dark-please-vscode-theme"
+  },
+  "publisher": "eoneof",
+  "author": {
+    "name": "Nick Eoneof"
+  },
+  "icon": "assets/img/dark-please-logo.png",
+  "version": "1.0.10",
+  "homepage": "https://github.com/eoneof/dark-please-vscode-theme",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "semantic highlighting",
+    "syntax highlighting",
+    "dark",
+    "color",
+    "low contrast",
+    "TypeScript",
+    "JavaScript",
+    "CSS",
+    "HTML",
+    "frontend"
+  ],
+  "scripts": {
+    "dist": "npm run convert && npm run generate",
+    "convert": "node ./src/converter/convert.js",
+    "generate": "node ./src/generator/generate.js",
+    "package": "vsce package -o ./dist"
+  },
+  "contributes": {
+    "grammars": [
+      {
+        "scopeName": "keyword.className.react.js",
+        "path": "./syntaxes/classname.injection.json",
+        "injectTo": [
+          "source.js",
+          "source.jsx"
+        ]
+      },
+      {
+        "scopeName": "inject.promise",
+        "path": "./syntaxes/promise.injection.json",
+        "injectTo": [
+          "source.js",
+          "source.jsx"
+        ]
+      },
+      {
+        "scopeName": "props.react.js",
+        "path": "./syntaxes/props.injection.json",
+        "injectTo": [
+          "source.js",
+          "source.jsx"
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "id": "dark-please",
+        "label": "Dark, please!",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-please-vscode-theme.json"
+      }
+    ],
+    "semanticTokenScopes": [
+      {
+        "scopes": {
+          "aqua_00": [
+            "constant.numeric",
+            "meta.attribute.minlength.html",
+            "meta.attribute.maxlength.html"
+          ],
+          "blue_10": [
+            "meta.function.url.css",
+            "meta.attribute.src.html",
+            "meta.attribute.href.html",
+            "markup.underline.link.image.markdown",
+            "markup.underline.link.markdown",
+            "constant.character.escape",
+            "labelline.ahk entity.name.function.label.ahk",
+            "entity.name.function.label.ahk",
+            "keyword.control.directives.ahk"
+          ],
+          "gray_00": [
+            "keyword.operator.assignment",
+            "punctuation.separator.key-value.html",
+            "punctuation.definition.heading.markdown"
+          ],
+          "blue_20": [
+            "variable.other.property",
+            "punctuation.definition.binding-pattern",
+            "meta.array-binding-pattern-variable",
+            "variable.other.object.property",
+            "keyword.control.anchor.regexp",
+            "punctuation.definition.character-class.regexp",
+            "punctuation.definition.variable.percent.ahk"
+          ],
+          "gray_00.italic": [
+            "comment.line",
+            "punctuation.definition.comment",
+            "comment.block",
+            "comment.block.documentation",
+            "variable.other.jsdoc",
+            "entity.name.type.instance.jsdoc",
+            "storage.type.class.jsdoc",
+            "punctuation.definition.block.tag.jsdoc"
+          ],
+          "gray_10": [
+            "meta.object-literal.key",
+            "meta.object.member",
+            "meta.objectliteral",
+            "variable.language.this",
+            "variable.language.self",
+            "variable.language.special.self",
+            "props.react.js"
+          ],
+          "gray_10.srikethrough": [
+            "strikethrough.markdown"
+          ],
+          "gray_20": [
+            "variable.other.object.property",
+            "meta.object-literal.key",
+            "meta.objectliteral",
+            "support.type.property-name.css",
+            "meta.array.literal",
+            "punctuation.bracket.ahk",
+            "meta.property-value.css",
+            "punctuation.section.property-list.begin.bracket.curly.css",
+            "punctuation.section.property-list.end.bracket.curly.css",
+            "punctuation.definition.array.begin.json",
+            "punctuation.definition.array.end.json",
+            "punctuation.definition.dictionary.begin.json",
+            "punctuation.definition.dictionary.end.json",
+            "punctuation.definition.block",
+            "punctuation.definition.parameters.begin",
+            "punctuation.definition.parameters.end",
+            "meta.brace.round",
+            "punctuation.section.function.begin.bracket.round.css",
+            "punctuation.section.function.end.bracket.round.css",
+            "punctuation.definition.constant.markdown",
+            "punctuation.definition.metadata.markdown",
+            "markup.quote.markdown"
+          ],
+          "gray_20.name": [
+            "entity.other.attribute-name.html",
+            "entity.other.attribute-name.js"
+          ],
+          "gray_30": [
+            "meta.object-literal",
+            "meta.object-literal.key",
+            "meta.object-literal.key.js",
+            "meta.object.member.js",
+            "meta.objectliteral.js",
+            "variable.object.property",
+            "constant.other.reference.link.markdown"
+          ],
+          "green_00": [
+            "entity.other.attribute-name.class.css"
+          ],
+          "green_10": [
+            "meta.attribute.class.html",
+            "keyword.className.react.js"
+          ],
+          "green_20": [
+            "entity.name.type.class",
+            "class.declaration",
+            "entity.name.class",
+            "entity.other.inherited-class",
+            "entity.other.attribute-name.class"
+          ],
+          "green_25": [],
+          "green_30.bold": [
+            "support.class.component"
+          ],
+          "green_30": [
+            "inject.promise",
+            "keyword.control.switch",
+            "keyword.control.trycatch",
+            "support.class",
+            "support.class.component",
+            "function.defaultLibrary",
+            "method.defaultLibrary meta.function-call",
+            "support.function.builtin",
+            "support.function.misc",
+            "string.other.link.title.markdown",
+            "support.function.ahk"
+          ],
+          "indigo_00": [
+            "keyword.control.default",
+            "keyword.control.export",
+            "keyword.control.import",
+            "keyword.control.from",
+            "keyword.control.module",
+            "support.constant.property-value.",
+            "constant.language.boolean.true",
+            "constant.language.ahk",
+            "constant.language.json",
+            "meta.attribute.novalidate.html entity.other.attribute-name.html",
+            "meta.attribute.required.html entity.other.attribute-name.html",
+            "meta.attribute.allowfullscreen.html entity.other.attribute-name.html",
+            "meta.attribute.async.html entity.other.attribute-name.html",
+            "meta.attribute.autofocus.html entity.other.attribute-name.html",
+            "meta.attribute.autoplay.html entity.other.attribute-name.html",
+            "meta.attribute.checked.html entity.other.attribute-name.html",
+            "meta.attribute.controls.html entity.other.attribute-name.html",
+            "meta.attribute.default.html entity.other.attribute-name.html",
+            "meta.attribute.defer.html entity.other.attribute-name.html",
+            "meta.attribute.disabled.html entity.other.attribute-name.html",
+            "meta.attribute.formnovalidate.html entity.other.attribute-name.html",
+            "meta.attribute.ismap.html entity.other.attribute-name.html",
+            "meta.attribute.itemscope.html entity.other.attribute-name.html",
+            "meta.attribute.loop.html entity.other.attribute-name.html",
+            "meta.attribute.multiple.html entity.other.attribute-name.html",
+            "meta.attribute.muted.html entity.other.attribute-name.html",
+            "meta.attribute.nomodule.html entity.other.attribute-name.html",
+            "meta.attribute.open.html entity.other.attribute-name.html",
+            "meta.attribute.playsinline.html entity.other.attribute-name.html",
+            "meta.attribute.readonly.html entity.other.attribute-name.html",
+            "meta.attribute.reversed.html entity.other.attribute-name.html",
+            "meta.attribute.selected.html entity.other.attribute-name.html",
+            "meta.attribute.truespeed.html entity.other.attribute-name.html"
+          ],
+          "indigo_10": [
+            "keyword.control.at-rule.import",
+            "keyword.control.at-rule.media",
+            "punctuation.definition.template-expression",
+            "punctuation.definition.template-expression.begin",
+            "punctuation.definition.template-expression.end",
+            "punctuation.section.embedded.begin.js",
+            "punctuation.section.embedded.end.js",
+            "punctuation.definition.string.template.begin",
+            "punctuation.definition.string.template.end",
+            "meta.template.expression",
+            "keyword.operator.expression.typeof",
+            "string.regexp punctuation.definition.string.begin",
+            "string.regexp punctuation.definition.string.end"
+          ],
+          "khaki_00": [
+            "meta.directive.vue",
+            "entity.other.attribute-name.pseudo-class"
+          ],
+          "lang.variable.defaultLibrary.readonly": [
+            "const"
+          ],
+          "light_00": [
+            "derivative",
+            "string.other.link.description.markdown",
+            "punctuation.definition.list.begin.markdown",
+            "punctuation.definition.bold.markdown",
+            "punctuation.definition.italic.markdown",
+            "punctuation.definition.strikethrough.markdown",
+            "string.parameter.import.ahk",
+            "string.parameter.directives.ahk"
+          ],
+          "light_00.operator": [
+            "keyword.operator"
+          ],
+          "light_10": [
+            "string.template",
+            "string.quoted.double.js",
+            "string.quoted.single.js",
+            "punctuation.support.type.property-name.begin",
+            "punctuation.support.type.property-name.end",
+            "meta.paragraph.markdown",
+            "punctuation.separator.array.json",
+            "punctuation.separator.key-value.css",
+            "punctuation.separator.dictionary.key-value.json",
+            "punctuation.accessor",
+            "punctuation.terminator.rule.css",
+            "punctuation.terminator.statement",
+            "punctuation.separator.comma"
+          ],
+          "light_40": [
+            "punctuation.definition.string.begin",
+            "punctuation.definition.string.end"
+          ],
+          "namespace": [
+            "meta.symbol.namespace"
+          ],
+          "ochre_00": [
+            "support.type.property-name.media.css",
+            "entity.other.attribute-name.id",
+            "variable.language.arguments",
+            "variable.other.readwrite",
+            "meta.definition.variable",
+            "variable.other",
+            "variable",
+            "markup.heading",
+            "entity.name.section",
+            "variable.other.object",
+            "variable.other.constant.object",
+            "variable.other.assignment.shell"
+          ],
+          "ochre_00.bold": [
+            "meta.attribute.id.html",
+            "markup.bold.markdown"
+          ],
+          "ochre_10": [
+            "constant.other.option",
+            "support.type.property-name",
+            "meta.flow-mapping.yaml",
+            "meta.property-name",
+            "entity.name.tag.yaml",
+            "meta.attribute",
+            "meta.tag.attributes.js"
+          ],
+          "ochre_20": [
+            "punctuation.definition.tag.begin",
+            "punctuation.definition.tag.end"
+          ],
+          "ochre_20.italic": [
+            "storage.type",
+            "storage.type.function"
+          ],
+          "orange_00": [
+            "meta.array-binding-pattern-variable meta.definition.variable.js variable.other.constant.js",
+            "function.declaration",
+            "meta.definition.function",
+            "storage.type.function.arrow",
+            "variable.language.arguments",
+            "variable.language.super",
+            "entity.name.section.markdown",
+            "keyword.type",
+            "keyword.operator.new",
+            "keyword.operator.logical",
+            "keyword.operator.relational",
+            "keyword.operator.arithmetic",
+            "keyword.operator.comparison",
+            "keyword.operator.increment",
+            "keyword.operator.decrement",
+            "keyword.operator.ternary",
+            "keyword.operator.expression.in",
+            "keyword.operator.expression.of",
+            "keyword.operator.or.regexp",
+            "meta.image.inline.markdown",
+            "functionline.ahk entity.name.function.ahk",
+            "keyword.keys.ahk"
+          ],
+          "orange_05": [
+            "variable.parameter.function",
+            "variable.parameter",
+            "variable.parameter.function-call",
+            "hotkeyline.ahk entity.name.function.label.ahk",
+            "meta.function.parameter",
+            "meta.function.parameters",
+            "parameter.declaration",
+            "entity.other.attribute-name.pseudo-element.css"
+          ],
+          "orange_10": [
+            "support.function.timing-function.css",
+            "support.function.url.css",
+            "support.function.calc.css",
+            "support.function.gradient.css",
+            "support.function.misc.css",
+            "meta.function-call",
+            "entity.name.function.ahk",
+            "support.variable.property",
+            "markup.inline.raw.string.markdown",
+            "markup.fenced_code.block.markdown",
+            "entity.name.tag"
+          ],
+          "red_00": [
+            "keyword.other.debugger"
+          ],
+          "rubine_00": [
+            "constant.language.boolean.false",
+            "keyword.other",
+            "keyword.other.unit",
+            "keyword.control.flow",
+            "keyword.control.loop",
+            "constant.language.undefined",
+            "constant.language.nan",
+            "constant.language.null",
+            "support.class.promise",
+            "keyword.control.ahk"
+          ],
+          "rubine_30": [
+            "keyword.control.conditional"
+          ],
+          "type": [
+            "entity.name.type.alias",
+            "support.type"
+          ]
+        }
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.1",
+    "ase-util": "^1.0.3",
+    "jsdom": "^19.0.0",
+    "nodemon": "^2.0.16",
+    "tinycolor2": "^1.4.2"
+  }
 }
