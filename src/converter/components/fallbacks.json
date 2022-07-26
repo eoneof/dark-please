@@ -23,7 +23,9 @@
   "gray_00": [
     "keyword.operator.assignment",
     "punctuation.separator.key-value.html",
-    "punctuation.definition.heading.markdown",
+    "punctuation.definition.heading.markdown"
+  ],
+  "gray_00.italic": [
     "comment.line",
     "punctuation.definition.comment",
     "comment.block",
@@ -39,9 +41,7 @@
     "variable.language.special.self",
     "props.react.js"
   ],
-  "gray_10.srikethrough": [
-    "gray_10strikethrough.markdown"
-  ],
+  "gray_10.srikethrough": ["gray_10strikethrough.markdown"],
   "gray_20": [
     "support.type.property-name.css",
     "meta.array.literal",
@@ -62,23 +62,15 @@
     "punctuation.definition.metadata.markdown",
     "markup.quote.markdown"
   ],
-  "gray_20.name": [
-    "entity.other.attribute-name.html",
-    "entity.other.attribute-name.js"
-  ],
+  "gray_20.name": ["entity.other.attribute-name.html", "entity.other.attribute-name.js"],
   "gray_30": [
     "meta.object-literal",
     "meta.object-literal.key",
     "variable.object.property",
     "constant.other.reference.link.markdown"
   ],
-  "green_00": [
-    "entity.other.attribute-name.class.css"
-  ],
-  "green_10": [
-    "meta.attribute.class.html",
-    "keyword.className.react.js"
-  ],
+  "green_00": ["entity.other.attribute-name.class.css"],
+  "green_10": ["meta.attribute.class.html", "keyword.className.react.js"],
   "green_20": [
     "entity.name.type.class",
     "class.declaration",
@@ -91,6 +83,7 @@
     "keyword.control.trycatch",
     "ochre_20",
     "function.defaultLibrary",
+    "method.defaultLibrary meta.function-call",
     "support.function.builtin",
     "support.function.misc",
     "string.other.link.title.markdown"
@@ -103,7 +96,6 @@
     "keyword.control.module",
     "support.constant.property-value.",
     "constant.language.boolean.true",
-    "constant.language.boolean.false",
     "constant.language.json",
     "meta.attribute.novalidate.html entity.other.attribute-name.html",
     "meta.attribute.required.html entity.other.attribute-name.html",
@@ -145,13 +137,8 @@
     "string.regexp punctuation.definition.string.begin",
     "string.regexp punctuation.definition.string.end"
   ],
-  "khaki_00": [
-    "meta.directive.vue",
-    "entity.other.attribute-name.pseudo-class"
-  ],
-  "lang.variable.defaultLibrary.readonly": [
-    "const"
-  ],
+  "khaki_00": ["meta.directive.vue", "entity.other.attribute-name.pseudo-class"],
+  "lang.variable.defaultLibrary.readonly": ["const"],
   "light_00": [
     "derivative",
     "string.other.link.description.markdown",
@@ -160,9 +147,7 @@
     "punctuation.definition.italic.markdown",
     "punctuation.definition.strikethrough.markdown"
   ],
-  "light_00.operator": [
-    "keyword.operator"
-  ],
+  "light_00.operator": ["keyword.operator"],
   "light_10": [
     "string.template",
     "string.quoted.double.js",
@@ -182,9 +167,7 @@
     "punctuation.definition.string.begin",
     "punctuation.definition.string.end"
   ],
-  "namespace": [
-    "meta.symbol.namespace"
-  ],
+  "namespace": ["meta.symbol.namespace"],
   "ochre_00": [
     "support.type.property-name.media.css",
     "entity.other.attribute-name.id",
@@ -195,17 +178,15 @@
     "variable",
     "markup.heading",
     "entity.name.section",
+    "variable.other.object",
     "variable.other.assignment.shell"
   ],
   "ochre_00.bold": [
     "meta.attribute.id.html",
     "variable.other.constant.object",
-    "variable.other.object",
     "markup.bold.markdown"
   ],
-  "ochre_00.italic": [
-    "gray_10italic.markdown"
-  ],
+  "ochre_00.italic": ["gray_10italic.markdown"],
   "ochre_10": [
     "constant.other.option",
     "support.type.property-name",
@@ -216,10 +197,12 @@
     "meta.tag.attributes.js"
   ],
   "ochre_20": [
-    "storage.type",
-    "storage.type.function",
     "punctuation.definition.tag.begin",
     "punctuation.definition.tag.end"
+  ],
+  "ochre_20.italic": [
+    "storage.type",
+    "storage.type.function"
   ],
   "orange_00": [
     "meta.array-binding-pattern-variable meta.definition.variable.js variable.other.constant.js",
@@ -264,10 +247,9 @@
     "markup.fenced_code.block.markdown",
     "entity.name.tag"
   ],
-  "red_00": [
-    "keyword.other.debugger"
-  ],
+  "red_00": ["keyword.other.debugger"],
   "rubine_00": [
+    "constant.language.boolean.false",
     "keyword.other",
     "keyword.other.unit",
     "keyword.control.flow",
@@ -275,16 +257,9 @@
     "constant.language.undefined",
     "constant.language.nan",
     "constant.language.null",
-    "support.class.component.js"
+    "support.class.component.js",
+    "support.class.promise"
   ],
-  "rubine_30": [
-    "keyword.control.conditional"
-  ],
-  "type": [
-    "entity.name.type.alias",
-    "support.type"
-  ],
-  "variable.other.object": [
-    "variable.other.object"
-  ]
+  "rubine_30": ["keyword.control.conditional"],
+  "type": ["entity.name.type.alias", "support.type"] 
 }

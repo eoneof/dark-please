@@ -10,7 +10,7 @@
       "name": "Nick Eoneof"
    },
    "icon": "assets/img/dark-please-logo.png",
-   "version": "1.0.7",
+   "version": "1.0.9",
    "homepage": "https://github.com/eoneof/dark-please-vscode-theme",
    "engines": {
       "vscode": "^1.60.0"
@@ -90,7 +90,9 @@
                "gray_00": [
                   "keyword.operator.assignment",
                   "punctuation.separator.key-value.html",
-                  "punctuation.definition.heading.markdown",
+                  "punctuation.definition.heading.markdown"
+               ],
+               "gray_00.italic": [
                   "comment.line",
                   "punctuation.definition.comment",
                   "comment.block",
@@ -158,6 +160,7 @@
                   "keyword.control.trycatch",
                   "ochre_20",
                   "function.defaultLibrary",
+                  "method.defaultLibrary meta.function-call",
                   "support.function.builtin",
                   "support.function.misc",
                   "string.other.link.title.markdown"
@@ -170,7 +173,6 @@
                   "keyword.control.module",
                   "support.constant.property-value.",
                   "constant.language.boolean.true",
-                  "constant.language.boolean.false",
                   "constant.language.json",
                   "meta.attribute.novalidate.html entity.other.attribute-name.html",
                   "meta.attribute.required.html entity.other.attribute-name.html",
@@ -262,12 +264,12 @@
                   "variable",
                   "markup.heading",
                   "entity.name.section",
+                  "variable.other.object",
                   "variable.other.assignment.shell"
                ],
                "ochre_00.bold": [
                   "meta.attribute.id.html",
                   "variable.other.constant.object",
-                  "variable.other.object",
                   "markup.bold.markdown"
                ],
                "ochre_00.italic": [
@@ -283,10 +285,12 @@
                   "meta.tag.attributes.js"
                ],
                "ochre_20": [
-                  "storage.type",
-                  "storage.type.function",
                   "punctuation.definition.tag.begin",
                   "punctuation.definition.tag.end"
+               ],
+               "ochre_20.italic": [
+                  "storage.type",
+                  "storage.type.function"
                ],
                "orange_00": [
                   "meta.array-binding-pattern-variable meta.definition.variable.js variable.other.constant.js",
@@ -335,6 +339,7 @@
                   "keyword.other.debugger"
                ],
                "rubine_00": [
+                  "constant.language.boolean.false",
                   "keyword.other",
                   "keyword.other.unit",
                   "keyword.control.flow",
@@ -342,7 +347,8 @@
                   "constant.language.undefined",
                   "constant.language.nan",
                   "constant.language.null",
-                  "support.class.component.js"
+                  "support.class.component.js",
+                  "support.class.promise"
                ],
                "rubine_30": [
                   "keyword.control.conditional"
@@ -350,9 +356,6 @@
                "type": [
                   "entity.name.type.alias",
                   "support.type"
-               ],
-               "variable.other.object": [
-                  "variable.other.object"
                ]
             }
          }
