@@ -49,8 +49,8 @@
     "props.react.js"
   ],
   "gray_10.srikethrough": ["strikethrough.markdown"],
+  "property.declaration": ["property.declaration"],
   "gray_20": [
-    "variable.other.object.property",
     "meta.object-literal.key",
     "meta.objectliteral",
     "support.type.property-name.css",
@@ -225,6 +225,7 @@
     "punctuation.definition.tag.end"
   ],
   "ochre_20.italic": ["storage.type", "storage.type.function"],
+  "function.declaration": ["function.declaration"],
   "orange_00": [
     "meta.array-binding-pattern-variable meta.definition.variable.js variable.other.constant.js",
     "function.declaration",
