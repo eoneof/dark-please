@@ -10,7 +10,7 @@
       "name": "Nick Eoneof"
    },
    "icon": "assets/img/dark-please-logo.png",
-   "version": "1.0.11",
+   "version": "1.0.12",
    "homepage": "https://github.com/eoneof/dark-please-vscode-theme",
    "engines": {
       "vscode": "^1.60.0"
@@ -90,6 +90,9 @@
                   "entity.name.function.label.ahk",
                   "keyword.control.directives.ahk"
                ],
+               "blue_30": [
+                  "variable.other.readwrite.alias"
+               ],
                "gray_00": [
                   "keyword.operator.assignment",
                   "punctuation.separator.key-value.html",
@@ -97,6 +100,7 @@
                ],
                "blue_20": [
                   "variable.other.property",
+                  "source.ignore",
                   "punctuation.definition.binding-pattern",
                   "meta.array-binding-pattern-variable",
                   "variable.other.object.property",
@@ -127,6 +131,7 @@
                   "strikethrough.markdown"
                ],
                "property.declaration": [
+                  "support.type.property-name.json",
                   "property.declaration"
                ],
                "gray_20": [
@@ -153,8 +158,9 @@
                   "markup.quote.markdown"
                ],
                "gray_20.name": [
+                  "keyword.control.module",
                   "entity.other.attribute-name.html",
-                  "entity.other.attribute-name.js"
+                  "entity.other.attribute-name"
                ],
                "gray_30": [
                   "meta.object-literal",
@@ -197,11 +203,6 @@
                   "support.function.ahk"
                ],
                "indigo_00": [
-                  "keyword.control.default",
-                  "keyword.control.export",
-                  "keyword.control.import",
-                  "keyword.control.from",
-                  "keyword.control.module",
                   "support.constant.property-value.",
                   "constant.language.boolean.true",
                   "constant.language.ahk",
@@ -321,7 +322,12 @@
                ],
                "ochre_20.italic": [
                   "storage.type",
-                  "storage.type.function"
+                  "storage.type.function",
+                  "keyword.control.default",
+                  "keyword.control.export",
+                  "keyword.control.import",
+                  "keyword.control.from",
+                  "keyword.control.as"
                ],
                "function.declaration": [
                   "function.declaration"
