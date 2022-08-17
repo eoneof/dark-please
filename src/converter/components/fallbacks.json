@@ -51,7 +51,10 @@
     "props.react.js"
   ],
   "gray_10.srikethrough": ["strikethrough.markdown"],
-  "property.declaration": ["support.type.property-name.json", "property.declaration"],
+  "property.declaration": [
+    "support.type.property-name.json",
+    "property.declaration"
+  ],
   "gray_20": [
     "meta.object-literal.key",
     "meta.objectliteral",
@@ -158,7 +161,10 @@
     "string.regexp punctuation.definition.string.begin",
     "string.regexp punctuation.definition.string.end"
   ],
-  "khaki_00": ["meta.directive.vue", "entity.other.attribute-name.pseudo-class"],
+  "khaki_00": [
+    "meta.directive.vue",
+    "entity.other.attribute-name.pseudo-class"
+  ],
   "lang.variable.defaultLibrary.readonly": ["const"],
   "light_00": [
     "derivative",
@@ -215,12 +221,16 @@
     "meta.attribute",
     "meta.tag.attributes.js"
   ],
-  "ochre_20": ["punctuation.definition.tag.begin", "punctuation.definition.tag.end"],
+  "ochre_20": [
+    "punctuation.definition.tag.begin",
+    "punctuation.definition.tag.end"
+  ],
   "ochre_20.italic": [
     "storage.type",
     "storage.type.function",
     "keyword.control.default",
     "keyword.control.export",
+    "support.type.object.module",
     "keyword.control.import",
     "keyword.control.from",
     "keyword.control.as"
