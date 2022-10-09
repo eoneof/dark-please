@@ -15,7 +15,11 @@
     "entity.name.function.label.ahk",
     "keyword.control.directives.ahk"
   ],
-  "blue_30": ["variable.other.readwrite.alias"],
+  "blue_30": [
+    "variable.other.readwrite.alias",
+    "storage.modifier.async",
+    "storage.modifier"
+  ],
   "gray_00": [
     "keyword.operator.assignment",
     "punctuation.separator.key-value.html",
@@ -36,10 +40,8 @@
     "punctuation.definition.comment",
     "comment.block",
     "comment.block.documentation",
-    "variable.other.jsdoc",
-    "entity.name.type.instance.jsdoc",
-    "storage.type.class.jsdoc",
-    "punctuation.definition.block.tag.jsdoc"
+    "punctuation.definition.block.tag.jsdoc",
+    "storage.type.class.jsdoc"
   ],
   "gray_10": [
     "meta.object-literal.key",
@@ -50,7 +52,9 @@
     "variable.language.special.self",
     "props.react.js"
   ],
-  "gray_10.srikethrough": ["strikethrough.markdown"],
+  "gray_10.srikethrough": [
+    "strikethrough.markdown"
+  ],
   "property.declaration": [
     "support.type.property-name.json",
     "property.declaration"
@@ -92,8 +96,13 @@
     "variable.object.property",
     "constant.other.reference.link.markdown"
   ],
-  "green_00": ["entity.other.attribute-name.class.css"],
-  "green_10": ["meta.attribute.class.html", "keyword.className.react.js"],
+  "green_00": [
+    "entity.other.attribute-name.class.css"
+  ],
+  "green_10": [
+    "meta.attribute.class.html",
+    "keyword.className.react.js"
+  ],
   "green_20": [
     "entity.name.type.class",
     "class.declaration",
@@ -102,7 +111,9 @@
     "entity.other.attribute-name.class"
   ],
   "green_25": [],
-  "green_30.bold": ["support.class.component"],
+  "green_30.bold": [
+    "support.class.component"
+  ],
   "green_30": [
     "inject.promise",
     "keyword.control.switch",
@@ -165,7 +176,9 @@
     "meta.directive.vue",
     "entity.other.attribute-name.pseudo-class"
   ],
-  "lang.variable.defaultLibrary.readonly": ["const"],
+  "lang.variable.defaultLibrary.readonly": [
+    "const"
+  ],
   "light_00": [
     "derivative",
     "string.other.link.description.markdown",
@@ -176,7 +189,9 @@
     "string.parameter.import.ahk",
     "string.parameter.directives.ahk"
   ],
-  "light_00.operator": ["keyword.operator"],
+  "light_00.operator": [
+    "keyword.operator"
+  ],
   "light_10": [
     "string.template",
     "string.quoted.double.js",
@@ -196,7 +211,9 @@
     "punctuation.definition.string.begin",
     "punctuation.definition.string.end"
   ],
-  "namespace": ["meta.symbol.namespace"],
+  "namespace": [
+    "meta.symbol.namespace"
+  ],
   "ochre_00": [
     "support.type.property-name.media.css",
     "entity.other.attribute-name.id",
@@ -211,7 +228,10 @@
     "variable.other.constant.object",
     "variable.other.assignment.shell"
   ],
-  "ochre_00.bold": ["meta.attribute.id.html", "markup.bold.markdown"],
+  "ochre_00.bold": [
+    "meta.attribute.id.html",
+    "markup.bold.markdown"
+  ],
   "ochre_10": [
     "constant.other.option",
     "support.type.property-name",
@@ -233,9 +253,13 @@
     "support.type.object.module",
     "keyword.control.import",
     "keyword.control.from",
-    "keyword.control.as"
+    "keyword.control.as",
+    "variable.other.jsdoc",
+    "entity.name.type.instance.jsdoc"
   ],
-  "function.declaration": ["function.declaration"],
+  "function.declaration": [
+    "function.declaration"
+  ],
   "orange_00": [
     "meta.array-binding-pattern-variable meta.definition.variable.js variable.other.constant.js",
     "function.declaration",
@@ -283,7 +307,9 @@
     "markup.fenced_code.block.markdown",
     "entity.name.tag"
   ],
-  "red_00": ["keyword.other.debugger"],
+  "red_00": [
+    "keyword.other.debugger"
+  ],
   "rubine_00": [
     "constant.language.boolean.false",
     "keyword.other",
@@ -296,6 +322,11 @@
     "support.class.promise",
     "keyword.control.ahk"
   ],
-  "rubine_30": ["keyword.control.conditional"],
-  "type": ["entity.name.type.alias", "support.type"]
+  "rubine_30": [
+    "keyword.control.conditional"
+  ],
+  "type": [
+    "entity.name.type.alias",
+    "support.type"
+  ]
 }
