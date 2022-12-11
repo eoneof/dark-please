@@ -44,7 +44,6 @@
     "storage.type.class.jsdoc"
   ],
   "gray_10": [
-    "meta.object-literal.key",
     "meta.object.member",
     "meta.objectliteral",
     "variable.language.this",
@@ -60,8 +59,6 @@
     "property.declaration"
   ],
   "gray_20": [
-    "meta.object-literal.key",
-    "meta.objectliteral",
     "support.type.property-name.css",
     "meta.array.literal",
     "punctuation.bracket.ahk",
@@ -90,7 +87,6 @@
   "gray_30": [
     "meta.object-literal",
     "meta.object-literal.key",
-    "meta.object-literal.key.js",
     "meta.object.member.js",
     "meta.objectliteral.js",
     "variable.object.property",
@@ -169,8 +165,6 @@
     "punctuation.definition.string.template.begin",
     "punctuation.definition.string.template.end",
     "meta.template.expression",
-    "keyword.operator.expression.typeof",
-    "keyword.operator.expression.instanceof",
     "string.regexp punctuation.definition.string.begin",
     "string.regexp punctuation.definition.string.end"
   ],
@@ -264,7 +258,7 @@
     "function.declaration"
   ],
   "orange_00": [
-    "meta.array-binding-pattern-variable meta.definition.variable.js",
+    "meta.array-binding-pattern-variable meta.definition.variable.js variable.other.constant.js",
     "function.declaration",
     "meta.definition.function",
     "storage.type.function.arrow",
@@ -287,10 +281,16 @@
     "functionline.ahk entity.name.function.ahk",
     "keyword.keys.ahk"
   ],
-  "orange_05": [
+  "variable.local":[
+    "variable.local" 
+    ],
+  "parameter.italic":[
+    "variable.local",
     "variable.parameter.function",
     "variable.parameter",
-    "variable.parameter.function-call",
+    "variable.parameter.function-call"
+    ],
+  "orange_05": [
     "hotkeyline.ahk entity.name.function.label.ahk",
     "meta.function.parameter",
     "meta.function.parameters",
@@ -322,6 +322,9 @@
     "constant.language.undefined",
     "constant.language.nan",
     "constant.language.null",
+    "keyword.operator.expression.typeof",
+    "keyword.operator.expression.instanceof",
+    "keyword.operator.expression.delete",
     "support.class.promise",
     "keyword.control.ahk"
   ],
