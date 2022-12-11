@@ -114,7 +114,7 @@
   "green_30.bold": [
     "support.class.component"
   ],
-  "green_30": [
+  "green_40": [
     "inject.promise",
     "keyword.control.switch",
     "keyword.control.trycatch",
@@ -160,6 +160,7 @@
   "indigo_10": [
     "keyword.control.at-rule.import",
     "keyword.control.at-rule.media",
+    "keyword.control.at-rule.font-face",
     "punctuation.definition.template-expression",
     "punctuation.definition.template-expression.begin",
     "punctuation.definition.template-expression.end",
@@ -169,6 +170,7 @@
     "punctuation.definition.string.template.end",
     "meta.template.expression",
     "keyword.operator.expression.typeof",
+    "keyword.operator.expression.instanceof",
     "string.regexp punctuation.definition.string.begin",
     "string.regexp punctuation.definition.string.end"
   ],
@@ -216,6 +218,7 @@
   ],
   "ochre_00": [
     "support.type.property-name.media.css",
+    "support.constant.media.css",
     "entity.other.attribute-name.id",
     "variable.language.arguments",
     "variable.other.readwrite",
@@ -261,7 +264,7 @@
     "function.declaration"
   ],
   "orange_00": [
-    "meta.array-binding-pattern-variable meta.definition.variable.js variable.other.constant.js",
+    "meta.array-binding-pattern-variable meta.definition.variable.js",
     "function.declaration",
     "meta.definition.function",
     "storage.type.function.arrow",

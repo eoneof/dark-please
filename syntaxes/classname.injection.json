@@ -8,7 +8,7 @@
   ],
   "repository": {
     "className-value": {
-      "match": "(?<=className=')(([^']*))",
+      "match": "(?<=className='|\")(([^'\"]*))",
       "name": "keyword.className.react.js"
     }
   }
