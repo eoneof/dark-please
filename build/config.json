@@ -39,13 +39,13 @@
         "ochre_00.bold": "#BB8E5C",
         "ochre_00.italic": "#BB8E5C",
         "ochre_10": "#906949",
+        "ochre_10.italic": "#906949",
         "ochre_20": "#7A6359",
         "ochre_20.italic": "#7A6359",
         "orange_00": "#cb5b00",
         "function.declaration": "#cb5b00",
         "orange_05": "#cd8a5eef",
-        "parameter.italic": "#BB8E5C",
-        "variable.local": "#cd8a5eef",
+        "parameter.italic": "#87915D",
         "orange_10": "#b76753",
         "property.defaultLibrary.readonly": "#87915D",
         "red_00": "#a01717",
@@ -93,7 +93,9 @@
         "blue_30": [
           "variable.other.readwrite.alias",
           "storage.modifier.async",
-          "storage.modifier"
+          "storage.modifier",
+          "entity.name.type",
+          "entity.name.type.module"
         ],
         "gray_00": [
           "keyword.operator.assignment",
@@ -124,7 +126,7 @@
           "variable.language.this",
           "variable.language.self",
           "variable.language.special.self",
-          "props.react.js"
+          "props.react"
         ],
         "gray_10.srikethrough": [
           "strikethrough.markdown"
@@ -157,22 +159,25 @@
         "gray_20.name": [
           "keyword.control.module",
           "entity.other.attribute-name.html",
-          "entity.other.attribute-name"
+          "entity.other.attribute-name",
+          "meta.import string.quoted.single"
         ],
         "gray_30": [
           "meta.object-literal",
           "meta.object-literal.key",
-          "meta.object.member.js",
-          "meta.objectliteral.js",
+          "meta.object.member",
+          "meta.objectliteral",
           "variable.object.property",
           "constant.other.reference.link.markdown"
         ],
         "green_00": [
-          "entity.other.attribute-name.class.css"
+          "entity.other.attribute-name.class.css",
+          "variable.local variable.parameter",
+          "variable.parameter"
         ],
         "green_10": [
           "meta.attribute.class.html",
-          "keyword.className.react.js"
+          "keyword.className.react"
         ],
         "green_20": [
           "entity.name.type.class",
@@ -235,8 +240,8 @@
           "punctuation.definition.template-expression",
           "punctuation.definition.template-expression.begin",
           "punctuation.definition.template-expression.end",
-          "punctuation.section.embedded.begin.js",
-          "punctuation.section.embedded.end.js",
+          "punctuation.section.embedded.begin",
+          "punctuation.section.embedded.end",
           "punctuation.definition.string.template.begin",
           "punctuation.definition.string.template.end",
           "meta.template.expression",
@@ -245,7 +250,10 @@
         ],
         "khaki_00": [
           "meta.directive.vue",
-          "entity.other.attribute-name.pseudo-class"
+          "entity.other.attribute-name.pseudo-class",
+          "meta.directive.vue",
+          "entity.other.attribute-name.pseudo-class",
+          "variable.parameter"
         ],
         "lang.variable.defaultLibrary.readonly": [
           "const"
@@ -265,8 +273,8 @@
         ],
         "light_10": [
           "string.template",
-          "string.quoted.double.js",
-          "string.quoted.single.js",
+          "string.quoted.double",
+          "string.quoted.single",
           "punctuation.support.type.property-name.begin",
           "punctuation.support.type.property-name.end",
           "meta.paragraph.markdown",
@@ -311,7 +319,9 @@
           "meta.property-name",
           "entity.name.tag.yaml",
           "meta.attribute",
-          "meta.tag.attributes.js"
+          "meta.tag.attributes",
+          "entity.name.type.interface",
+          "support.type.primitive"
         ],
         "ochre_20": [
           "punctuation.definition.tag.begin",
@@ -333,9 +343,11 @@
           "function.declaration"
         ],
         "orange_00": [
-          "meta.array-binding-pattern-variable meta.definition.variable.js variable.other.constant.js",
+          "meta.array-binding-pattern-variable meta.definition.variable variable.other.constant",
           "function.declaration",
           "meta.definition.function",
+          "meta.function meta.object.member variable.other.readwrite",
+          "meta.field.declaration.tsx meta.definition.property.tsx entity.name.function.tsx",
           "storage.type.function.arrow",
           "variable.language.arguments",
           "variable.language.super",
@@ -349,6 +361,9 @@
           "keyword.operator.increment",
           "keyword.operator.decrement",
           "keyword.operator.ternary",
+          "keyword.operator.spread",
+          "keyword.operator.rest",
+          "keyword.operator.repository",
           "keyword.operator.expression.in",
           "keyword.operator.expression.of",
           "keyword.operator.or.regexp",
@@ -356,11 +371,7 @@
           "functionline.ahk entity.name.function.ahk",
           "keyword.keys.ahk"
         ],
-        "variable.local": [
-          "variable.local"
-        ],
         "parameter.italic": [
-          "variable.local",
           "variable.parameter.function",
           "variable.parameter",
           "variable.parameter.function-call"
@@ -370,7 +381,8 @@
           "meta.function.parameter",
           "meta.function.parameters",
           "parameter.declaration",
-          "entity.other.attribute-name.pseudo-element.css"
+          "entity.other.attribute-name.pseudo-element.css",
+          "variable.local"
         ],
         "orange_10": [
           "support.function.timing-function.css",
@@ -378,7 +390,8 @@
           "support.function.calc.css",
           "support.function.gradient.css",
           "support.function.misc.css",
-          "meta.function-call",
+          "meta.function-call entity.name.function",
+          "meta.object.member meta.function-call entity.name.function",
           "entity.name.function.ahk",
           "support.variable.property",
           "markup.inline.raw.string.markdown",
@@ -401,7 +414,13 @@
           "keyword.operator.expression.instanceof",
           "keyword.operator.expression.delete",
           "support.class.promise",
-          "keyword.control.ahk"
+          "keyword.control.ahk",
+          "entity.name.type.parameter",
+          "punctuation.definition.typeparameters.begin",
+          "punctuation.definition.typeparameters.end",
+          "keyword.operator.type.annotation",
+          "meta.type.tuple",
+          "keyword.operator.optional"
         ],
         "rubine_30": [
           "keyword.control.conditional"
