@@ -30,7 +30,7 @@
       "type": "shell",
       "isBackground": true,
       "problemMatcher": [],
-      "command": " node ./node_modules/nodemon/bin/nodemon --watch ./src/ase2json/colors.json -x \"npm run dist\""
+      "command": " node ./node_modules/nodemon/bin/nodemon --watch ./src/ase2json/colors.json -x \"npm run build\""
     },
     {
       "label": "Convert variables",
@@ -47,10 +47,10 @@
     },
     {
       "type": "npm",
-      "script": "dist",
+      "script": "build",
       "group": "none",
       "problemMatcher": [],
-      "label": "npm: dist",
+      "label": "npm: build",
       "detail": "npm run convert && npm run generate"
     }
   ]

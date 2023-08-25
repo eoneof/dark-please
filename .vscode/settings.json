@@ -1,3 +1,16 @@
 {
-  "workbench.colorTheme": "Atom One Light"
+  "workbench.colorTheme": "dark-please",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "variable.parameter"
+        ],
+        "settings": {
+          "foreground": "#9aca16aa",
+          "fontStyle": "italic",
+        }
+      },
+    ]
+  }
 }

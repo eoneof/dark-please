@@ -1,0 +1,15 @@
+{
+  "scopeName": "inject.catch",
+  "injectionSelector": ["L:meta.block.js"],
+  "patterns": [
+    {
+      "include": "#catch"
+    }
+  ],
+  "repository": {
+    "catch": {
+      "match": "((((?:\\.\\s*|\\}\\s*)then((\\s*\\{*|\\(*))))|((?:\\.\\s*|\\}\\s*)catch((\\s*\\(*)))|(((?:\\.\\s*|\\}\\s*)finally((\\s*\\{*|\\(*)))))",
+      "name": "inject.catch"
+    }
+  }
+}

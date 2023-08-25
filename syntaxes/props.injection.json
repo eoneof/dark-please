@@ -8,7 +8,7 @@
   ],
   "repository": {
     "react-props": {
-      "match": "props",
+      "match": "(props)",
       "name": "props.react.js"
     }
   }
