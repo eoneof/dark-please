@@ -16,9 +16,14 @@ Utilizing both bold colors and subtle distinctions, anything than _can_ be ident
 - CSS/SCSS
 - HTML
 
+### Recommended fonts
+
+- Editor — `Cascadia Code`
+- Terminal, ErrorLens — `Jetbrains Mono`
+
 ### **Main window**
 
-Actual look as of June 2022
+Actual look as of Aug 2023
 
 ![Main window look](assets/img/main-window_current-state.png)
 

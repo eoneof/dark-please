@@ -94,7 +94,7 @@
     "variable.object.property",
     "variable.parameter meta.interface meta.indexer.declaration",
     "constant.other.reference.link.markdown"
-  ],s
+  ],
   "green_00": [
     "entity.other.attribute-name.class.css"
   ],
@@ -305,6 +305,7 @@
     "hotkeyline.ahk entity.name.function.label.ahk",
     "meta.function.parameter",
     "meta.function.parameters",
+    "meta.parameters",
     "parameter.declaration",
     "entity.other.attribute-name.pseudo-element.css",
     "variable.local"

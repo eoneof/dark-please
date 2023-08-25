@@ -337,103 +337,12 @@
          }
       },
       {
-         "name": "gray_30",
+         "name": "orange_05",
          "scope": [
-            "meta.object.member"
+            "hotkeyline.ahk entity.name.function.label.ahk"
          ],
          "settings": {
-            "foreground": "#9c9d9d"
-         }
-      },
-      {
-         "name": "light_40",
-         "scope": [],
-         "settings": {
-            "foreground": "#cbbeab"
-         }
-      },
-      {
-         "name": "orange_00",
-         "scope": [
-            "variable.language.arguments"
-         ],
-         "settings": {
-            "foreground": "#cb5b00"
-         }
-      },
-      {
-         "name": "gray_30",
-         "scope": [
-            "meta.object.member"
-         ],
-         "settings": {
-            "foreground": "#9c9d9d"
-         }
-      },
-      {
-         "name": "light_40",
-         "scope": [],
-         "settings": {
-            "foreground": "#cbbeab"
-         }
-      },
-      {
-         "name": "orange_00",
-         "scope": [
-            "variable.language.arguments"
-         ],
-         "settings": {
-            "foreground": "#cb5b00"
-         }
-      },
-      {
-         "name": "gray_30",
-         "scope": [
-            "meta.object.member"
-         ],
-         "settings": {
-            "foreground": "#9c9d9d"
-         }
-      },
-      {
-         "name": "light_40",
-         "scope": [],
-         "settings": {
-            "foreground": "#cbbeab"
-         }
-      },
-      {
-         "name": "orange_00",
-         "scope": [
-            "variable.language.arguments"
-         ],
-         "settings": {
-            "foreground": "#cb5b00"
-         }
-      },
-      {
-         "name": "gray_30",
-         "scope": [
-            "meta.object.member"
-         ],
-         "settings": {
-            "foreground": "#9c9d9d"
-         }
-      },
-      {
-         "name": "light_40",
-         "scope": [],
-         "settings": {
-            "foreground": "#cbbeab"
-         }
-      },
-      {
-         "name": "orange_00",
-         "scope": [
-            "variable.language.arguments"
-         ],
-         "settings": {
-            "foreground": "#cb5b00"
+            "foreground": "#cd8a5eef"
          }
       },
       {
@@ -913,6 +822,7 @@
             "hotkeyline.ahk entity.name.function.label.ahk",
             "meta.function.parameter",
             "meta.function.parameters",
+            "meta.parameters",
             "parameter.declaration",
             "entity.other.attribute-name.pseudo-element.css",
             "variable.local"
