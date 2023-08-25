@@ -2,7 +2,7 @@
    "name": "dark-please",
    "displayName": "Dark, please!",
    "description": "A pleasant-looking low-contrast dark theme.",
-   "version": "1.1.22",
+   "version": "1.1.25",
    "icon": "assets/img/dark-please-logo.png",
    "author": {
       "name": "Nick Eoneof"
@@ -42,11 +42,13 @@
    "contributes": {
       "grammars": [
          {
-            "scopeName": "keyword.className.react",
+            "scopeName": "className.value.react",
             "path": "./syntaxes/classname.injection.json",
             "injectTo": [
                "source.js",
-               "source.jsx"
+               "source.jsx",
+               "source.tsx",
+               "source.ts"
             ]
          },
          {
@@ -101,7 +103,6 @@
                   "entity.name.type.module"
                ],
                "gray_00": [
-                  "keyword.operator.assignment",
                   "punctuation.separator.key-value.html",
                   "punctuation.definition.heading.markdown"
                ],
@@ -153,16 +154,16 @@
                   "punctuation.definition.parameters.begin",
                   "punctuation.definition.parameters.end",
                   "meta.brace.round",
+                  "meta.indexer.declaration meta.brace.square",
                   "punctuation.section.function.begin.bracket.round.css",
                   "punctuation.section.function.end.bracket.round.css",
                   "punctuation.definition.constant.markdown",
                   "punctuation.definition.metadata.markdown",
-                  "markup.quote.markdown"
+                  "markup.quote.markdown",
+                  "entity.other.attribute-name"
                ],
                "gray_20.name": [
                   "keyword.control.module",
-                  "entity.other.attribute-name.html",
-                  "entity.other.attribute-name",
                   "meta.import string.quoted.single"
                ],
                "gray_30": [
@@ -171,16 +172,15 @@
                   "meta.object.member",
                   "meta.objectliteral",
                   "variable.object.property",
+                  "variable.parameter meta.interface meta.indexer.declaration",
                   "constant.other.reference.link.markdown"
                ],
                "green_00": [
-                  "entity.other.attribute-name.class.css",
-                  "variable.local variable.parameter",
-                  "variable.parameter"
+                  "entity.other.attribute-name.class.css"
                ],
                "green_10": [
-                  "meta.attribute.class.html",
-                  "keyword.className.react"
+                  "meta.attribute.class.html string.quoted.double.html",
+                  "className.value.react"
                ],
                "green_20": [
                   "entity.name.type.class",
@@ -189,14 +189,17 @@
                   "entity.other.inherited-class",
                   "entity.other.attribute-name.class"
                ],
-               "green_25": [],
+               "green_25": [
+                  "storage.type.interface",
+                  "storage.type.type",
+                  "storage.type.enum"
+               ],
                "green_30.bold": [
                   "support.class.component"
                ],
                "green_40": [
                   "inject.promise",
                   "keyword.control.switch",
-                  "keyword.control.trycatch",
                   "support.class",
                   "support.class.component",
                   "function.defaultLibrary",
@@ -256,7 +259,9 @@
                   "entity.other.attribute-name.pseudo-class",
                   "meta.directive.vue",
                   "entity.other.attribute-name.pseudo-class",
-                  "variable.parameter"
+                  "entity.name.type.interface",
+                  "entity.name.type.enum",
+                  "entity.name.type.alias"
                ],
                "lang.variable.defaultLibrary.readonly": [
                   "const"
@@ -286,13 +291,11 @@
                   "punctuation.separator.dictionary.key-value.json",
                   "punctuation.accessor",
                   "punctuation.terminator.rule.css",
-                  "punctuation.terminator.statement",
-                  "punctuation.separator.comma"
-               ],
-               "light_40": [
+                  "punctuation.separator.comma",
                   "punctuation.definition.string.begin",
                   "punctuation.definition.string.end"
                ],
+               "light_40": [],
                "namespace": [
                   "meta.symbol.namespace"
                ],
@@ -323,12 +326,11 @@
                   "entity.name.tag.yaml",
                   "meta.attribute",
                   "meta.tag.attributes",
-                  "entity.name.type.interface",
                   "support.type.primitive"
                ],
                "ochre_20": [
-                  "punctuation.definition.tag.begin",
-                  "punctuation.definition.tag.end"
+                  "keyword.operator.assignment",
+                  "punctuation.terminator.statement"
                ],
                "ochre_20.italic": [
                   "storage.type",
@@ -375,8 +377,8 @@
                   "keyword.keys.ahk"
                ],
                "parameter.italic": [
-                  "variable.parameter.function",
                   "variable.parameter",
+                  "variable.parameter.function",
                   "variable.parameter.function-call"
                ],
                "orange_05": [
@@ -408,6 +410,7 @@
                   "constant.language.boolean.false",
                   "keyword.other",
                   "keyword.other.unit",
+                  "keyword.control.trycatch",
                   "keyword.control.flow",
                   "keyword.control.loop",
                   "constant.language.undefined",
@@ -423,9 +426,12 @@
                   "punctuation.definition.typeparameters.end",
                   "keyword.operator.type.annotation",
                   "meta.type.tuple",
-                  "keyword.operator.optional"
+                  "keyword.operator.optional",
+                  "punctuation.accessor.optional"
                ],
                "rubine_30": [
+                  "punctuation.definition.tag.begin",
+                  "punctuation.definition.tag.end",
                   "keyword.control.conditional"
                ],
                "type": [

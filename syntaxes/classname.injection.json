@@ -1,6 +1,6 @@
 {
-  "scopeName": "keyword.className.react",
-  "injectionSelector": "L:meta.tag.attributes.js.jsx.ts.tsx",
+  "scopeName": "className.value.react",
+  "injectionSelector": "L:meta.tag.attributes",
   "patterns": [
     {
       "include": "#className-value"
@@ -9,7 +9,7 @@
   "repository": {
     "className-value": {
       "match": "(?<=className=['|\"])([^'|\"]*)",
-      "name": "keyword.className.react"
+      "name": "className.value.react"
     }
   }
 }
