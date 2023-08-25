@@ -1,6 +1,6 @@
 ﻿// nonsence example file to demonstrate syntax highlighting
 
-import { text } from './text.js';
+import {text} from './text.js';
 export default example;
 
 const example = text;
@@ -43,22 +43,4 @@ class Person {
 
 let s_firstname = new Symbol();
 
-class Person {
-  constructor(firstName, lastName) {
-    this[s_firstName] = firstName;
-    this._lastName = lastName;
-  }
-
-  log() {
-    console.log('I am', this._firstName, this._lastName);
-  }
-
-  // setters
-  set profession(val) {
-    this._profession = val;
-  }
-  // getters
-  get profession() {
-    console.log(this._firstNname, this._lastName, 'is a', this._profession);
-  }
-}
+const p = new Person()

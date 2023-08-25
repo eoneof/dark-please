@@ -1,0 +1,20 @@
+{
+  "readonly": {
+    "italic": true
+  },
+  "name": {
+    "italic": true
+  },
+  "italic": {
+    "italic": true
+  },
+  "bold": {
+    "bold": true
+  },
+  "type": {
+    "italic": true
+  },
+  "operator": {
+    "bold": true
+  }
+}

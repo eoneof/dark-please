@@ -5,7 +5,9 @@ vsc-extension-quickstart.md
 assets/img/dark-please-logo.svg
 assets/examples
 assets/research
+assets/styles
 styles/
 dist/
+build/
 node_modules/
 src/
