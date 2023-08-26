@@ -4,11 +4,11 @@
     // "textMateRules": [
     //   {
     //     "scope": [
-    //       "variable.parameter"
+    //       ""
     //     ],
     //     "settings": {
-    //       "foreground": "#9aca16aa",
-    //       "fontStyle": "italic",
+    //       "foreground": "#",
+    //       "fontStyle": "",
     //     }
     //   },
     // ]

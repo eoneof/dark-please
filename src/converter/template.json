@@ -12,10 +12,18 @@
       "textformatMapping": {},
       "fallbacks": {},
       "alias": {
-        "defaultLibrary": ["builtin"],
-        "documentation": ["typeHint"],
-        "declaration": ["definition"],
-        "function.defaultLibrary": ["magicFunction"]
+        "defaultLibrary": [
+          "builtin"
+        ],
+        "documentation": [
+          "typeHint"
+        ],
+        "declaration": [
+          "definition"
+        ],
+        "function.defaultLibrary": [
+          "magicFunction"
+        ]
       },
       "modifierCombinations": [
         "readonly.declaration.async",
@@ -37,7 +45,5 @@
         "defaultLibrary.documentation"
       ]
     }
-  ],
-  "readmePath": "./README.md",
-  "readmeTemplatePath": "./src/generator/_Template.md"
+  ]
 }

@@ -1,8 +1,10 @@
-﻿/* 
-  This file is used to convert Adobe *.ase swatch file into JSON
-  via ASE Util (https://github.com/dfernandez79/ase-util) 
-*/
+﻿/** 
+ * This file is used to convert Adobe *.ase swatch file into JSON
+ * via ASE Util (https://github.com/dfernandez79/ase-util) 
+ */
+
 const fs = require('fs');
+
 const aseUtil = require('ase-util');
 const inputFile = './ase2json/res/js-syntax-colors.ase';
 const outputFile = './ase2json/colors.json';

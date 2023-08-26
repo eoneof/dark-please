@@ -21,7 +21,7 @@ const MyLink = ({ linkData }: LinkProps) => {
     <a
       className="link"
       href={linkData.url}
-      target="_bSlank"
+      target="_blank"
       rel="external noreferrer noopener"
     >
       {linkData.url}
@@ -47,7 +47,7 @@ function App() {
   };
 
   const route: LinkElement = {
-    label: 'Проекты',
+    label: 'Projects',
     url: '/projects',
   };
   const linkData = toggle ? link : route;
