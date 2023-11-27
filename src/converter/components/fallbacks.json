@@ -7,8 +7,11 @@
   "blue_10": [
     "constant.character.escape",
     "entity.name.function.label.ahk",
+    "entity.name.function.label.ahk2",
     "keyword.control.directives.ahk",
+    "keyword.control.directives.ahk2",
     "labelline.ahk entity.name.function.label.ahk",
+    "labelline.ahk2 entity.name.function.label.ahk2",
     "markup.underline.link.image.markdown",
     "markup.underline.link.markdown",
     "meta.attribute.href.html",
@@ -21,6 +24,7 @@
     "punctuation.definition.binding-pattern",
     "punctuation.definition.character-class.regexp",
     "punctuation.definition.variable.percent.ahk",
+    "punctuation.definition.variable.percent.ahk2",
     "source.ignore",
     "variable.other.object.property",
     "variable.other.property"
@@ -66,6 +70,7 @@
     "meta.indexer.declaration meta.brace.square",
     "meta.property-value.css",
     "punctuation.bracket.ahk",
+    "punctuation.bracket.ahk2",
     "punctuation.definition.array.begin.json",
     "punctuation.definition.array.end.json",
     "punctuation.definition.block",
@@ -125,11 +130,13 @@
     "support.class.component",
     "support.class",
     "support.function.ahk",
+    "support.function.ahk2",
     "support.function.builtin",
     "support.function.misc"
   ],
   "indigo_00": [
     "constant.language.ahk",
+    "constant.language.ahk2",
     "constant.language.boolean.true",
     "constant.language.json",
     "meta.attribute.allowfullscreen.html entity.other.attribute-name.html",
@@ -193,7 +200,9 @@
     "punctuation.definition.strikethrough.markdown",
     "string.other.link.description.markdown",
     "string.parameter.directives.ahk",
-    "string.parameter.import.ahk"
+    "string.parameter.directives.ahk2",
+    "string.parameter.import.ahk",
+    "string.parameter.import.ahk2"
   ],
   "light_00.operator": [
     "keyword.operator"
@@ -267,7 +276,9 @@
     "entity.name.section.markdown",
     "function.declaration",
     "functionline.ahk entity.name.function.ahk",
+    "functionline.ahk2 entity.name.function.ahk2",
     "keyword.keys.ahk",
+    "keyword.keys.ahk2",
     "keyword.operator.arithmetic",
     "keyword.operator.comparison",
     "keyword.operator.decrement",
@@ -295,6 +306,7 @@
   "orange_05": [
     "entity.other.attribute-name.pseudo-element.css",
     "hotkeyline.ahk entity.name.function.label.ahk",
+    "hotkeyline.ahk2 entity.name.function.label.ahk2",
     "meta.function.parameter",
     "meta.function.parameters",
     "meta.parameters",
@@ -303,6 +315,7 @@
   ],
   "orange_10": [
     "entity.name.function.ahk",
+    "entity.name.function.ahk2",
     "entity.name.tag",
     "markup.fenced_code.block.markdown",
     "markup.inline.raw.string.markdown",
@@ -334,6 +347,7 @@
     "constant.language.undefined",
     "entity.name.type.parameter",
     "keyword.control.ahk",
+    "keyword.control.ahk2",
     "keyword.control.flow",
     "keyword.control.loop",
     "keyword.control.trycatch",
