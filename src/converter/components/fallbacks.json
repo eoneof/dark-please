@@ -88,7 +88,11 @@
   ],
   "gray_20.name": [
     "keyword.control.module",
-    "meta.import string.quoted.single"
+    "meta.import string.quoted.single",
+    "keyword.control.import.ahk string.parameter.import.ahk",
+    "meta.preprocessor.include.ahk2 keyword.control.directive.ahk2",
+    "string.literal.include.ahk2",
+    "string.parameter.directives.ahk keyword.control.directives.ahk"
   ],
   "gray_30": [
     "constant.other.reference.link.markdown",
@@ -111,7 +115,9 @@
     "entity.name.class",
     "entity.name.type.class",
     "entity.other.attribute-name.class",
-    "entity.other.inherited-class"
+    "entity.other.inherited-class",
+    "support.class.ahk",
+    "support.class.ahk2"
   ],
   "green_25": [
     "storage.type.interface",
@@ -129,8 +135,6 @@
     "string.other.link.title.markdown",
     "support.class.component",
     "support.class",
-    "support.function.ahk",
-    "support.function.ahk2",
     "support.function.builtin",
     "support.function.misc"
   ],
@@ -240,7 +244,9 @@
     "variable.other.object",
     "variable.other.readwrite",
     "variable.other",
-    "variable"
+    "variable",
+    "support.function.ahk",
+    "support.function.ahk2"
   ],
   "ochre_00.bold": [
     "markup.bold.markdown",
@@ -258,7 +264,9 @@
   ],
   "ochre_20": [
     "keyword.operator.assignment",
-    "punctuation.terminator.statement"
+    "punctuation.terminator.statement",
+    "support.function.ahk",
+    "support.function.ahk2"
   ],
   "ochre_20.italic": [
     "entity.name.type.instance.jsdoc",
@@ -269,6 +277,7 @@
     "keyword.control.import",
     "storage.type.function",
     "storage.type",
+    "keyword.class.ahk",
     "support.type.object.module",
     "variable.other.jsdoc"
   ],
