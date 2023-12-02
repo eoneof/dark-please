@@ -124,7 +124,8 @@
           "comment.line",
           "punctuation.definition.block.tag.jsdoc",
           "punctuation.definition.comment",
-          "storage.type.class.jsdoc"
+          "storage.type.class.jsdoc",
+          "comment.unbuffered.block.pug"
         ],
         "gray_10": [
           "meta.object.member",
@@ -269,7 +270,9 @@
           "meta.directive.vue"
         ],
         "lang.variable.defaultLibrary.readonly": [
-          "const"
+          "const",
+          "variable.control.import.include.pug",
+          "storage.type.import.include.pug meta.first-class.pug text.pug"
         ],
         "light_00": [
           "derivative",
@@ -404,6 +407,7 @@
           "markup.fenced_code.block.markdown",
           "markup.inline.raw.string.markdown",
           "meta.function-call entity.name.function",
+          "entity.name.function.pug",
           "meta.object.member meta.function-call entity.name.function",
           "support.function.calc.css",
           "support.function.gradient.css",
@@ -446,7 +450,9 @@
           "punctuation.accessor.optional",
           "punctuation.definition.typeparameters.begin",
           "punctuation.definition.typeparameters.end",
-          "support.class.promise"
+          "support.class.promise",
+          "meta.control.flow.pug text.pug",
+          "meta.control.flow.pug.each"
         ],
         "rubine_30": [
           "keyword.control.conditional",
