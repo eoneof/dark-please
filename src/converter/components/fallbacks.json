@@ -6,25 +6,21 @@
   ],
   "blue_10": [
     "constant.character.escape",
-    "entity.name.function.label.ahk",
-    "entity.name.function.label.ahk2",
-    "keyword.control.directives.ahk",
-    "keyword.control.directives.ahk2",
-    "labelline.ahk entity.name.function.label.ahk",
-    "labelline.ahk2 entity.name.function.label.ahk2",
+    "entity.name.function.label",
+    "keyword.control.directives",
+    "labelline entity.name.function.label",
     "markup.underline.link.image.markdown",
     "markup.underline.link.markdown",
     "meta.attribute.href.html",
     "meta.attribute.src.html",
-    "meta.function.url.css"
+    "meta.function.url"
   ],
   "blue_20": [
     "keyword.control.anchor.regexp",
     "meta.array-binding-pattern-variable",
     "punctuation.definition.binding-pattern",
     "punctuation.definition.character-class.regexp",
-    "punctuation.definition.variable.percent.ahk",
-    "punctuation.definition.variable.percent.ahk2",
+    "punctuation.definition.variable.percent",
     "source.ignore",
     "variable.other.object.property",
     "variable.other.property"
@@ -32,7 +28,6 @@
   "blue_30": [
     "entity.name.type.module",
     "entity.name.type",
-    "storage.modifier.async",
     "storage.modifier",
     "variable.other.readwrite.alias"
   ],
@@ -45,6 +40,7 @@
   ],
   "gray_00.italic": [
     "comment.block.documentation",
+    "comment.line.double-slash",
     "comment.block",
     "comment.line",
     "punctuation.definition.block.tag.jsdoc",
@@ -58,7 +54,8 @@
     "props.react",
     "variable.language.self",
     "variable.language.special.self",
-    "variable.language.this"
+    "variable.language.this",
+    "fenced_code.block.language.markdown"
   ],
   "gray_10.srikethrough": [
     "strikethrough.markdown"
@@ -66,12 +63,11 @@
   "gray_20": [
     "entity.other.attribute-name",
     "markup.quote.markdown",
-    "meta.array.literal",
     "meta.brace.round",
     "meta.indexer.declaration meta.brace.square",
-    "meta.property-value.css",
-    "punctuation.bracket.ahk",
-    "punctuation.bracket.ahk2",
+    "meta.property-value",
+    "punctuation.definition.logical-expression",
+    "punctuation.bracket",
     "punctuation.definition.array.begin.json",
     "punctuation.definition.array.end.json",
     "punctuation.definition.block",
@@ -81,19 +77,21 @@
     "punctuation.definition.metadata.markdown",
     "punctuation.definition.parameters.begin",
     "punctuation.definition.parameters.end",
-    "punctuation.section.function.begin.bracket.round.css",
-    "punctuation.section.function.end.bracket.round.css",
-    "punctuation.section.property-list.begin.bracket.curly.css",
-    "punctuation.section.property-list.end.bracket.curly.css",
-    "support.type.property-name.css"
+    "punctuation.section.function.begin.bracket.round",
+    "punctuation.section.function.end.bracket.round",
+    "punctuation.section.property-list.begin.bracket.curly",
+    "punctuation.section.function.definition",
+    "punctuation.definition.arguments",
+    "property-list.end.bracket.curly",
+    "support.type.property-name",
+    "punctuation.section.block.begin",
+    "punctuation.section.block.end"
   ],
   "gray_20.name": [
     "keyword.control.module",
     "meta.import string.quoted.single",
-    "keyword.control.import.ahk string.parameter.import.ahk",
-    "meta.preprocessor.include.ahk2 keyword.control.directive.ahk2",
-    "string.literal.include.ahk2",
-    "string.parameter.directives.ahk keyword.control.directives.ahk"
+    "keyword.control.import string.parameter.import",
+    "string.parameter.directives keyword.control.directives"
   ],
   "gray_30": [
     "constant.other.reference.link.markdown",
@@ -105,7 +103,7 @@
     "variable.parameter meta.interface meta.indexer.declaration"
   ],
   "green_00": [
-    "entity.other.attribute-name.class.css"
+    "entity.other.attribute-name.class"
   ],
   "green_10": [
     "className.value.react",
@@ -117,31 +115,36 @@
     "entity.name.type.class",
     "entity.other.attribute-name.class",
     "entity.other.inherited-class",
-    "support.class.ahk",
-    "support.class.ahk2"
+    "support.class"
   ],
   "green_25": [
     "storage.type.interface",
     "storage.type.type",
-    "storage.type.enum"
+    "support.function.misc",
+    "method.defaultLibrary meta.function-call",
+    "storage.type.enum",
+    "support.class.component",
+    "support.class",
+    "function.defaultLibrary",
+    "support.function.builtin"
   ],
   "green_30.bold": [
     "support.class.component"
   ],
   "green_40": [
-    "function.defaultLibrary",
-    "inject.promise",
-    "keyword.control.switch",
-    "method.defaultLibrary meta.function-call",
+    "storage.modifier.async",
     "string.other.link.title.markdown",
-    "support.class.component",
-    "support.class",
-    "support.function.builtin",
-    "support.function.misc"
+    "meta.method.declaration meta.definition.method"
+  ],
+  "green_50": [
+    "meta.array.literal",
+    "markup.inline.raw.string.markdown",
+    "markup.fenced_code.block.markdown",
+    "punctuation.definition.markdown",
+    "markup.fenced_code.block.markdown"
   ],
   "indigo_00": [
-    "constant.language.ahk",
-    "constant.language.ahk2",
+    "constant.language",
     "constant.language.boolean.true",
     "constant.language.json",
     "meta.attribute.allowfullscreen.html entity.other.attribute-name.html",
@@ -206,15 +209,14 @@
     "punctuation.definition.list.begin.markdown",
     "punctuation.definition.strikethrough.markdown",
     "string.other.link.description.markdown",
-    "string.parameter.directives.ahk",
-    "string.parameter.directives.ahk2",
-    "string.parameter.import.ahk",
-    "string.parameter.import.ahk2"
+    "string.parameter.directives",
+    "string.parameter.import"
   ],
   "light_00.operator": [
     "keyword.operator"
   ],
   "light_10": [
+    "text.html.derivative",
     "meta.paragraph.markdown",
     "punctuation.accessor",
     "punctuation.definition.string.begin",
@@ -222,34 +224,36 @@
     "punctuation.separator.array.json",
     "punctuation.separator.comma",
     "punctuation.separator.dictionary.key-value.json",
-    "punctuation.separator.key-value.css",
+    "punctuation.separator.key-value",
     "punctuation.support.type.property-name.begin",
     "punctuation.support.type.property-name.end",
-    "punctuation.terminator.rule.css",
+    "punctuation.terminator.rule",
     "string.quoted.double",
+    "string.unquoted.argument.shell",
     "string.quoted.single",
-    "string.template"
+    "string.template",
+    "string.regexp"
   ],
+  "light_20": [],
   "light_40": [],
   "namespace": [
     "meta.symbol.namespace"
   ],
   "ochre_00": [
     "entity.name.section",
-    "entity.other.attribute-name.id",
+    "meta.attribute.id string.quoted.double",
     "markup.heading",
     "meta.definition.variable",
-    "support.constant.media.css",
-    "support.type.property-name.media.css",
+    "support.constant.media",
+    "support.type.property-name.media",
     "variable.language.arguments",
     "variable.other.assignment.shell",
     "variable.other.constant.object",
-    "variable.other.object",
+    "variable.other.object.js.jsx",
     "variable.other.readwrite",
     "variable.other",
     "variable",
-    "support.function.ahk",
-    "support.function.ahk2"
+    "support.function"
   ],
   "ochre_00.bold": [
     "markup.bold.markdown",
@@ -268,8 +272,7 @@
   "ochre_20": [
     "keyword.operator.assignment",
     "punctuation.terminator.statement",
-    "support.function.ahk",
-    "support.function.ahk2"
+    "support.function"
   ],
   "ochre_20.italic": [
     "entity.name.type.instance.jsdoc",
@@ -280,17 +283,17 @@
     "keyword.control.import",
     "storage.type.function",
     "storage.type",
-    "keyword.class.ahk",
+    "keyword.class",
     "support.type.object.module",
     "variable.other.jsdoc"
   ],
   "orange_00": [
+    "punctuation.separator.statement.and",
     "entity.name.section.markdown",
     "function.declaration",
-    "functionline.ahk entity.name.function.ahk",
-    "functionline.ahk2 entity.name.function.ahk2",
-    "keyword.keys.ahk",
-    "keyword.keys.ahk2",
+    "functionline entity.name.function",
+    "entity.name.function.shell",
+    "keyword.keys",
     "keyword.operator.arithmetic",
     "keyword.operator.comparison",
     "keyword.operator.decrement",
@@ -316,9 +319,9 @@
     "variable.language.super"
   ],
   "orange_05": [
-    "entity.other.attribute-name.pseudo-element.css",
-    "hotkeyline.ahk entity.name.function.label.ahk",
-    "hotkeyline.ahk2 entity.name.function.label.ahk2",
+    "punctuation.definition.variable.shell variable.other.normal.shell",
+    "entity.other.attribute-name.pseudo-element",
+    "hotkeyline entity.name.function.label",
     "meta.function.parameter",
     "meta.function.parameters",
     "meta.parameters",
@@ -326,20 +329,19 @@
     "variable.local"
   ],
   "orange_10": [
-    "entity.name.function.ahk",
-    "entity.name.function.ahk2",
+    "entity.name.function",
     "entity.name.tag",
     "markup.fenced_code.block.markdown",
-    "markup.inline.raw.string.markdown",
     "meta.function-call entity.name.function",
     "entity.name.function.pug",
     "meta.object.member meta.function-call entity.name.function",
-    "support.function.calc.css",
-    "support.function.gradient.css",
-    "support.function.misc.css",
-    "support.function.timing-function.css",
-    "support.function.url.css",
-    "support.variable.property"
+    "support.function.calc",
+    "support.function.gradient",
+    "support.function.misc",
+    "support.function.timing-function",
+    "support.function.url",
+    "support.variable.property",
+    "entity.name.function.member"
   ],
   "parameter.italic": [
     "variable.parameter",
@@ -355,15 +357,16 @@
   ],
   "rubine_00": [
     "constant.language.boolean.false",
+    "inject.promise",
+    "keyword.control.trycatch",
+    "keyword.control.switch",
     "constant.language.nan",
     "constant.language.null",
     "constant.language.undefined",
     "entity.name.type.parameter",
-    "keyword.control.ahk",
-    "keyword.control.ahk2",
+    "keyword.control",
     "keyword.control.flow",
     "keyword.control.loop",
-    "keyword.control.trycatch",
     "keyword.operator.expression.delete",
     "keyword.operator.expression.instanceof",
     "keyword.operator.expression.typeof",
@@ -387,5 +390,8 @@
   "type": [
     "entity.name.type.alias",
     "support.type"
+  ],
+  "yellow_00": [
+    "constant.character.escape"
   ]
 }

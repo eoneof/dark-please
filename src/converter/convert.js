@@ -40,7 +40,7 @@ const textMapping = JSON.parse(
 /** @type {{token: color}} paired */
 const paired = {};
 
-/** 
+/**
  * Substitute a value with a value of a key which name matches a given value
  * in this case the abstract color tokens is replaced with the actual HEX values
  * e.g. {warning: 'red'} <=> {red: '#f00'} = {warning: '#f00'}

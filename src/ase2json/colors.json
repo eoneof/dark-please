@@ -14,7 +14,9 @@
     "green_20": "#5e8d41",
     "green_25": "#5b8010db",
     "green_30": "#87915D",
+    "green_35": "#839774",
     "green_40": "#aab01e",
+    "green_50": "#839774",
     "indigo_00": "#5f67d1",
     "indigo_10": "#7B79C7",
     "khaki_00": "#aa9f6e",
@@ -23,6 +25,7 @@
     "light_20": "#D7C3AA",
     "light_30": "#CDC3BE",
     "light_40": "#CBBEAB",
+    "magenta_00": "#c13e66",
     "ochre_00": "#BB8E5C",
     "ochre_10": "#906949",
     "ochre_20": "#7A6359",
@@ -30,8 +33,9 @@
     "orange_05": "#cd8a5eef",
     "orange_10": "#b76753",
     "orange_20": "#AE7658",
+    "red_00": "#a01717",
     "rubine_00": "#AA4A4E",
     "rubine_30": "#B4787C",
-    "red_00": "#a01717"
+    "yellow_00": "#cebd68"
   }
 }

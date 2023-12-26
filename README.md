@@ -26,7 +26,7 @@ Actual look as of Aug 2023
 
 ## What is this
 
-Semantic highlighting is programmatically generated, based on a configuration of base colors for the different tokens and a list of specific color transformations for token modifiers which can also be stacked to represent different combinations.  
+Semantic highlighting is programmatically generated, based on a configuration of base colors for the different tokens and a list of specific color transformations for token modifiers which can also be stacked to represent different combinations.
 About 8.63% of styles/transformations are manually defined, stepping in where the automatic generation produced less than optimal results.
 
 The definition of colors and transformations follows a [simple spec](https://github.com/Thertzlor/semantic-rainbow/tree/main/generator#user-content-working-with-the-semantic-theme-generator) for easy tweaking and forking to create any number of dynamic semantic themes.
@@ -74,7 +74,7 @@ To customize semantic scopes edit `./src/converter/tokens.json` and `./src/conve
 
 ## Compatibility
 
-This theme relies on the presence of language server that support Semantic Highlighting. Some of the languages with the best support for this feature include JavaScript, TypeScript and Python.  
+This theme relies on the presence of language server that support Semantic Highlighting. Some of the languages with the best support for this feature include JavaScript, TypeScript and Python.
 Keep in mind results might vary based on the language extensions you have installed, and even for non-semantic highlighting the theme attempts to approximate results by providing fallback mappings to TextMate rules including but not limited to the [VSCode semantic token scope map](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#semantic-token-scope-map).
 
 <!-- ## Installation -->
@@ -98,3 +98,4 @@ Keep in mind results might vary based on the language extensions you have instal
 
 - tokenize window colors
 - maybe rename fallbacks to insert colors directly and get rid of `tokens.json`
+d
