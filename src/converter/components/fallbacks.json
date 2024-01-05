@@ -38,7 +38,7 @@
     "punctuation.separator.key-value.html",
     "punctuation.definition.heading.markdown"
   ],
-  "gray_00.italic": [
+  "gray_10.italic": [
     "comment.block.documentation",
     "comment.line.double-slash",
     "comment.block",
@@ -85,7 +85,9 @@
     "property-list.end.bracket.curly",
     "support.type.property-name",
     "punctuation.section.block.begin",
-    "punctuation.section.block.end"
+    "punctuation.section.block.end",
+    "support.type.property-name.json",
+    "property.declaration"
   ],
   "gray_20.name": [
     "keyword.control.module",
@@ -347,10 +349,6 @@
     "variable.parameter",
     "variable.parameter.function",
     "variable.parameter.function-call"
-  ],
-  "property.declaration": [
-    "support.type.property-name.json",
-    "property.declaration"
   ],
   "red_00": [
     "keyword.other.debugger"

@@ -10,11 +10,12 @@
       "baseTokenColors": {
         "aqua_00": "#6BA29D",
         "blue_10": "#6C8BA5",
-        "blue_20": "#7F94AA",
+        "blue_20": "#688099",
         "blue_30": "#7f8bbd",
         "gray_00": "#615C56",
         "gray_10": "#666262",
         "gray_20": "#878283",
+        "gray_20.name": "#878283",
         "gray_30": "#9C9D9D",
         "green_00": "#5D8955",
         "green_10": "#4aa075",
@@ -29,6 +30,7 @@
         "khaki_00": "#aa9f6e",
         "light_00": "#CEBDA5",
         "light_10": "#aa9c92",
+        "gray_10.italic": "#666262",
         "light_20": "#D7C3AA",
         "light_30": "#CDC3BE",
         "light_40": "#CBBEAB",
@@ -36,6 +38,7 @@
         "ochre_00": "#BB8E5C",
         "ochre_10": "#906949",
         "ochre_20": "#7A6359",
+        "ochre_20.italic": "#7A6359",
         "orange_00": "#cb5b00",
         "orange_05": "#cd8a5eef",
         "orange_10": "#b76753",
@@ -43,7 +46,9 @@
         "red_00": "#a01717",
         "rubine_00": "#AA4A4E",
         "rubine_30": "#B4787C",
-        "yellow_00": "#cebd68"
+        "yellow_00": "#cebd68",
+        "parameter.italic": "#cd8a5eef",
+        "property.declaration": "#878283"
       },
       "modifications": {},
       "textformatMapping": {
@@ -106,7 +111,7 @@
           "punctuation.separator.key-value.html",
           "punctuation.definition.heading.markdown"
         ],
-        "gray_00.italic": [
+        "gray_10.italic": [
           "comment.block.documentation",
           "comment.line.double-slash",
           "comment.block",
@@ -153,7 +158,9 @@
           "property-list.end.bracket.curly",
           "support.type.property-name",
           "punctuation.section.block.begin",
-          "punctuation.section.block.end"
+          "punctuation.section.block.end",
+          "support.type.property-name.json",
+          "property.declaration"
         ],
         "gray_20.name": [
           "keyword.control.module",
@@ -415,10 +422,6 @@
           "variable.parameter",
           "variable.parameter.function",
           "variable.parameter.function-call"
-        ],
-        "property.declaration": [
-          "support.type.property-name.json",
-          "property.declaration"
         ],
         "red_00": [
           "keyword.other.debugger"

@@ -6,6 +6,7 @@
   "gray_00": "gray_00",
   "gray_10": "gray_10",
   "gray_20": "gray_20",
+  "gray_20.name": "gray_20",
   "gray_30": "gray_30",
   "green_00": "green_00",
   "green_10": "green_10",
@@ -20,6 +21,7 @@
   "khaki_00": "khaki_00",
   "light_00": "light_00",
   "light_10": "light_10",
+  "gray_10.italic": "gray_10",
   "light_20": "light_20",
   "light_30": "light_30",
   "light_40": "light_40",
@@ -27,6 +29,7 @@
   "ochre_00": "ochre_00",
   "ochre_10": "ochre_10",
   "ochre_20": "ochre_20",
+  "ochre_20.italic": "ochre_20",
   "orange_00": "orange_00",
   "orange_05": "orange_05",
   "orange_10": "orange_10",
@@ -34,5 +37,7 @@
   "red_00": "red_00",
   "rubine_00": "rubine_00",
   "rubine_30": "rubine_30",
-  "yellow_00": "yellow_00"
+  "yellow_00": "yellow_00",
+  "parameter.italic": "orange_05",
+  "property.declaration": "gray_20"
 }
