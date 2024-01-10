@@ -2,7 +2,7 @@
    "name": "dark-please",
    "displayName": "Dark, please!",
    "description": "A pleasant-looking low-contrast dark theme.",
-   "version": "1.2.1",
+   "version": "1.2.2",
    "icon": "assets/img/dark-please-logo.png",
    "author": {
       "name": "Nick Eoneof"
@@ -377,6 +377,7 @@
                   "entity.name.function.shell",
                   "keyword.keys",
                   "keyword.operator.arithmetic",
+                  "keyword.operator.bitwise.shift",
                   "keyword.operator.comparison",
                   "keyword.operator.decrement",
                   "keyword.operator.expression.in",

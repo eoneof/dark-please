@@ -297,6 +297,7 @@
     "entity.name.function.shell",
     "keyword.keys",
     "keyword.operator.arithmetic",
+    "keyword.operator.bitwise.shift",
     "keyword.operator.comparison",
     "keyword.operator.decrement",
     "keyword.operator.expression.in",

@@ -1,11 +1,13 @@
-﻿{
+{
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "colors.schema.json",
   "title": "Colors",
   "description": "Hex values",
   "type": "object",
   "additionalProperties": false,
-  "required": ["colors"],
+  "required": [
+    "colors"
+  ],
   "properties": {
     "$schema": {
       "description": "a link to a schema file",

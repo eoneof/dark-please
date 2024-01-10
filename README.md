@@ -3,7 +3,7 @@
 
 # ![icon](assets/img/dark-please-logo.png)
 
-> A pleasant-looking low contrast dark theme for VSCode with semantic highlighting.
+> A pleasant-looking low contrast dark theme for VSCode with handpicked semantic highlighting colors.
 
 ## Overview
 
@@ -32,6 +32,12 @@ About 8.63% of styles/transformations are manually defined, stepping in where th
 The definition of colors and transformations follows a [simple spec](https://github.com/Thertzlor/semantic-rainbow/tree/main/generator#user-content-working-with-the-semantic-theme-generator) for easy tweaking and forking to create any number of dynamic semantic themes.
 
 ## Creating your theme
+
+### Prerequisites
+ ```shell
+     npm install -g yo generator-code
+     npm install -g @vscode/vsce
+ ```
 
 As of now one should have Adobe Indesign installed to be able to visually pick colors.
 Otherwise you can manually edit HEX values in `./src/ase2json/colors.json`.
@@ -88,7 +94,6 @@ Keep in mind results might vary based on the language extensions you have instal
 - [**Semantic Rainbow Theme**](https://github.com/Thertzlor/semantic-rainbow/) — Used as a starting point.
 - [**Horizon Dark Theme**](https://horizontheme.netlify.app/) — Semantic Rainbow started as an extension of this theme and it remains an influence especially in the non-syntax parts.
 - [**TinyColor**](https://github.com/bgrins/TinyColor) — Used for color transformations.
-
 
 ## Known bugs
 
