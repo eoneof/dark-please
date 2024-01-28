@@ -2,7 +2,7 @@
    "name": "dark-please",
    "displayName": "Dark, please!",
    "description": "A pleasant-looking low-contrast dark theme.",
-   "version": "1.2.2",
+   "version": "1.2.4",
    "icon": "assets/img/dark-please-logo.png",
    "author": {
       "name": "Nick Eoneof"
@@ -91,8 +91,8 @@
                   "labelline entity.name.function.label",
                   "markup.underline.link.image.markdown",
                   "markup.underline.link.markdown",
-                  "meta.attribute.href.html",
-                  "meta.attribute.src.html",
+                  "meta.attribute.src.html entity.other.attribute-name.html",
+                  "meta.tag.object.img.void.html meta.attribute.src.html string.quoted.double.html",
                   "meta.function.url"
                ],
                "blue_20": [
@@ -103,13 +103,16 @@
                   "punctuation.definition.variable.percent",
                   "source.ignore",
                   "variable.other.object.property",
-                  "variable.other.property"
+                  "variable.other.property",
+                  "meta.selector.pseudo-element"
                ],
                "blue_30": [
                   "entity.name.type.module",
                   "entity.name.type",
                   "storage.modifier",
-                  "variable.other.readwrite.alias"
+                  "variable.other.readwrite.alias",
+                  "meta.attribute.href.html entity.other.attribute-name.html",
+                  "meta.attribute.href.html string.quoted.double.html"
                ],
                "function.declaration": [
                   "function.declaration"
@@ -160,6 +163,7 @@
                   "punctuation.section.function.begin.bracket.round",
                   "punctuation.section.function.end.bracket.round",
                   "punctuation.section.property-list.begin.bracket.curly",
+                  "punctuation.section.property-list.end.bracket.curly",
                   "punctuation.section.function.definition",
                   "punctuation.definition.arguments",
                   "property-list.end.bracket.curly",
@@ -167,7 +171,12 @@
                   "punctuation.section.block.begin",
                   "punctuation.section.block.end",
                   "support.type.property-name.json",
-                  "property.declaration"
+                  "support.type.property-name.css",
+                  "source.css.scss meta.property-list.scss entity.name.tag",
+                  "source.css.scss meta.property-list.scss meta.property-list.scss",
+                  "source.css.scss meta.property-list.scss meta.property-list.scss meta.property-list.scss entity.name.tag",
+                  "property.declaration",
+                  "punctuation.definition.entity.css"
                ],
                "gray_20.name": [
                   "keyword.control.module",
@@ -259,6 +268,9 @@
                   "keyword.control.at-rule.font-face",
                   "keyword.control.at-rule.import",
                   "keyword.control.at-rule.media",
+                  "keyword.control.at-rule.include",
+                  "keyword.control.at-rule.mixin",
+                  "entity.name.tag.custom",
                   "meta.template.expression",
                   "punctuation.definition.string.template.begin",
                   "punctuation.definition.string.template.end",
@@ -277,7 +289,8 @@
                   "entity.other.attribute-name.pseudo-class",
                   "entity.other.attribute-name.pseudo-class",
                   "meta.directive.vue",
-                  "meta.directive.vue"
+                  "meta.directive.vue",
+                  "entity.other.attribute-name.pseudo-element"
                ],
                "lang.variable.defaultLibrary.readonly": [
                   "const",
@@ -322,8 +335,8 @@
                   "meta.symbol.namespace"
                ],
                "ochre_00": [
+                  "support.constant.property-value.css",
                   "entity.name.section",
-                  "meta.attribute.id string.quoted.double",
                   "markup.heading",
                   "meta.definition.variable",
                   "support.constant.media",
@@ -349,7 +362,9 @@
                   "meta.property-name",
                   "meta.tag.attributes",
                   "support.type.primitive",
-                  "support.type.property-name"
+                  "support.type.property-name",
+                  "meta.tag.inline.span.start.html entity.name.tag.html",
+                  "meta.tag.inline.span.end.html entity.name.tag.html"
                ],
                "ochre_20": [
                   "keyword.operator.assignment",
@@ -371,9 +386,11 @@
                ],
                "orange_00": [
                   "punctuation.separator.statement.and",
+                  "meta.attribute.id string.quoted.double",
                   "entity.name.section.markdown",
                   "function.declaration",
                   "functionline entity.name.function",
+                  "entity.name.function.scss",
                   "entity.name.function.shell",
                   "keyword.keys",
                   "keyword.operator.arithmetic",
@@ -399,21 +416,23 @@
                   "meta.image.inline.markdown",
                   "storage.type.function.arrow",
                   "variable.language.arguments",
-                  "variable.language.super"
+                  "variable.language.super",
+                  "entity.name.tag.reference.scss"
                ],
                "orange_05": [
                   "punctuation.definition.variable.shell variable.other.normal.shell",
-                  "entity.other.attribute-name.pseudo-element",
                   "hotkeyline entity.name.function.label",
                   "meta.function.parameter",
                   "meta.function.parameters",
                   "meta.parameters",
                   "parameter.declaration",
-                  "variable.local"
+                  "entity.other.attribute-name.id",
+                  "entity.other.attribute-name.id.css punctuation.definition.entity.css",
+                  "variable.local",
+                  "entity.other.attribute-name.parent-selector-suffix punctuation.definition.entity.css"
                ],
                "orange_10": [
                   "entity.name.function",
-                  "entity.name.tag",
                   "markup.fenced_code.block.markdown",
                   "meta.function-call entity.name.function",
                   "entity.name.function.pug",
@@ -424,7 +443,16 @@
                   "support.function.timing-function",
                   "support.function.url",
                   "support.variable.property",
-                  "entity.name.function.member"
+                  "entity.name.function.member",
+                  "entity.name.tag.html.css",
+                  "entity.name.tag.html",
+                  "entity.name.tag.css",
+                  "meta.at-rule.include.scss entity.name.function.scss"
+               ],
+               "orange_20": [
+                  "meta.tag.object.img.void.html entity.name.tag.html",
+                  "meta.tag.structure.p.start.html entity.name.tag.html",
+                  "meta.tag.structure.p.end.html entity.name.tag.html"
                ],
                "parameter.italic": [
                   "variable.parameter",
