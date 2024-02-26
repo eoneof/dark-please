@@ -85,7 +85,7 @@
           "markup.underline.link.image.markdown",
           "markup.underline.link.markdown",
           "meta.attribute.src.html entity.other.attribute-name.html",
-          "meta.tag.object.img.void.html meta.attribute.src.html string.quoted.double.html",
+          "meta.tag.object.img.void.html meta.attribute.src.html string.quoted.doublhtml",
           "meta.function.url"
         ],
         "blue_20": [
@@ -142,6 +142,10 @@
           "meta.brace.round",
           "meta.indexer.declaration meta.brace.square",
           "meta.property-value",
+          "punctuation.section.group.end.powershell",
+          "punctuation.section.group.begin.powershell",
+          "punctuation.section.braces.begin.powershell",
+          "punctuation.section.braces.end.powershell",
           "punctuation.definition.logical-expression",
           "punctuation.bracket",
           "punctuation.definition.array.begin.json",
@@ -210,7 +214,8 @@
           "support.class.component",
           "support.class",
           "function.defaultLibrary",
-          "support.function.builtin"
+          "support.function.builtin",
+          "meta.scriptblock.powershell"
         ],
         "green_30.bold": [
           "support.class.component"
@@ -404,6 +409,8 @@
           "keyword.type",
           "meta.array-binding-pattern-variable meta.definition.variable variable.other.constant",
           "meta.definition.function",
+          "keyword.operator.logical.powershell",
+          "entity.name.function.powershell",
           "meta.field.declaration.tsx meta.definition.property.tsx entity.name.function.tsx",
           "meta.function meta.object.member variable.other.readwrite",
           "meta.image.inline.markdown",
@@ -425,6 +432,8 @@
           "entity.other.attribute-name.parent-selector-suffix punctuation.definition.entity.css"
         ],
         "orange_10": [
+          "meta.group.simple.subexpression.powershell",
+          "meta.scriptblock.powershell",
           "entity.name.function",
           "markup.fenced_code.block.markdown",
           "meta.function-call entity.name.function",
