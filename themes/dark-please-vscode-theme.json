@@ -3,8 +3,9 @@
    "type": "dark",
    "colors": {
       "activityBar.activeBackground": "#50667c80",
+      "activityBar.border": "#444242",
       "activityBar.activeBorder": "#7492B1",
-      "activityBar.background": "#333131",
+      "activityBar.background": "#383636",
       "activityBar.inactive": "#383636",
       "activityBar.foreground": "#CDC3BE",
       "activityBar.inactiveForeground": "#666262",
@@ -12,12 +13,13 @@
       "activityBarBadge.foreground": "#CDC3BE",
       "badge.background": "#50667c",
       "badge.foreground": "#CDC3BE",
+      "breadcrumb.foreground": "#7492B1cf",
       "breadcrumb.background": "#383636",
       "breadcrumbPicker.backgroud": "#383636",
       "button.background": "#50667c",
       "button.foreground": "#CDC3BE",
       "button.hoverBackground": "#87CEFA65",
-      "contrastBorder": "#1f1f1f99",
+      "contrastBorder": "#383636",
       "debugToolBar.background": "#2b2a2a",
       "diffEditorGutter.insertedLineBackground": "#22336865",
       "diffEditorGutter.removedLineBackground": "#72336a65",
@@ -62,7 +64,7 @@
       "editorCursor.background": "#444242",
       "editorCursor.foreground": "#d9d06f",
       "editorError.foreground": "#D6654C",
-      "editorGroup.border": "#1f1f1f99",
+      "editorGroup.border": "#444242",
       "editorGroup.dropBackground": "#6C6F934D",
       "editorGroupHeader.noTabsBackground": "#383636",
       "editorGroupHeader.tabsBackground": "#383636",
@@ -121,7 +123,7 @@
       "list.focusForeground": "#CDC3BE",
       "list.focusOutline": "#7492B180",
       "list.highlightForeground": "#7492B1",
-      "list.hselectoverBackground": "#50667c33",
+      "list.selectHoverBackground": "#50667c33",
       "list.hoverForeground": "#CDC3BE",
       "list.inactiveFocusBackground": "#44424280",
       "list.inactiveFocusForeground": "#CDC3BE88",
@@ -175,7 +177,7 @@
       "settings.rowHoverBackground": "#50667c33",
       "settings.textInputBorder": "#50667c65",
       "sideBar.background": "#383636",
-      "sideBar.border": "#2b2a2a88",
+      "sideBar.border": "#383636",
       "sideBar.dropBackground": "#50667c65",
       "sideBar.foreground": "#AA9C92",
       "sideBarSectionHeader.background": "#cbbeab11",
@@ -191,10 +193,10 @@
       "statusBarItem.prominentBackground": "#444242",
       "statusBarItem.prominentHoverBackground": "#6C6F93",
       "tab.activeBackground": "#50667c80",
-      "tab.activeBorder": "#7b9fc8",
+      "tab.activeBorder": "#7b9fc866",
       "tab.activeForeground": "#cebda5",
       "tab.activeModifiedBorder": "#D6654C85",
-      "tab.border": "#2b2a2a88",
+      "tab.border": "#444242",
       "tab.inactiveBackground": "#383636",
       "tab.inactiveForeground": "#878283",
       "terminal.ansiBlue": "#6C8BA5",
@@ -22445,6 +22447,74 @@
          "name": "orange_00",
          "scope": [
             "meta.scriptblock.powershell"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
          ],
          "settings": {
             "foreground": "#cb5b00"
