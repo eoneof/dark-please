@@ -12,6 +12,7 @@
         "blue_10": "#6C8BA5",
         "blue_20": "#778aa1",
         "blue_30": "#7f8bbd",
+        "blue_40": "#50667c",
         "gray_00": "#615C56",
         "gray_10": "#666262",
         "gray_20": "#878283",
@@ -107,12 +108,17 @@
           "meta.attribute.href.html entity.other.attribute-name.html",
           "meta.attribute.href.html string.quoted.double.html"
         ],
+        "blue_40": [
+          "meta.path.dirname.search",
+          "meta.path.basename.search"
+        ],
         "function.declaration": [
           "function.declaration"
         ],
         "gray_00": [
           "punctuation.separator.key-value.html",
-          "punctuation.definition.heading.markdown"
+          "punctuation.definition.heading.markdown",
+          "meta.resultLinePrefix.lineNumber.search"
         ],
         "gray_10.italic": [
           "comment.block.documentation",
@@ -122,7 +128,8 @@
           "punctuation.definition.block.tag.jsdoc",
           "punctuation.definition.comment",
           "storage.type.class.jsdoc",
-          "comment.unbuffered.block.pug"
+          "comment.unbuffered.block.pug",
+          "text.searchResult meta.resultBlock.search meta.resultLine.search"
         ],
         "gray_10": [
           "meta.object.member",
@@ -325,7 +332,8 @@
           "string.unquoted.argument.shell",
           "string.quoted.single",
           "string.template",
-          "string.regexp"
+          "string.regexp",
+          "text.searchResult"
         ],
         "light_20": [],
         "light_40": [],
@@ -355,6 +363,7 @@
         "ochre_10": [
           "constant.other.option",
           "entity.name.tag.yaml",
+          "entity.name.tag.pug",
           "meta.attribute",
           "meta.flow-mapping.yaml",
           "meta.property-name",
@@ -417,7 +426,8 @@
           "storage.type.function.arrow",
           "variable.language.arguments",
           "variable.language.super",
-          "entity.name.tag.reference.scss"
+          "entity.name.tag.reference.scss",
+          "meta.resultLinePrefix.matchLinePrefix.search"
         ],
         "orange_05": [
           "punctuation.definition.variable.shell variable.other.normal.shell",
