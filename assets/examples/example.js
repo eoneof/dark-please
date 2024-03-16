@@ -1,46 +1,53 @@
-﻿// nonsence example file to demonstrate syntax highlighting
+﻿// nonsense syntax highlighting demo
 
-import {text} from './text.js';
-export default example;
+import {text} from './example.tsx';
 
-const example = text;
-const selector = document.querySelector('.paage');
-
-var args = Array.prototype.slice.call(arguments);
-var args = Array.from(arguments);
-
-function storeNames() {
-  return arguments;
-}
-storeNames('Mulder', 'Scully', 'Alex Kryceck');
-
-function getGrades() {
-  var args = Array.prototype.slice.call(arguments, 1, 3);
-  return args;
-}
-console.log(getGrades(90, 100, 75, 40, 89, 95));
-
-// ES5 syntax
 class Person {
-  constructor(firstName, lastName) {
+  /**
+   * @param {string} firstName
+   * @param {string} lastName
+   * @param {number} age
+   */
+  constructor(firstName, lastName, age) {
     this._firstName = firstName;
     this._lastName = lastName;
+    this.age = age;
   }
 
   log() {
     console.log('I am', this._firstName, this._lastName);
   }
 
-  // setters
   set profession(val) {
     this._profession = val;
   }
-  // getters
+
   get profession() {
-    console.log(this._firstName, this._lastName, 'is a', this._profession);
+    return this._profession;
   }
 }
 
-let s_firstname = new Symbol();
+const employee = new Person('Jack Poe');
 
-const p = new Person()
+export function demo(args) {
+
+  const example = 'text';
+  const selector = document.querySelector('.page');
+
+  var args = Array.prototype.slice.call(example);
+  var arr = Array.from(args);
+
+  let [ data, info ] = arr
+
+  function storeNames(props) {
+    const id = props.id;
+    return arguments(id);
+  }
+
+  const grades = () => {
+    let args = storeNames({name: 'Mulder', id: [ 40, 89, 95 ] });
+  }
+
+}
+
+export default Person;

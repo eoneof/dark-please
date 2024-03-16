@@ -48,7 +48,7 @@ Then you just run `Package theme` VSCode task and that's it! Just install your f
 
 To customize semantic scopes edit `./src/converter/tokens.json` and `./src/converter/fallbacks.json` sequentially.
 
-## How it works
+<!-- ## How it works
 
 ```
                  [*.idml]
@@ -76,7 +76,7 @@ To customize semantic scopes edit `./src/converter/tokens.json` and `./src/conve
                  <PACKAGE>
                      |
                 [theme.vsix]
-```
+``` -->
 
 ## Compatibility
 
@@ -102,5 +102,4 @@ Keep in mind results might vary based on the language extensions you have instal
 ## Todo
 
 - tokenize window colors
-- maybe rename fallbacks to insert colors directly and get rid of `tokens.json`
-d
+- rename fallbacks to insert colors directly and get rid of `tokens.json`

@@ -297,7 +297,8 @@
     "support.type.primitive",
     "support.type.property-name",
     "meta.tag.inline.span.start.html entity.name.tag.html",
-    "meta.tag.inline.span.end.html entity.name.tag.html"
+    "meta.tag.inline.span.end.html entity.name.tag.html",
+    "meta.tag.inline.a entity.name.tag.html"
   ],
   "ochre_20": [
     "keyword.operator.assignment",
@@ -365,7 +366,9 @@
     "entity.other.attribute-name.id",
     "entity.other.attribute-name.id.css punctuation.definition.entity.css",
     "variable.local",
-    "entity.other.attribute-name.parent-selector-suffix punctuation.definition.entity.css"
+    "entity.other.attribute-name.parent-selector-suffix punctuation.definition.entity.css",
+    "meta.tag.structure.p entity.name.tag.html",
+    "meta.tag.object.img entity.name.tag.html"
   ],
   "orange_10": [
     "meta.group.simple.subexpression.powershell",
@@ -384,13 +387,14 @@
     "entity.name.function.member",
     "entity.name.tag.html.css",
     "entity.name.tag.html",
+    "entity.name.tag.tsx",
+    "entity.name.tag.jsx",
     "entity.name.tag.css",
     "meta.at-rule.include.scss entity.name.function.scss"
   ],
   "orange_20": [
-    "meta.tag.object.img.void.html entity.name.tag.html",
-    "meta.tag.structure.p.start.html entity.name.tag.html",
-    "meta.tag.structure.p.end.html entity.name.tag.html"
+    "meta.tag.structure.li entity.name.tag.html",
+    "meta.tag.structure.ul entity.name.tag.html"
   ],
   "parameter.italic": [
     "variable.parameter",

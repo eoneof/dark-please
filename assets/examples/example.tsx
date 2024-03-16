@@ -11,48 +11,34 @@ interface LinkProps {
 const MyLink = ({ linkData }: LinkProps) => {
   const urlRegex = /(www|http:|https:)+[^\s]+[\w]/i;
   const isUrl = !!linkData.url.match(urlRegex);
-  const [isExternal, setIsExternal] = useState(false);
+  const [ isExternal, setIsExternal ] = useState(false);
 
   useEffect(() => {
     setIsExternal(isUrl);
   }, [isUrl]);
 
   return isExternal ? (
-    <a
-      className="link"
-      href={linkData.url}
-      target="_blank"
-      rel="external noreferrer noopener"
-    >
-      {linkData.url}
-    </a>
-  ) : (
-    <a
-      className="link nav-link nav-link_active"
-      href={linkData.url}
-      target="_blank"
-      rel="external noreferrer noopener"
-    >
-      {linkData.url}
-    </a>
-  );
+    <a className="link" href={linkData.url} target="_blank" rel="external noreferrer noopener"> {linkData.url} </a>
+  ) : (<div className="paragraph">Nonsense</div>);
 };
 
-function App() {
+export default function App({user, id , title, link}) {
   const toggle = false;
-  const link: LinkElement = {
-    label: 'Google',
-    title: 'Go To Google',
-    url: 'https://google.com',
+  const linkElement: LinkElement = {
+    title: title,
+    url: link
   };
 
   const route: LinkElement = {
-    label: 'Projects',
+    title: 'Projects',
     url: '/projects',
   };
+
+  const text = (
+    <p>Hello, Dark Please!</p>
+  )
+
   const linkData = toggle ? link : route;
 
   return <MyLink linkData={linkData} />;
 }
-
-export default App;

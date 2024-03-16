@@ -4,6 +4,7 @@
    "type": "dark",
    "colors": {
       "activityBar.activeBackground": "#50667c80",
+      "editorGhostText.foreground": "#AA9C9245",
       "activityBar.activeBorder": "#7492B1",
       "activityBar.background": "#383636",
       "activityBar.border": "#444242",
@@ -11,12 +12,8 @@
       "activityBar.inactiveForeground": "#AA9C9245",
       "activityBarBadge.background": "#50667c",
       "activityBarBadge.foreground": "#CDC3BE",
-      "icon.foreground": "#AA9C9288",
-      "tree.indentGuidesStroke": "#cbbeab3c",
-      "dropdown.border": "#444242",
       "badge.background": "#464f59",
       "badge.foreground": "#aa9c92",
-      "debugToolBar.border": "#2b2a2a",
       "breadcrumb.activeSelectionForeground": "#cbbeab",
       "breadcrumb.background": "#3331317e",
       "breadcrumb.focusForeground": "#cbbeab",
@@ -25,10 +22,18 @@
       "button.background": "#464f59",
       "button.foreground": "#cbbeab",
       "button.hoverBackground": "#7492B180",
-      "toolbar.activeBackground": "#333131",
-      "toolbar.hoverBackground": "#333131",
       "contrastBorder": "#383636",
+      "debugConsole.errorForeground": "#D6654Cee",
+      "debugConsole.infoForeground": "#cbbeab",
+      "debugConsole.warningForeground": "#cca237",
       "debugToolBar.background": "#2b2a2a",
+      "debugToolBar.border": "#2b2a2a",
+      "debugTokenExpression.number": "#6BA29D",
+      "debugTokenExpression.error": "#D6654C",
+      "debugTokenExpression.boolean": "#7B79C7",
+      "debugTokenExpression.name": "#7492B1",
+      "debugTokenExpression.string": "#C49B6D",
+      "debugTokenExpression.value": "#878283",
       "diffEditor.insertedLineBackground": "#22336866",
       "diffEditor.insertedTextBackground": "#4aa07530",
       "diffEditor.removedLineBackground": "#72336a55",
@@ -39,20 +44,23 @@
       "diffEditorOverview.removedForeground": "#a01717",
       "disabledForeground": "#D7C3AA88",
       "dropdown.background": "#444242",
+      "dropdown.border": "#444242",
       "dropdown.foreground": "#CDC3BE",
       "dropdown.listBackground": "#444242",
       "editor.background": "#333131",
       "editor.findMatchBackground": "#9e673b45",
       "editor.findMatchBorder": "#D6654Cee",
+      "editorLightBulb.foreground": "#e3cb6f",
       "editor.findMatchHighlightBackground": "#9e673b45",
       "editor.findMatchHighlightBorder": "#D6654C33",
       "editor.findRangeHighlightBackground": "#6C6F931A",
       "editor.foreground": "#cbbeab",
       "editor.hoverHighlightBackground": "#1f1f1f65",
       "editor.lineHighlightBackground": "#e3cb6f11",
+      "editor.linkedEditingBackground": "#444242",
       "editor.rangeHighlightBackground": "#e3cb6f11",
       "editor.selectionBackground": "#454137",
-      "editor.selectionHighlightBackground": "#454137",
+      "editor.selectionHighlightBackground": "#454137ee",
       "editor.selectionHighlightBorder": "#e3cb6f11",
       "editor.snippetFinalTabstopHighlightBackground": "#1f1f1f99",
       "editor.snippetFinalTabstopHighlightBorder": "#e3cb6f",
@@ -68,7 +76,7 @@
       "editorBracketHighlight.foreground6": "#cbbeab45",
       "editorBracketMatch.background": "#D6654C22",
       "editorBracketMatch.border": "#D6654Ccc",
-      "editorCodeLens.foreground": "#D6654C40",
+      "editorCodeLens.foreground": "#50667c",
       "editorCursor.background": "#444242",
       "editorCursor.foreground": "#d9d06f",
       "editorError.foreground": "#D6654C",
@@ -86,6 +94,7 @@
       "editorIndentGuide.background1": "#cbbeab11",
       "editorLineNumber.activeForeground": "#fffff580",
       "editorLineNumber.foreground": "#cbbeab55",
+      "editorLink.activeForeground": "#efe5e1",
       "editorOverviewRuler.addedForeground": "#4DA58680",
       "editorOverviewRuler.background": "#00000000",
       "editorOverviewRuler.border": "#00000000",
@@ -96,6 +105,9 @@
       "editorOverviewRuler.modifiedForeground": "#609ad280",
       "editorOverviewRuler.warningForeground": "#4DA58680",
       "editorRuler.foreground": "#6C6F934D",
+      "editorStickyScroll.background": "#333131",
+      "editorStickyScroll.shadow": "#2b2a2a",
+      "editorStickyScrollHover.background": "#7492B133",
       "editorSuggestWidget.highlightForeground": "#50667c",
       "editorWarning.foreground": "#AE7658",
       "editorWhitespace.foreground": "#ffffff10",
@@ -112,6 +124,7 @@
       "gitDecoration.ignoredResourceForeground": "#87828399",
       "gitDecoration.modifiedResourceForeground": "#BB8E5C",
       "gitDecoration.untrackedResourceForeground": "#7F94AA",
+      "icon.foreground": "#AA9C9288",
       "input.background": "#2b2a2a88",
       "input.foreground": "#CDC3BE",
       "inputOption.activeBackground": "#50667c80",
@@ -127,17 +140,17 @@
       "list.activeSelectionForeground": "#CDC3BE",
       "list.dropBackground": "#7492B180",
       "list.errorForeground": "#D6654C",
+      "list.focusAndSelectionOutline": "#50667c",
       "list.focusBackground": "#7492B180",
       "list.focusForeground": "#CDC3BE",
       "list.focusOutline": "#7492B180",
       "list.highlightForeground": "#7492B1",
-      "list.hoverForeground": "#CDC3BE",
       "list.hoverBackground": "#50667c33",
+      "list.hoverForeground": "#CDC3BE",
       "list.inactiveFocusBackground": "#44424280",
       "list.inactiveSelectionBackground": "#50667c45",
       "list.inactiveSelectionForeground": "#CDC3BE",
       "list.warningForeground": "#f19e5add",
-      "list.focusAndSelectionOutline": "#50667c",
       "menu.background": "#444242",
       "menu.foreground": "#CDC3BE",
       "menu.selectionBackground": "#7492B145",
@@ -146,9 +159,13 @@
       "minimap.background": "#444242",
       "minimapSlider.background": "#cbccff1f",
       "minimapSlider.hoverBackground": "#50667c80",
+      "outputView.background": "#2b2a2a",
       "panel.background": "#383636",
       "panel.border": "#444242",
+      "panel.dropBorder": "#7492B1",
       "panelInput.border": "#615C5633",
+      "panelSectionHeader.background": "#3331317e",
+      "panelSectionHeader.foreground": "#AA9C92",
       "panelTitle.activeBorder": "#7492B1",
       "panelTitle.activeForeground": "#D7C3AA",
       "panelTitle.inactiveForeground": "#AA9C9288",
@@ -206,7 +223,6 @@
       "tab.border": "#444242",
       "tab.inactiveBackground": "#383636",
       "tab.inactiveForeground": "#878283",
-      "terminal.tab.activeBorder": "#7b9fc866",
       "terminal.ansiBlue": "#6C8BA5",
       "terminal.ansiBrightBlue": "#7b9fc8",
       "terminal.ansiBrightCyan": "#7bc5c8",
@@ -220,30 +236,28 @@
       "terminal.ansiRed": "#a01717",
       "terminal.ansiYellow": "#cca237",
       "terminal.background": "#2b2a2a",
+      "terminal.border": "#2b2a2a",
+      "terminal.dropBackground": "#e3cb6f11",
+      "terminal.findMatchBackground": "#9e673bee",
       "terminal.foreground": "#CDC3BE",
       "terminal.hoverHighlightBackground": "#2b2a2a88",
-      "terminal.dropBackground": "#e3cb6f11",
-      "terminalStickyScrollHover.background": "#2f2e2e",
-      "panelSectionHeader.foreground": "#AA9C92",
-      "panelSectionHeader.background": "#3331317e",
-      "panel.dropBorder": "#7492B1",
-      "terminal.selectionForeground": "#CDC3BE",
       "terminal.selectionBackground": "#7b9fc833",
-      "terminal.border": "#2b2a2a",
-      "terminal.findMatchBackground": "#9e673b",
+      "terminal.selectionForeground": "#CDC3BE",
+      "terminal.tab.activeBorder": "#7b9fc866",
+      "terminalCursor.background": "#383636",
       "terminalCursor.foreground": "#CDC3BE",
-      "textLink.activeForeground": "#7492B1",
+      "terminalStickyScrollHover.background": "#2f2e2e",
+      "textLink.activeForeground": "#efe5e1",
       "textLink.foreground": "#7492B1",
       "titleBar.activeBackground": "#383636",
       "titleBar.activeForeground": "#cebda5",
       "titleBar.inactiveBackground": "#383636",
       "titleBar.inactiveForeground": "#AA9C9288",
+      "toolbar.activeBackground": "#333131",
+      "toolbar.hoverBackground": "#333131",
+      "tree.indentGuidesStroke": "#cbbeab3c",
       "walkThrough.embeddedEditorBackground": "#444242",
-      "terminalCursor.background": "#383636",
-      "widget.shadow": "#2b2a2a",
-      "editorStickyScroll.background": "#333131",
-      "editorStickyScroll.shadow": "#2b2a2a",
-      "editorStickyScrollHover.background": "#7492B133"
+      "widget.shadow": "#2b2a2a"
    },
    "semanticHighlighting": true,
    "semanticTokenColors": {
@@ -19492,16 +19506,6 @@
          }
       },
       {
-         "name": "orange_20",
-         "scope": [
-            "meta.tag.structure.p.start.html",
-            "meta.tag.structure.p.end.html"
-         ],
-         "settings": {
-            "foreground": "#ae7658"
-         }
-      },
-      {
          "name": "gray_30",
          "scope": [
             "meta.object.member"
@@ -25160,6 +25164,1723 @@
          }
       },
       {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "orange_20",
+         "scope": [
+            "meta.tag.object.img.void.html entity.name.tag.html"
+         ],
+         "settings": {
+            "foreground": "#ae7658"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_05",
+         "scope": [
+            "punctuation.definition.variable.shell variable.other.normal.shell"
+         ],
+         "settings": {
+            "foreground": "#c4855b"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "orange_20",
+         "scope": [
+            "meta.tag.object.img.void.html entity.name.tag.html"
+         ],
+         "settings": {
+            "foreground": "#ae7658"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_05",
+         "scope": [
+            "punctuation.definition.variable.shell variable.other.normal.shell"
+         ],
+         "settings": {
+            "foreground": "#c4855b"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_05",
+         "scope": [
+            "punctuation.definition.variable.shell variable.other.normal.shell"
+         ],
+         "settings": {
+            "foreground": "#c4855b"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_05",
+         "scope": [
+            "punctuation.definition.variable.shell variable.other.normal.shell"
+         ],
+         "settings": {
+            "foreground": "#c4855b"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_05",
+         "scope": [
+            "punctuation.definition.variable.shell variable.other.normal.shell"
+         ],
+         "settings": {
+            "foreground": "#c4855b"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_05",
+         "scope": [
+            "punctuation.definition.variable.shell variable.other.normal.shell"
+         ],
+         "settings": {
+            "foreground": "#c4855b"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_05",
+         "scope": [
+            "punctuation.definition.variable.shell variable.other.normal.shell"
+         ],
+         "settings": {
+            "foreground": "#c4855b"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_05",
+         "scope": [
+            "punctuation.definition.variable.shell variable.other.normal.shell"
+         ],
+         "settings": {
+            "foreground": "#c4855b"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_05",
+         "scope": [
+            "punctuation.definition.variable.shell variable.other.normal.shell"
+         ],
+         "settings": {
+            "foreground": "#c4855b"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "orange_20",
+         "scope": [
+            "meta.tag.object.img.void.html entity.name.tag.html"
+         ],
+         "settings": {
+            "foreground": "#ae7658"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_05",
+         "scope": [
+            "punctuation.definition.variable.shell variable.other.normal.shell"
+         ],
+         "settings": {
+            "foreground": "#c4855b"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "orange_20",
+         "scope": [
+            "meta.tag.object.img.void.html entity.name.tag.html"
+         ],
+         "settings": {
+            "foreground": "#ae7658"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_05",
+         "scope": [
+            "punctuation.definition.variable.shell variable.other.normal.shell"
+         ],
+         "settings": {
+            "foreground": "#c4855b"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_00",
+         "scope": [
+            "support.constant.property-value.css"
+         ],
+         "settings": {
+            "foreground": "#c49b6d"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
+         "name": "green_25",
+         "scope": [
+            "support.class"
+         ],
+         "settings": {
+            "foreground": "#577716"
+         }
+      },
+      {
+         "name": "light_20",
+         "scope": [],
+         "settings": {
+            "foreground": "#d7c3aa"
+         }
+      },
+      {
+         "name": "light_40",
+         "scope": [],
+         "settings": {
+            "foreground": "#cbbeab"
+         }
+      },
+      {
+         "name": "ochre_00",
+         "scope": [
+            "support.constant.property-value.css"
+         ],
+         "settings": {
+            "foreground": "#c49b6d"
+         }
+      },
+      {
+         "name": "ochre_10",
+         "scope": [
+            "support.type.property-name"
+         ],
+         "settings": {
+            "foreground": "#a37753"
+         }
+      },
+      {
+         "name": "ochre_20",
+         "scope": [
+            "support.function"
+         ],
+         "settings": {
+            "foreground": "#7a6359"
+         }
+      },
+      {
+         "name": "orange_00",
+         "scope": [
+            "variable.language.arguments"
+         ],
+         "settings": {
+            "foreground": "#cb5b00"
+         }
+      },
+      {
+         "name": "orange_10",
+         "scope": [
+            "support.function.misc"
+         ],
+         "settings": {
+            "foreground": "#b76753"
+         }
+      },
+      {
+         "name": "gray_30",
+         "scope": [
+            "meta.object.member"
+         ],
+         "settings": {
+            "foreground": "#9c9d9d"
+         }
+      },
+      {
          "name": "green_20",
          "scope": [
             "entity.other.attribute-name.class"
@@ -25655,7 +27376,8 @@
             "support.type.primitive",
             "support.type.property-name",
             "meta.tag.inline.span.start.html entity.name.tag.html",
-            "meta.tag.inline.span.end.html entity.name.tag.html"
+            "meta.tag.inline.span.end.html entity.name.tag.html",
+            "meta.tag.inline.a entity.name.tag.html"
          ],
          "settings": {
             "foreground": "#a37753"
@@ -25748,7 +27470,9 @@
             "entity.other.attribute-name.id",
             "entity.other.attribute-name.id.css punctuation.definition.entity.css",
             "variable.local",
-            "entity.other.attribute-name.parent-selector-suffix punctuation.definition.entity.css"
+            "entity.other.attribute-name.parent-selector-suffix punctuation.definition.entity.css",
+            "meta.tag.structure.p entity.name.tag.html",
+            "meta.tag.object.img entity.name.tag.html"
          ],
          "settings": {
             "foreground": "#c4855b"
@@ -25773,6 +27497,8 @@
             "entity.name.function.member",
             "entity.name.tag.html.css",
             "entity.name.tag.html",
+            "entity.name.tag.tsx",
+            "entity.name.tag.jsx",
             "entity.name.tag.css",
             "meta.at-rule.include.scss entity.name.function.scss"
          ],
@@ -25783,9 +27509,8 @@
       {
          "name": "orange_20",
          "scope": [
-            "meta.tag.object.img.void.html entity.name.tag.html",
-            "meta.tag.structure.p.start.html entity.name.tag.html",
-            "meta.tag.structure.p.end.html entity.name.tag.html"
+            "meta.tag.structure.li entity.name.tag.html",
+            "meta.tag.structure.ul entity.name.tag.html"
          ],
          "settings": {
             "foreground": "#ae7658"
