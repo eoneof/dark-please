@@ -70,6 +70,7 @@
     "strikethrough.markdown"
   ],
   "gray_20": [
+    "entity.name.tag.localname.xml",
     "entity.other.attribute-name",
     "markup.quote.markdown",
     "meta.brace.round",
@@ -284,7 +285,8 @@
   ],
   "ochre_00.bold": [
     "markup.bold.markdown",
-    "meta.attribute.id.html"
+    "meta.attribute.id.html",
+    "meta.tag.xml entity.other.attribute-name.localname.xml"
   ],
   "ochre_10": [
     "constant.other.option",
@@ -434,7 +436,9 @@
   "rubine_30": [
     "keyword.control.conditional",
     "punctuation.definition.tag.begin",
-    "punctuation.definition.tag.end"
+    "punctuation.definition.tag.end",
+    "meta.tag.preprocessor.xml",
+    "punctuation.definition.tag.xml"
   ],
   "type": [
     "entity.name.type.alias",
