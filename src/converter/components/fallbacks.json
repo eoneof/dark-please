@@ -13,7 +13,8 @@
     "markup.underline.link.markdown",
     "meta.attribute.src.html entity.other.attribute-name.html",
     "meta.tag.object.img.void.html meta.attribute.src.html string.quoted.doublhtml",
-    "meta.function.url"
+    "meta.function.url",
+    "string.quoted.double.xml"
   ],
   "blue_20": [
     "keyword.control.anchor.regexp",
@@ -70,7 +71,8 @@
     "strikethrough.markdown"
   ],
   "gray_20": [
-    "entity.name.tag.localname.xml",
+    "meta.tag.xml entity.other.attribute-name.localname.xml",
+    "meta.tag.no-content.xml entity.other.attribute-name.localname.xml",
     "entity.other.attribute-name",
     "markup.quote.markdown",
     "meta.brace.round",
@@ -164,7 +166,8 @@
     "markup.inline.raw.string.markdown",
     "markup.fenced_code.block.markdown",
     "punctuation.definition.markdown",
-    "markup.fenced_code.block.markdown"
+    "markup.fenced_code.block.markdown",
+    "entity.name.tag.localname.xml"
   ],
   "indigo_00": [
     "constant.language",
@@ -260,7 +263,8 @@
     "string.quoted.single",
     "string.template",
     "string.regexp",
-    "text.searchResult"
+    "text.searchResult",
+    "string.unquoted.cdata.xml"
   ],
   "light_20": [],
   "light_40": [],
@@ -281,12 +285,13 @@
     "variable.other.readwrite",
     "variable.other",
     "variable",
-    "support.function"
+    "support.function",
+    "entity.name.tag.namespace.xml",
+    "entity.other.attribute-name.localname.xml"
   ],
   "ochre_00.bold": [
     "markup.bold.markdown",
-    "meta.attribute.id.html",
-    "meta.tag.xml entity.other.attribute-name.localname.xml"
+    "meta.attribute.id.html"
   ],
   "ochre_10": [
     "constant.other.option",
@@ -300,9 +305,15 @@
     "support.type.property-name",
     "meta.tag.inline.span.start.html entity.name.tag.html",
     "meta.tag.inline.span.end.html entity.name.tag.html",
-    "meta.tag.inline.a entity.name.tag.html"
+    "meta.tag.inline.a entity.name.tag.html",
+    "entity.other.attribute-name.namespace.xml"
   ],
   "ochre_20": [
+    "meta.tag.xml",
+    "meta.tag.no-content.xml",
+    "punctuation.definition.tag.xml",
+    "punctuation.definition.string.begin.xml",
+    "punctuation.definition.string.end.xml",
     "keyword.operator.assignment",
     "punctuation.terminator.statement",
     "support.function"
@@ -321,6 +332,7 @@
     "variable.other.jsdoc"
   ],
   "orange_00": [
+    "punctuation.separator.namespace.xml",
     "punctuation.separator.statement.and",
     "meta.attribute.id string.quoted.double",
     "entity.name.section.markdown",
@@ -437,8 +449,7 @@
     "keyword.control.conditional",
     "punctuation.definition.tag.begin",
     "punctuation.definition.tag.end",
-    "meta.tag.preprocessor.xml",
-    "punctuation.definition.tag.xml"
+    "meta.tag.preprocessor.xml"
   ],
   "type": [
     "entity.name.type.alias",
