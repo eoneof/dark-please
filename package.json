@@ -2,7 +2,7 @@
    "name": "dark-please",
    "displayName": "Dark, please!",
    "description": "A pleasant-looking low-contrast dark theme.",
-   "version": "1.4.4",
+   "version": "1.4.5",
    "icon": "assets/img/dark-please-logo.png",
    "author": {
       "name": "Nikolay Ivanov"
@@ -102,6 +102,8 @@
                   "punctuation.definition.binding-pattern",
                   "punctuation.definition.character-class.regexp",
                   "punctuation.definition.variable.percent",
+                  "punctuation.section.scope.begin.ruby",
+                  "punctuation.section.scope.end.ruby",
                   "source.ignore",
                   "variable.other.object.property",
                   "variable.other.property",
@@ -145,7 +147,8 @@
                   "variable.language.self",
                   "variable.language.special.self",
                   "variable.language.this",
-                  "fenced_code.block.language.markdown"
+                  "fenced_code.block.language.markdown",
+                  "constant.language.symbol.hashkey.ruby"
                ],
                "gray_10.srikethrough": [
                   "strikethrough.markdown"
@@ -166,6 +169,9 @@
                   "punctuation.bracket",
                   "punctuation.definition.array.begin.json",
                   "punctuation.definition.array.end.json",
+                  "punctuation.section.array.begin.ruby",
+                  "punctuation.section.array.end.ruby",
+                  "punctuation.section.function.ruby",
                   "punctuation.definition.block",
                   "punctuation.definition.constant.markdown",
                   "punctuation.definition.dictionary.begin.json",
@@ -189,13 +195,15 @@
                   "source.css.scss meta.property-list.scss meta.property-list.scss",
                   "source.css.scss meta.property-list.scss meta.property-list.scss meta.property-list.scss entity.name.tag",
                   "property.declaration",
-                  "punctuation.definition.entity.css"
+                  "punctuation.definition.entity.css",
+                  "punctuation.definition.parameters.ruby"
                ],
                "gray_20.name": [
                   "keyword.control.module",
                   "meta.import string.quoted.single",
                   "keyword.control.import string.parameter.import",
-                  "string.parameter.directives keyword.control.directives"
+                  "string.parameter.directives keyword.control.directives",
+                  "meta.require.ruby keyword.other.special-method.ruby"
                ],
                "gray_30": [
                   "constant.other.reference.link.markdown",
@@ -320,7 +328,9 @@
                   "punctuation.definition.strikethrough.markdown",
                   "string.other.link.description.markdown",
                   "string.parameter.directives",
-                  "string.parameter.import"
+                  "string.parameter.import",
+                  "string.quoted.double.interpolated.ruby",
+                  "string.quoted.single.ruby"
                ],
                "light_00.operator": [
                   "keyword.operator"
@@ -344,7 +354,10 @@
                   "string.template",
                   "string.regexp",
                   "text.searchResult",
-                  "string.unquoted.cdata.xml"
+                  "string.unquoted.cdata.xml",
+                  "source.ruby",
+                  "punctuation.separator.variable.ruby",
+                  "string.unquoted.plain.out.yaml"
                ],
                "light_20": [],
                "light_40": [],
@@ -386,7 +399,8 @@
                   "meta.tag.inline.span.start.html entity.name.tag.html",
                   "meta.tag.inline.span.end.html entity.name.tag.html",
                   "meta.tag.inline.a entity.name.tag.html",
-                  "entity.other.attribute-name.namespace.xml"
+                  "entity.other.attribute-name.namespace.xml",
+                  "string.quoted.double.interpolated.ruby meta.embedded.line.ruby source.ruby"
                ],
                "ochre_20": [
                   "meta.tag.xml",
@@ -395,6 +409,7 @@
                   "punctuation.definition.string.begin.xml",
                   "punctuation.definition.string.end.xml",
                   "keyword.operator.assignment",
+                  "keyword.operator.assignment.augmented.ruby",
                   "punctuation.terminator.statement",
                   "support.function"
                ],
@@ -409,7 +424,10 @@
                   "storage.type",
                   "keyword.class",
                   "support.type.object.module",
-                  "variable.other.jsdoc"
+                  "variable.other.jsdoc",
+                  "keyword.control.ruby",
+                  "keyword.control.def.ruby",
+                  "keyword.control.class.ruby"
                ],
                "orange_00": [
                   "punctuation.separator.namespace.xml",
@@ -417,6 +435,7 @@
                   "meta.attribute.id string.quoted.double",
                   "entity.name.section.markdown",
                   "function.declaration",
+                  "entity.name.function.ruby",
                   "functionline entity.name.function",
                   "entity.name.function.scss",
                   "entity.name.function.shell",
@@ -453,6 +472,7 @@
                "orange_05": [
                   "punctuation.definition.variable.shell variable.other.normal.shell",
                   "hotkeyline entity.name.function.label",
+                  "source.ruby meta.function-call.ruby",
                   "meta.function.parameter",
                   "meta.function.parameters",
                   "meta.parameters",
@@ -484,7 +504,9 @@
                   "entity.name.tag.tsx",
                   "entity.name.tag.jsx",
                   "entity.name.tag.css",
-                  "meta.at-rule.include.scss entity.name.function.scss"
+                  "meta.at-rule.include.scss entity.name.function.scss",
+                  "meta.function-call.ruby",
+                  "meta.function-call.ruby entity.name.function.ruby"
                ],
                "orange_20": [
                   "meta.tag.structure.li entity.name.tag.html",
