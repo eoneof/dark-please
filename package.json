@@ -2,7 +2,7 @@
    "name": "dark-please",
    "displayName": "Dark, please!",
    "description": "A pleasant-looking low-contrast dark theme.",
-   "version": "1.4.5",
+   "version": "1.4.6",
    "icon": "assets/img/dark-please-logo.png",
    "author": {
       "name": "Nikolay Ivanov"
@@ -214,9 +214,7 @@
                   "variable.object.property",
                   "variable.parameter meta.interface meta.indexer.declaration"
                ],
-               "green_00": [
-                  "entity.other.attribute-name.class"
-               ],
+               "green_00": [],
                "green_10": [
                   "className.value.react",
                   "meta.attribute.class.html string.quoted.double.html"
@@ -227,7 +225,8 @@
                   "entity.name.type.class",
                   "entity.other.attribute-name.class",
                   "entity.other.inherited-class",
-                  "support.class"
+                  "support.class",
+                  "meta.property-list.scss meta.property-name.scss support.type.property-name.css"
                ],
                "green_25": [
                   "storage.type.interface",
