@@ -73,7 +73,7 @@
             "id": "dark-please",
             "label": "Dark, please!",
             "uiTheme": "vs-dark",
-            "path": "./themes/dark-please-vscode-theme.json"
+            "path": "./themes/dark-please.json"
          }
       ],
       "semanticTokenScopes": [

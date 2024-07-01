@@ -5,7 +5,7 @@
       "label": "Dark, please!",
       "mainTheme": false,
       "uiTheme": "vs-dark",
-      "path": "./themes/dark-please-vscode-theme.json",
+      "path": "./themes/dark-please.json",
       "id": "dark-please",
       "baseTokenColors": {
         "aqua_00": "#6BA29D",
