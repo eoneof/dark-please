@@ -1,0 +1,15 @@
+// {
+//   "scopeName": "css.selector.jquery",
+//   "injectionSelector": "L:source.js string.quoted.double.js, L:source.js string.quoted.single.js",
+//   "patterns": [
+//     {
+//       "include": "#jquery-css-selector"
+//     }
+//   ],
+//   "repository": {
+//     "jquery-css-selector": {
+//       "match": "(?<=\\$\\([\\'|\"])(\\..+)(?=[\\'|\"][^)]*\\))",
+//       "name": "css.selector.jquery"
+//     }
+//   }
+// }

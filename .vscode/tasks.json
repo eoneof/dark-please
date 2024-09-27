@@ -15,7 +15,9 @@
       "script": "package",
       "type": "npm",
       "group": "none",
-      "dependsOn": ["Create dist directory"],
+      "dependsOn": [
+        "Create dist directory"
+      ],
       "problemMatcher": []
     },
     {
@@ -30,7 +32,7 @@
       "type": "shell",
       "isBackground": true,
       "problemMatcher": [],
-      "command": " node ./node_modules/nodemon/bin/nodemon --watch ./src/ase2json/colors.json -x \"npm run build\""
+      "command": " node ./node_modules/nodemon/bin/nodemon --watch ./src/* -x \"npm run build\""
     },
     {
       "label": "Convert variables",

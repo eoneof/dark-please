@@ -11,7 +11,7 @@
     "labelline entity.name.function.label",
     "markup.underline.link.image.markdown",
     "markup.underline.link.markdown",
-    "meta.attribute.src.html entity.other.attribute-name.html",
+    "meta.attribute.src.entity.other.attribute-name.html",
     "meta.tag.object.img.void.html meta.attribute.src.html string.quoted.doublhtml",
     "meta.function.url",
     "string.quoted.double.xml"
@@ -26,13 +26,16 @@
     "punctuation.section.scope.end.ruby",
     "source.ignore",
     "variable.other.object.property",
+    "meta.objectliteral punctuation.definition.block",
+    "meta.class variable.other.property",
     "variable.other.property",
     "meta.selector.pseudo-element"
   ],
+  "property.declaration": [
+    "meta.method.declaration meta.definition.method entity.name.function"
+  ],
   "blue_30": [
-    "entity.name.type.module",
     "entity.name.type",
-    "storage.modifier",
     "variable.other.readwrite.alias",
     "meta.attribute.href.html entity.other.attribute-name.html",
     "meta.attribute.href.html string.quoted.double.html"
@@ -40,9 +43,6 @@
   "blue_40": [
     "meta.path.dirname.search",
     "meta.path.basename.search"
-  ],
-  "function.declaration": [
-    "function.declaration"
   ],
   "gray_00": [
     "punctuation.separator.key-value.html",
@@ -61,8 +61,6 @@
     "text.searchResult meta.resultBlock.search meta.resultLine.search"
   ],
   "gray_10": [
-    "meta.object.member",
-    "meta.objectliteral",
     "props.react",
     "variable.language.self",
     "variable.language.special.self",
@@ -74,6 +72,7 @@
     "strikethrough.markdown"
   ],
   "gray_20": [
+    "meta.object-literal.key",
     "meta.tag.xml entity.other.attribute-name.localname.xml",
     "meta.tag.no-content.xml entity.other.attribute-name.localname.xml",
     "entity.other.attribute-name",
@@ -127,44 +126,44 @@
   ],
   "gray_30": [
     "constant.other.reference.link.markdown",
-    "meta.object-literal.key",
-    "meta.object-literal",
-    "meta.object.member",
-    "meta.objectliteral",
     "variable.object.property",
     "variable.parameter meta.interface meta.indexer.declaration"
   ],
   "green_00": [],
   "green_10": [
     "className.value.react",
-    "meta.attribute.class.html string.quoted.double.html"
+    "meta.attribute.class.html string.quoted.double.html",
+    "css.selector.jquery"
   ],
   "green_20": [
+    "meta.export.default meta.class meta.method.declaration",
+    "meta.class meta.method.declaration storage.type",
     "class.declaration",
     "entity.name.class",
     "entity.name.type.class",
     "entity.other.attribute-name.class",
     "entity.other.inherited-class",
     "support.class",
-    "meta.property-list.scss meta.property-name.scss support.type.property-name.css"
+    "meta.property-list.scss meta.property-name.scss support.type.property-name.css",
+    "storage.type.property"
   ],
   "green_25": [
-    "storage.type.interface",
-    "storage.type.type",
+    "source.ts storage.type.interface",
+    "source.ts storage.type.type",
     "support.function.misc",
-    "method.defaultLibrary meta.function-call",
     "storage.type.enum",
     "support.class.component",
     "support.class",
-    "function.defaultLibrary",
     "support.function.builtin",
     "meta.scriptblock.powershell"
   ],
   "green_30.bold": [
     "support.class.component"
   ],
+  "green_35": [],
   "green_40": [
     "storage.modifier.async",
+    "variable.language.super",
     "string.other.link.title.markdown",
     "meta.method.declaration meta.definition.method"
   ],
@@ -219,8 +218,6 @@
     "punctuation.definition.template-expression.begin",
     "punctuation.definition.template-expression.end",
     "punctuation.definition.template-expression",
-    "punctuation.section.embedded.begin",
-    "punctuation.section.embedded.end",
     "string.regexp punctuation.definition.string.begin",
     "string.regexp punctuation.definition.string.end"
   ],
@@ -293,7 +290,7 @@
     "variable.language.arguments",
     "variable.other.assignment.shell",
     "variable.other.constant.object",
-    "variable.other.object.js.jsx",
+    "variable.other.object",
     "variable.other.readwrite",
     "variable.other",
     "variable",
@@ -319,7 +316,9 @@
     "meta.tag.inline.span.end.html entity.name.tag.html",
     "meta.tag.inline.a entity.name.tag.html",
     "entity.other.attribute-name.namespace.xml",
-    "string.quoted.double.interpolated.ruby meta.embedded.line.ruby source.ruby"
+    "string.quoted.double.interpolated.ruby meta.embedded.line.ruby source.ruby",
+    "punctuation.section.embedded.begin",
+    "punctuation.section.embedded.end"
   ],
   "ochre_20": [
     "meta.tag.xml",
@@ -330,17 +329,24 @@
     "keyword.operator.assignment",
     "keyword.operator.assignment.augmented.ruby",
     "punctuation.terminator.statement",
-    "support.function"
+    "support.function",
+    "source.ts meta.namespace.declaration storage.type.namespace",
+    "source.ts storage.modifier",
+    "meta.return.type",
+    "meta.return.type support.type.primitive",
+    "meta.type.function.return support.type.primitive"
   ],
   "ochre_20.italic": [
     "entity.name.type.instance.jsdoc",
+    "meta.class storage.modifier",
     "keyword.control.as",
     "keyword.control.default",
     "keyword.control.export",
+    "storage.type.class",
     "keyword.control.from",
     "keyword.control.import",
     "storage.type.function",
-    "storage.type",
+    "meta.var.expr storage.type",
     "keyword.class",
     "support.type.object.module",
     "variable.other.jsdoc",
@@ -382,11 +388,12 @@
     "meta.field.declaration.tsx meta.definition.property.tsx entity.name.function.tsx",
     "meta.function meta.object.member variable.other.readwrite",
     "meta.image.inline.markdown",
-    "storage.type.function.arrow",
     "variable.language.arguments",
-    "variable.language.super",
     "entity.name.tag.reference.scss",
-    "meta.resultLinePrefix.matchLinePrefix.search"
+    "meta.resultLinePrefix.matchLinePrefix.search",
+    "source.ts meta.namespace.declaration storage.modifier",
+    "source.ts meta.var.expr storage.modifier",
+    "keyword.operator.type"
   ],
   "orange_05": [
     "punctuation.definition.variable.shell variable.other.normal.shell",
@@ -442,12 +449,13 @@
   "rubine_00": [
     "constant.language.boolean.false",
     "inject.promise",
-    "keyword.control.trycatch",
-    "keyword.control.switch",
     "constant.language.nan",
     "constant.language.null",
     "constant.language.undefined",
     "entity.name.type.parameter",
+    "storage.type.function.arrow",
+    "keyword.control.trycatch",
+    "keyword.control.switch",
     "keyword.control",
     "keyword.control.flow",
     "keyword.control.loop",
