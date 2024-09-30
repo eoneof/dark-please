@@ -219,7 +219,7 @@
         ],
         "green_20": [
           "meta.export.default meta.class meta.method.declaration",
-          "meta.class meta.method.declaration storage.type",
+          "meta.class meta.method.declaration",
           "class.declaration",
           "entity.name.class",
           "entity.name.type.class",
