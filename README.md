@@ -6,45 +6,45 @@
 
 Due to my visual peculiarities, I couldn't find a suitable theme. On light colored themes, all the floaters in my eyes become really annoying:
 
-<img src="https://raw.githubusercontent.com/eoneof/dark-please/assets/examples/simulated-deficiency-default-light-floaters.png" alt="floaters" width="640">
+<img src="assets/examples/simulated-deficiency-default-light-floaters.png" alt="floaters" width="640">
 
 Dark ones are too contrasty and give a halo effect:
 
-<img src="https://raw.githubusercontent.com/eoneof/dark-please/assets/examples/simulated-deficiency-default-dark-halo.png" alt="halo" width="640">
+<img src="assets/examples/simulated-deficiency-default-dark-halo.png" alt="halo" width="640">
 
 And also every theme I tried are not informative enough. So I decided to make a customized theme for myself:
 
-<img src="https://raw.githubusercontent.com/eoneof/dark-please/assets/examples/simulated-deficiency-dark-please.png" alt="pleasant" width="640">
+<img src="assets/examples/simulated-deficiency-dark-please.png" alt="pleasant" width="640">
 
 ## Supported languages
 
 ### Markdown
-<img src="https://raw.githubusercontent.com/eoneof/dark-please/assets/examples/markdown.png" alt="markdown" width="640">
+<img src="assets/examples/markdown.png" alt="markdown" width="640">
 
 ### JavaScript/TypeScript
-<img src="https://raw.githubusercontent.com/eoneof/dark-please/assets/examples/javascript.png" alt="javascript" width="640">
-<img src="https://raw.githubusercontent.com/eoneof/dark-please/assets/examples/typescript.png" alt="typescript" width="640">
+<img src="assets/examples/javascript.png" alt="javascript" width="640">
+<img src="assets/examples/typescript.png" alt="typescript" width="640">
 
 ### CSS/SCSS
-<img src="https://raw.githubusercontent.com/eoneof/dark-please/assets/examples/css.png" alt="css" width="640">
+<img src="assets/examples/css.png" alt="css" width="640">
 
 ### HTML
-<img src="https://raw.githubusercontent.com/eoneof/dark-please/assets/examples/html.png" alt="html" width="640">
+<img src="assets/examples/html.png" alt="html" width="640">
 
 ### Pug (Jade)
-<img src="https://raw.githubusercontent.com/eoneof/dark-please/assets/examples/pug.png" alt="pug" width="640">
+<img src="assets/examples/pug.png" alt="pug" width="640">
 
 ### Ruby
-<img src="https://raw.githubusercontent.com/eoneof/dark-please/assets/examples/ruby.png" alt="ruby" width="640">
+<img src="assets/examples/ruby.png" alt="ruby" width="640">
 
 ### Autohotkey
-<img src="https://raw.githubusercontent.com/eoneof/dark-please/assets/examples/autohotkey.png" alt="autohotkey" width="640">
+<img src="assets/examples/autohotkey.png" alt="autohotkey" width="640">
 
 ### Powershell
-<img src="https://raw.githubusercontent.com/eoneof/dark-please/assets/examples/powershell.png" alt="powershell" width="640">
+<img src="assets/examples/powershell.png" alt="powershell" width="640">
 
 ### Bash
-<img src="https://raw.githubusercontent.com/eoneof/dark-please/assets/examples/sh.png" alt="sh" width="640">
+<img src="assets/examples/sh.png" alt="sh" width="640">
 
 ### Recommended fonts
 
