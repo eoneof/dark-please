@@ -20,24 +20,32 @@ And also every theme I tried are not informative enough. So I decided to make a 
 ## Supported languages
 
 ### Markdown
-<img src="assets\examples\markdown.png" alt="pleasant" width="640">
+<img src="assets\examples\markdown.png" alt="markdown" width="640">
+
 ### JavaScript/TypeScript
-<img src="assets\examples\javascript.png" alt="pleasant" width="640">
-<img src="assets\examples\typescript.png" alt="pleasant" width="640">
+<img src="assets\examples\javascript.png" alt="javascript" width="640">
+<img src="assets\examples\typescript.png" alt="typescript" width="640">
+
 ### CSS/SCSS
-<img src="assets\examples\css.png" alt="pleasant" width="640">
+<img src="assets\examples\css.png" alt="css" width="640">
+
 ### HTML
-<img src="assets\examples\html.png" alt="pleasant" width="640">
+<img src="assets\examples\html.png" alt="html" width="640">
+
 ### Pug (Jade)
-<img src="assets\examples\pug.png" alt="pleasant" width="640">
+<img src="assets\examples\pug.png" alt="pug" width="640">
+
 ### Ruby
-<img src="assets\examples\ruby.png" alt="pleasant" width="640">
+<img src="assets\examples\ruby.png" alt="ruby" width="640">
+
 ### Autohotkey
-<img src="assets\examples\autohotkey.png" alt="pleasant" width="640">
+<img src="assets\examples\autohotkey.png" alt="autohotkey" width="640">
+
 ### Powershell
-<img src="assets\examples\powershell.png" alt="pleasant" width="640">
+<img src="assets\examples\powershell.png" alt="powershell" width="640">
+
 ### Bash
-<img src="assets\examples\sh.png" alt="pleasant" width="640">
+<img src="assets\examples\sh.png" alt="sh" width="640">
 
 ### Recommended fonts
 
