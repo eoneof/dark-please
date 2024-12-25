@@ -8,7 +8,6 @@ Due to my visual peculiarities, I couldn't find a suitable theme. On light color
 
 <img src="assets\examples\simulated-deficiency-default-light-floaters.png" alt="floaters" width="640">
 
-
 Dark ones are too contrasty and give a halo effect:
 
 <img src="assets\examples\simulated-deficiency-default-dark-halo.png" alt="halo" width="640">
