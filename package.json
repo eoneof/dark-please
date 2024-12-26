@@ -14,8 +14,8 @@
       "url": "https://github.com/eoneof/dark-please"
    },
    "engines": {
-      "vscode": "^1.87.2",
-      "cursor": "^0.44.8"
+      "vscode": "^1.70.0",
+      "cursor": "^0.40.0"
    },
    "categories": [
       "Themes"
