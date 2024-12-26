@@ -1,18 +1,20 @@
 # ![icon](assets/img/dark-please-logo.png)
 
-> A pleasant-looking low contrast dark theme for VSCode with handpicked semantic highlighting colors.
+> A pleasant-looking low contrast dark theme for VSCode with handpicked semantic highlighting colors. No fancy color theories behind, but personal perception.
 
-## Why?
+## Why another one theme?
 
-Due to my visual peculiarities, I couldn't find a suitable theme. On light colored themes, all the floaters in my eyes become really annoying:
+Due to my visual peculiarities, I couldn't find a suitable theme for me. 
+
+On light colored themes, all the floaters in my eyes become really annoying:
 
 <img src="assets/examples/simulated-deficiency-default-light-floaters.png" alt="floaters" width="640">
 
-Dark ones are too contrasty and give a halo effect:
+Dark ones are too contrasty and give a ghosting and a halo effects:
 
 <img src="assets/examples/simulated-deficiency-default-dark-halo.png" alt="halo" width="640">
 
-And also every theme I tried are not informative enough. So I decided to make a customized theme for myself:
+And also all the themes I tried were not informative enough and mottled with borders, hovers and unnecessary highlighting. So I decided to make a customized theme for myself
 
 <img src="assets/examples/simulated-deficiency-dark-please.png" alt="pleasant" width="640">
 
@@ -31,10 +33,10 @@ And also every theme I tried are not informative enough. So I decided to make a 
 ### HTML
 <img src="assets/examples/html.png" alt="html" width="640">
 
-### Pug (Jade)
+### Pug/Jade
 <img src="assets/examples/pug.png" alt="pug" width="640">
 
-### Ruby
+### Ruby (partial)
 <img src="assets/examples/ruby.png" alt="ruby" width="640">
 
 ### Autohotkey
@@ -46,10 +48,17 @@ And also every theme I tried are not informative enough. So I decided to make a 
 ### Bash
 <img src="assets/examples/sh.png" alt="sh" width="640">
 
-### Recommended fonts
+### Resources on the screenshots
+
+**Fonts**
 
 - Editor — `Cascadia Code`
 - Terminal, ErrorLens — `Jetbrains Mono`
+
+**Icons**
+
+- File icons — [*Quill*](https://marketplace.visualstudio.com/items?itemName=cdonohue.quill)
+- Product icons — [*Fluent*](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons)
 
 ## Credits
 
