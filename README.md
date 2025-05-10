@@ -2,6 +2,8 @@
 
 > A pleasant-looking low contrast dark theme for VSCode with handpicked semantic highlighting colors. No fancy color theories behind, but personal perception.
 
+> Get the *.vsix file from [latest release page](https://github.com/eoneof/dark-please/releases/latest) or directly install from [extensions marketplace](https://marketplace.visualstudio.com/items?itemName=eoneof.dark-please)
+
 ## Why another one theme?
 
 Due to my visual peculiarities, I couldn't find a suitable theme for me.
