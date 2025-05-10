@@ -1,4 +1,4 @@
-name: Publish Dark Please Theme
+name: Publish
 
 on:
   release:
